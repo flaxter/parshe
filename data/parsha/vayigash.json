@@ -1,0 +1,44 @@
+{
+  "slug": "vayigash",
+  "hebcal": "Vayigash",
+  "yi": "ויגש",
+  "translit": "Vayigash",
+  "en": "Vayigash",
+  "book_yi": "בראשית",
+  "kids_sources": [
+    {
+      "label": "אהרן בראָמבערג, „חומש־מעשׂיות פֿאַר קינדער“ (אַרבעטער־רינג, 1956), זז׳ 85–91",
+      "ia": "nybc204961",
+      "leaf": 86,
+      "parts": [
+        "יהודה בעט פֿאַר בנימינען",
+        "איך בין יוסף!",
+        "מײַן זון לעבט!",
+        "יעקבֿ קומט קיין מצרים"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "sister-haggadah-yoysef-un-zayne-brider.jpg",
+      "place": "hero",
+      "caption": "יוסף לאָזט זיך דערקענען צו זײַנע ברידער",
+      "credit": "„Sister Haggadah“, Catalonia c. 1350. British Library Or. 2884 (detail). Public domain, via Wikimedia Commons."
+    }
+  ],
+  "verses": [
+    {
+      "ref": "Genesis 45:3-4",
+      "label": "בראשית מה, ג–ד"
+    },
+    {
+      "ref": "Genesis 45:28",
+      "label": "בראשית מה, כח"
+    },
+    {
+      "ref": "Genesis 46:29",
+      "label": "בראשית מו, כט"
+    }
+  ],
+  "draw_prompt": "מאָל דאָ עפּעס פֿון דער מעשׂה"
+}
