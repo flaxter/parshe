@@ -1,0 +1,156 @@
+[
+ {
+  "roman": "Avrom",
+  "gloss": "Abraham",
+  "source": "bleaman+names",
+  "word": "אַבֿרהם",
+  "count": 21
+ },
+ {
+  "roman": "Eliezer",
+  "gloss": "Eliezer",
+  "source": "bleaman+names",
+  "word": "אליעזר",
+  "count": 21
+ },
+ {
+  "roman": "Rivke",
+  "gloss": "Rebecca",
+  "source": "bleaman+names",
+  "word": "רבֿקה",
+  "count": 15
+ },
+ {
+  "roman": "Yitskhok",
+  "gloss": "Isaac",
+  "source": "bleaman+names",
+  "word": "יצחק",
+  "count": 9
+ },
+ {
+  "roman": "Lovn",
+  "gloss": "Laban",
+  "source": "bleaman+names",
+  "word": "לבֿן",
+  "count": 7
+ },
+ {
+  "roman": "Sore",
+  "gloss": "Sarah",
+  "source": "bleaman+names",
+  "word": "שׂרה",
+  "count": 5
+ },
+ {
+  "roman": "Knaan",
+  "gloss": "Canaan",
+  "source": "bleaman+names",
+  "word": "כּנען",
+  "count": 4
+ },
+ {
+  "roman": "Bsuel",
+  "gloss": "Bethuel",
+  "source": "manual",
+  "word": "בתואל",
+  "count": 4
+ },
+ {
+  "roman": "Khevron",
+  "gloss": "Hebron",
+  "source": "bleaman+names",
+  "word": "חבֿרון",
+  "count": 3
+ },
+ {
+  "roman": "Makhpeyle",
+  "gloss": "Machpelah (cave)",
+  "source": "manual",
+  "word": "מכפּלה",
+  "count": 3
+ },
+ {
+  "roman": "Efroyn",
+  "gloss": "Ephron",
+  "source": "manual",
+  "word": "עפֿרון",
+  "count": 3
+ },
+ {
+  "roman": "khesed",
+  "gloss": "generosity; favor (with \"ton\")",
+  "source": "bleaman",
+  "word": "חסד",
+  "count": 3
+ },
+ {
+  "roman": "keyver",
+  "gloss": "grave",
+  "source": "bleaman",
+  "word": "קבֿר",
+  "count": 2
+ },
+ {
+  "roman": "kvorim",
+  "gloss": "graves",
+  "source": "bleaman+names",
+  "word": "קבֿרים",
+  "count": 1
+ },
+ {
+  "roman": "shekl",
+  "gloss": "coin (Biblical currency)",
+  "source": "bleaman",
+  "word": "שקל",
+  "count": 1
+ },
+ {
+  "roman": "shvue",
+  "gloss": "oath",
+  "source": "bleaman",
+  "word": "שבֿועה",
+  "count": 1
+ },
+ {
+  "roman": "sakh",
+  "gloss": "many, sum",
+  "source": "bleaman",
+  "word": "סך",
+  "count": 1
+ },
+ {
+  "roman": "efsher",
+  "gloss": "maybe",
+  "source": "bleaman",
+  "word": "אפֿשר",
+  "count": 1
+ },
+ {
+  "roman": "matones",
+  "gloss": "gift",
+  "source": "bleaman",
+  "word": "מתּנות",
+  "count": 1
+ },
+ {
+  "roman": "ponem",
+  "gloss": "face",
+  "source": "bleaman",
+  "word": "פּנים",
+  "count": 1
+ },
+ {
+  "roman": "tomed",
+  "gloss": "always",
+  "source": "bleaman",
+  "word": "תּמיד",
+  "count": 1
+ },
+ {
+  "roman": "ovinu",
+  "gloss": "our father",
+  "source": "manual",
+  "word": "אָבֿינו",
+  "count": 1
+ }
+]
