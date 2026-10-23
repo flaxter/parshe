@@ -739,5 +739,40 @@
   "roman": "ponem",
   "gloss": "face",
   "source": "manual"
+ },
+ "משכּן": {
+  "roman": "mishkn",
+  "gloss": "the Tabernacle",
+  "source": "manual"
+ },
+ "אָרון": {
+  "roman": "orn",
+  "gloss": "the Ark (of the Covenant)",
+  "source": "manual"
+ },
+ "פּרוכת": {
+  "roman": "poroykhes",
+  "gloss": "curtain (before the Ark)",
+  "source": "manual"
+ },
+ "נדבֿות": {
+  "roman": "nedoves",
+  "gloss": "freewill offerings, donations",
+  "source": "manual"
+ },
+ "בצלאל": {
+  "roman": "Betsalel",
+  "gloss": "Bezalel",
+  "source": "manual"
+ },
+ "חכמה": {
+  "roman": "khokhme",
+  "gloss": "wisdom, skill",
+  "source": "manual"
+ },
+ "מנורה": {
+  "roman": "menoyre",
+  "gloss": "lampstand, menorah",
+  "source": "manual"
  }
 }
