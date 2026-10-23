@@ -1,0 +1,44 @@
+[
+ {
+  "roman": "khoydesh",
+  "gloss": "month",
+  "source": "bleaman",
+  "word": "חודש",
+  "count": 3
+ },
+ {
+  "roman": "shoyfer",
+  "gloss": "shofar",
+  "source": "bleaman",
+  "word": "שופֿר",
+  "count": 1
+ },
+ {
+  "roman": "neshome",
+  "gloss": "soul",
+  "source": "bleaman+names",
+  "word": "נשמה",
+  "count": 1
+ },
+ {
+  "roman": "mekhaper",
+  "gloss": "(to) atone (with zayn)",
+  "source": "bleaman+names",
+  "word": "מכפּר",
+  "count": 1
+ },
+ {
+  "roman": "dor-doyres",
+  "gloss": "all generations",
+  "source": "bleaman+names",
+  "word": "דור־דורות",
+  "count": 1
+ },
+ {
+  "roman": "shabes",
+  "gloss": "Sabbath",
+  "source": "bleaman",
+  "word": "שבת",
+  "count": 1
+ }
+]
