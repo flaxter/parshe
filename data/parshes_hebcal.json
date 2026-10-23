@@ -174,6 +174,13 @@
   "haft": "Ezekiel 36:16-38",
   "haft_seph": "Ezekiel 36:16-36"
  },
+ "Shmini": {
+  "date": "2027-04-03",
+  "he": "שְּׁמִינִי",
+  "torah": "Leviticus 9:1-11:47",
+  "haft": "II Samuel 6:1-7:17",
+  "haft_seph": "II Samuel 6:1-19"
+ },
  "Tazria": {
   "date": "2027-04-10",
   "he": "תַזְרִיעַ",
@@ -258,10 +265,24 @@
   "haft": "I Samuel 11:14-12:22",
   "haft_seph": null
  },
+ "Chukat": {
+  "date": "2027-07-17",
+  "he": "חֻקַּת",
+  "torah": "Numbers 19:1-22:1",
+  "haft": "Judges 11:1-33",
+  "haft_seph": null
+ },
  "Chukat-Balak": {
   "date": "2027-07-17",
   "he": "חֻקַּת־בָּלָק",
   "torah": "Numbers 19:1-25:9",
+  "haft": "Micah 5:6-6:8",
+  "haft_seph": null
+ },
+ "Balak": {
+  "date": "2027-07-17",
+  "he": "בָּלָק",
+  "torah": "Numbers 22:2-25:9",
   "haft": "Micah 5:6-6:8",
   "haft_seph": null
  },
@@ -272,10 +293,24 @@
   "haft": "Jeremiah 1:1-2:3",
   "haft_seph": null
  },
+ "Matot": {
+  "date": "2027-07-31",
+  "he": "מַּטּוֹת",
+  "torah": "Numbers 30:2-32:42",
+  "haft": "Jeremiah 1:1-2:3",
+  "haft_seph": null
+ },
  "Matot-Masei": {
   "date": "2027-07-31",
   "he": "מַטּוֹת־מַסְעֵי",
   "torah": "Numbers 30:2-36:13",
+  "haft": "Jeremiah 2:4-28, 3:4",
+  "haft_seph": "Jeremiah 2:4-28, 4:1-2"
+ },
+ "Masei": {
+  "date": "2027-07-31",
+  "he": "מַסְעֵי",
+  "torah": "Numbers 33:1-36:13",
   "haft": "Jeremiah 2:4-28, 3:4",
   "haft_seph": "Jeremiah 2:4-28, 4:1-2"
  },
@@ -326,6 +361,34 @@
   "he": "כִּי־תָבוֹא",
   "torah": "Deuteronomy 26:1-29:8",
   "haft": "Isaiah 60:1-22",
+  "haft_seph": null
+ },
+ "Nitzavim": {
+  "date": "2027-09-25",
+  "he": "נִצָּבִים",
+  "torah": "Deuteronomy 29:9-30:20",
+  "haft": "Isaiah 61:10-63:9",
+  "haft_seph": null
+ },
+ "Vayeilech": {
+  "date": "2027-09-25",
+  "he": "וַיֵּלֶךְ",
+  "torah": "Deuteronomy 31:1-30",
+  "haft": "Hosea 14:2-10, Joel 2:15-27",
+  "haft_seph": "Hosea 14:2-10, Micah 7:18-20"
+ },
+ "Ha'azinu": {
+  "date": "2027-10-09",
+  "he": "הַאֲזִינוּ",
+  "torah": "Deuteronomy 32:1-52",
+  "haft": "II Samuel 22:1-51",
+  "haft_seph": null
+ },
+ "Vezot Haberakhah": {
+  "date": "2027-10-24",
+  "he": "וְזֹאת הַבְּרָכָה",
+  "torah": "Deuteronomy 33:1-34:12",
+  "haft": "Joshua 1:1-18",
   "haft_seph": null
  }
 }
