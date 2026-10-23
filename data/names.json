@@ -371,7 +371,7 @@
   "source": "manual"
  },
  "ראובֿן": {
-  "roman": "Reuvn",
+  "roman": "Reyuvn",
   "gloss": "Reuben",
   "source": "manual"
  },
@@ -1043,6 +1043,21 @@
  "קרבן": {
   "roman": "korbn",
   "gloss": "offering, sacrifice",
+  "source": "manual"
+ },
+ "יעזר": {
+  "roman": "Yazer",
+  "gloss": "Jazer",
+  "source": "manual"
+ },
+ "גלעד": {
+  "roman": "Gilad",
+  "gloss": "Gilead",
+  "source": "manual"
+ },
+ "ירושה": {
+  "roman": "yerushe",
+  "gloss": "inheritance",
   "source": "manual"
  }
 }
