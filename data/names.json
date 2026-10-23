@@ -499,5 +499,30 @@
   "roman": "bekhor",
   "gloss": "firstborn",
   "source": "manual"
+ },
+ "מלך": {
+  "roman": "meylekh",
+  "gloss": "king",
+  "source": "manual"
+ },
+ "חיה": {
+  "roman": "khaye",
+  "gloss": "animal, beast",
+  "source": "manual"
+ },
+ "חלומות": {
+  "roman": "khaloymes",
+  "gloss": "dreams",
+  "source": "manual"
+ },
+ "סוחרים": {
+  "roman": "sokhrim",
+  "gloss": "merchants",
+  "source": "manual"
+ },
+ "בעל־חלומות": {
+  "roman": "bal-khaloymes",
+  "gloss": "dreamer",
+  "source": "manual"
  }
 }

@@ -1,0 +1,47 @@
+{
+  "slug": "vayeshev",
+  "hebcal": "Vayeshev",
+  "yi": "וישב",
+  "translit": "Vayeyshev",
+  "en": "Vayeshev",
+  "book_yi": "בראשית",
+  "kids_sources": [
+    {
+      "label": "אהרן בראָמבערג, „חומש־מעשׂיות פֿאַר קינדער“ (אַרבעטער־רינג, 1956), זז׳ 57–65",
+      "ia": "nybc204961",
+      "leaf": 58,
+      "parts": [
+        "יוסף און זײַנע ברידער",
+        "אָט קומט דער בעל־חלומות",
+        "פֿאַרקויפֿט פֿאַר אַ קנעכט",
+        "פֿאַרצוקט איז יוסף",
+        "יוסף בײַ פּוטיפֿרן",
+        "דער װײַנגיסער און דער בעקער",
+        "יוסף באַשיידט חלומות"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "sister-haggadah-f7v-vayngiser-beker.jpg",
+      "place": "hero",
+      "caption": "דער װײַנגיסער און דער בעקער חלומען אין געפֿענגעניש; דער װײַנגיסער דערלאַנגט פּרעהן דעם בעכער",
+      "credit": "„Sister Haggadah“, Catalonia c. 1350. British Library Or. 2884, f. 7v (detail). Public domain, via Wikimedia Commons."
+    }
+  ],
+  "verses": [
+    {
+      "ref": "Genesis 37:3",
+      "label": "בראשית לז, ג"
+    },
+    {
+      "ref": "Genesis 37:28",
+      "label": "בראשית לז, כח"
+    },
+    {
+      "ref": "Genesis 39:2",
+      "label": "בראשית לט, ב"
+    }
+  ],
+  "draw_prompt": "מאָל דאָ עפּעס פֿון דער מעשׂה"
+}
