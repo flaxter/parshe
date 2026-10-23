@@ -49,13 +49,6 @@
   "count": 3
  },
  {
-  "roman": "Hashem",
-  "gloss": "God (the divine name)",
-  "source": "bleaman+names",
-  "word": "ה׳",
-  "count": 3
- },
- {
   "roman": "Sinay",
   "gloss": "Sinai",
   "source": "bleaman+names",
@@ -190,9 +183,9 @@
  },
  {
   "roman": "ganvenen",
-  "gloss": "steal",
-  "source": "bleaman",
-  "word": "גנבֿענען",
+  "gloss": "to steal",
+  "source": "manual",
+  "word": "גנבֿען",
   "count": 1
  },
  {

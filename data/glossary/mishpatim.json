@@ -7,34 +7,6 @@
   "count": 10
  },
  {
-  "roman": "mishpet",
-  "gloss": "(I) judge; judgment",
-  "source": "manual",
-  "word": "משפּט",
-  "count": 7
- },
- {
-  "roman": "eydes",
-  "gloss": "testimony, witness",
-  "source": "bleaman+names",
-  "word": "עדות",
-  "count": 4
- },
- {
-  "roman": "kedey",
-  "gloss": "in order that",
-  "source": "bleaman",
-  "word": "כּדי",
-  "count": 3
- },
- {
-  "roman": "khaver",
-  "gloss": "friend, comrade (male); boyfriend; befriend",
-  "source": "bleaman",
-  "word": "חבֿר",
-  "count": 3
- },
- {
   "roman": "lukhes",
   "gloss": "the tablets (of the Law)",
   "source": "bleaman+names",
@@ -42,31 +14,10 @@
   "count": 3
  },
  {
-  "roman": "shoykhed",
-  "gloss": "bribe",
-  "source": "bleaman",
-  "word": "שוחד",
-  "count": 2
- },
- {
-  "roman": "avle",
-  "gloss": "sin; mistreatment; injustice",
-  "source": "bleaman",
-  "word": "עװלה",
-  "count": 2
- },
- {
-  "roman": "ponem",
-  "gloss": "face",
-  "source": "bleaman",
-  "word": "פּנים",
-  "count": 2
- },
- {
   "roman": "ganvenen",
-  "gloss": "steal",
-  "source": "bleaman+names",
-  "word": "גנבֿענען",
+  "gloss": "to steal",
+  "source": "manual",
+  "word": "גנבֿען",
   "count": 2
  },
  {
@@ -112,87 +63,24 @@
   "count": 1
  },
  {
-  "roman": "yarshenen",
-  "gloss": "to inherit",
-  "source": "bleaman+names",
-  "word": "ירשענען",
-  "count": 1
- },
- {
-  "roman": "yosem",
-  "gloss": "orphan",
+  "roman": "kedey",
+  "gloss": "in order that",
   "source": "bleaman",
-  "word": "יתום",
+  "word": "כּדי",
   "count": 1
  },
  {
-  "roman": "mashkn",
-  "gloss": "pledge (object); pawned item; hostage",
+  "roman": "avle",
+  "gloss": "sin; mistreatment; injustice",
   "source": "bleaman",
-  "word": "משכּון",
+  "word": "עװלה",
   "count": 1
  },
  {
-  "roman": "beged",
-  "gloss": "clothing",
+  "roman": "khaver",
+  "gloss": "friend, comrade (male); boyfriend; befriend",
   "source": "bleaman",
-  "word": "בגד",
-  "count": 1
- },
- {
-  "roman": "almone",
-  "gloss": "widow",
-  "source": "bleaman",
-  "word": "אַלמנה",
-  "count": 1
- },
- {
-  "roman": "Mitsrayim",
-  "gloss": "Egypt",
-  "source": "bleaman+names",
-  "word": "מצרים",
-  "count": 1
- },
- {
-  "roman": "roshe",
-  "gloss": "malicious, wicked person",
-  "source": "bleaman",
-  "word": "רשע",
-  "count": 1
- },
- {
-  "roman": "rekhiles",
-  "gloss": "malicious gossip; spread gossip",
-  "source": "bleaman",
-  "word": "רכילות",
-  "count": 1
- },
- {
-  "roman": "psak",
-  "gloss": "adjudication; sentence",
-  "source": "bleaman",
-  "word": "פּסק",
-  "count": 1
- },
- {
-  "roman": "hargenen",
-  "gloss": "to kill",
-  "source": "bleaman+names",
-  "word": "הרגענען",
-  "count": 1
- },
- {
-  "roman": "ganvet",
-  "gloss": "steals",
-  "source": "bleaman+names",
-  "word": "גנבֿעט",
-  "count": 1
- },
- {
-  "roman": "nefesh",
-  "gloss": "soul, person",
-  "source": "bleaman",
-  "word": "נפֿש",
+  "word": "חבֿר",
   "count": 1
  },
  {
@@ -214,6 +102,13 @@
   "gloss": "Aaron",
   "source": "bleaman+names",
   "word": "אַהרן",
+  "count": 1
+ },
+ {
+  "roman": "mishpet",
+  "gloss": "(I) judge; judgment",
+  "source": "manual",
+  "word": "משפּט",
   "count": 1
  },
  {
