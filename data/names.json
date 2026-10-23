@@ -964,5 +964,85 @@
   "roman": "koyen",
   "gloss": "priest",
   "source": "manual"
+ },
+ "בלק": {
+  "roman": "Bolok",
+  "gloss": "Balak",
+  "source": "manual"
+ },
+ "בלעם": {
+  "roman": "Bilem",
+  "gloss": "Balaam",
+  "source": "manual"
+ },
+ "צפּור": {
+  "roman": "Tsipor",
+  "gloss": "Zippor",
+  "source": "manual"
+ },
+ "בעור": {
+  "roman": "Beor",
+  "gloss": "Beor",
+  "source": "manual"
+ },
+ "ארם": {
+  "roman": "Arem",
+  "gloss": "Aram",
+  "source": "manual"
+ },
+ "במות־בעל": {
+  "roman": "Bomes-Bal",
+  "gloss": "Bamoth-Baal",
+  "source": "manual"
+ },
+ "צופֿים": {
+  "roman": "Tsofim",
+  "gloss": "Zophim",
+  "source": "manual"
+ },
+ "פּסגה": {
+  "roman": "Pisge",
+  "gloss": "Pisgah",
+  "source": "manual"
+ },
+ "פּעור": {
+  "roman": "Peor",
+  "gloss": "Peor",
+  "source": "manual"
+ },
+ "אומות": {
+  "roman": "umes",
+  "gloss": "nations",
+  "source": "manual"
+ },
+ "מזבחות": {
+  "roman": "mizbeykhes",
+  "gloss": "altars",
+  "source": "manual"
+ },
+ "שׂונאים": {
+  "roman": "sonim",
+  "gloss": "enemies",
+  "source": "manual"
+ },
+ "חרטה": {
+  "roman": "kharote",
+  "gloss": "regret",
+  "source": "manual"
+ },
+ "דערהרגעט": {
+  "roman": "derharget",
+  "gloss": "killed",
+  "source": "manual"
+ },
+ "אמתן": {
+  "roman": "emesn",
+  "gloss": "(in der emesn) truly, really",
+  "source": "manual"
+ },
+ "קרבן": {
+  "roman": "korbn",
+  "gloss": "offering, sacrifice",
+  "source": "manual"
  }
 }

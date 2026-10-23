@@ -1,0 +1,247 @@
+[
+ {
+  "roman": "Bilem",
+  "gloss": "Balaam",
+  "source": "bleaman+names",
+  "word": "בלעם",
+  "count": 50
+ },
+ {
+  "roman": "Bolok",
+  "gloss": "Balak",
+  "source": "bleaman+names",
+  "word": "בלק",
+  "count": 38
+ },
+ {
+  "roman": "Moyev",
+  "gloss": "Moab",
+  "source": "manual",
+  "word": "מואָבֿ",
+  "count": 12
+ },
+ {
+  "roman": "malekh",
+  "gloss": "angel",
+  "source": "bleaman",
+  "word": "מלאך",
+  "count": 10
+ },
+ {
+  "roman": "Yisroel",
+  "gloss": "Israel",
+  "source": "bleaman+names",
+  "word": "ישׂראל",
+  "count": 8
+ },
+ {
+  "roman": "koved",
+  "gloss": "honor; dignity",
+  "source": "bleaman",
+  "word": "כּבֿוד",
+  "count": 4
+ },
+ {
+  "roman": "Yankev",
+  "gloss": "Jacob",
+  "source": "bleaman+names",
+  "word": "יעקבֿ",
+  "count": 4
+ },
+ {
+  "roman": "meylekh",
+  "gloss": "king",
+  "source": "bleaman+names",
+  "word": "מלך",
+  "count": 3
+ },
+ {
+  "roman": "efsher",
+  "gloss": "maybe",
+  "source": "bleaman",
+  "word": "אפֿשר",
+  "count": 3
+ },
+ {
+  "roman": "mizbeykhes",
+  "gloss": "altars",
+  "source": "bleaman+names",
+  "word": "מזבחות",
+  "count": 3
+ },
+ {
+  "roman": "mizbeyekh",
+  "gloss": "altar",
+  "source": "bleaman+names",
+  "word": "מזבח",
+  "count": 3
+ },
+ {
+  "roman": "shlukhim",
+  "gloss": "messengers",
+  "source": "manual",
+  "word": "שלוחים",
+  "count": 2
+ },
+ {
+  "roman": "Mitsrayim",
+  "gloss": "Egypt",
+  "source": "bleaman+names",
+  "word": "מצרים",
+  "count": 2
+ },
+ {
+  "roman": "derharget",
+  "gloss": "killed",
+  "source": "bleaman+names",
+  "word": "דערהרגעט",
+  "count": 2
+ },
+ {
+  "roman": "ponem",
+  "gloss": "face",
+  "source": "bleaman+names",
+  "word": "פּנים",
+  "count": 2
+ },
+ {
+  "roman": "korbn",
+  "gloss": "offering, sacrifice",
+  "source": "bleaman+names",
+  "word": "קרבן",
+  "count": 2
+ },
+ {
+  "roman": "sonim",
+  "gloss": "enemies",
+  "source": "bleaman+names",
+  "word": "שׂונאים",
+  "count": 2
+ },
+ {
+  "roman": "Emoyri",
+  "gloss": "the Amorite(s)",
+  "source": "manual",
+  "word": "אמורי",
+  "count": 1
+ },
+ {
+  "roman": "sakh",
+  "gloss": "many, sum",
+  "source": "bleaman",
+  "word": "סך",
+  "count": 1
+ },
+ {
+  "roman": "milkhome",
+  "gloss": "war",
+  "source": "bleaman",
+  "word": "מלחמה",
+  "count": 1
+ },
+ {
+  "roman": "kedey",
+  "gloss": "in order that",
+  "source": "bleaman",
+  "word": "כּדי",
+  "count": 1
+ },
+ {
+  "roman": "emesn",
+  "gloss": "(in der emesn) truly, really",
+  "source": "bleaman+names",
+  "word": "אמתן",
+  "count": 1
+ },
+ {
+  "roman": "Bomes-Bal",
+  "gloss": "Bamoth-Baal",
+  "source": "manual",
+  "word": "במות־בעל",
+  "count": 1
+ },
+ {
+  "roman": "Arem",
+  "gloss": "Aram",
+  "source": "manual",
+  "word": "ארם",
+  "count": 1
+ },
+ {
+  "roman": "umes",
+  "gloss": "nations",
+  "source": "bleaman+names",
+  "word": "אומות",
+  "count": 1
+ },
+ {
+  "roman": "sof",
+  "gloss": "end",
+  "source": "bleaman+names",
+  "word": "סוף",
+  "count": 1
+ },
+ {
+  "roman": "Tsofim",
+  "gloss": "Zophim",
+  "source": "manual",
+  "word": "צופֿים",
+  "count": 1
+ },
+ {
+  "roman": "Pisge",
+  "gloss": "Pisgah",
+  "source": "manual",
+  "word": "פּסגה",
+  "count": 1
+ },
+ {
+  "roman": "Tsipor",
+  "gloss": "Zippor",
+  "source": "manual",
+  "word": "צפּור",
+  "count": 1
+ },
+ {
+  "roman": "kharote",
+  "gloss": "regret",
+  "source": "bleaman+names",
+  "word": "חרטה",
+  "count": 1
+ },
+ {
+  "roman": "avle",
+  "gloss": "sin; mistreatment; injustice",
+  "source": "bleaman",
+  "word": "עװלה",
+  "count": 1
+ },
+ {
+  "roman": "Peor",
+  "gloss": "Peor",
+  "source": "manual",
+  "word": "פּעור",
+  "count": 1
+ },
+ {
+  "roman": "midber",
+  "gloss": "desert, wilderness",
+  "source": "bleaman+names",
+  "word": "מדבר",
+  "count": 1
+ },
+ {
+  "roman": "shvotim",
+  "gloss": "tribes",
+  "source": "bleaman+names",
+  "word": "שבֿטים",
+  "count": 1
+ },
+ {
+  "roman": "Beor",
+  "gloss": "Beor",
+  "source": "manual",
+  "word": "בעור",
+  "count": 1
+ }
+]
