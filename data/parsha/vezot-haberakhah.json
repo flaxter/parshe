@@ -1,0 +1,31 @@
+{
+  "slug": "vezot-haberakhah",
+  "hebcal": "Vezot Haberakhah",
+  "yi": "וזאת הברכה",
+  "translit": "Vezoys Habrokhe",
+  "en": "Vezot Haberakhah",
+  "book_yi": "דברים",
+  "kids_sources": [
+    {
+      "label": "„חומש פֿאַר קינדער לויט יהואש“, צונויפֿגעשטעלט פֿון שלמה סײַמאָן, רעד. יודל מאַרק (יהואש־פֿאַרלאַג, ניו־יאָרק 1940), זז׳ 250–254. אויסלייג מאָדערניזירט (ייִוואָ)",
+      "ia": "nybc210870",
+      "leaf": 257,
+      "parts": [
+        "משהס ברכה",
+        "משהס טויט"
+      ]
+    }
+  ],
+  "images": [],
+  "verses": [
+    {
+      "ref": "Deuteronomy 33:29",
+      "label": "דברים לג, כט"
+    },
+    {
+      "ref": "Deuteronomy 34:5-7",
+      "label": "דברים לד, ה–ז"
+    }
+  ],
+  "draw_prompt": "מאָל דאָ עפּעס פֿון דער מעשׂה"
+}

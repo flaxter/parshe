@@ -117,7 +117,7 @@
  },
  "זקנים": {
   "roman": "zkeynim",
-  "gloss": "old people (sing. zokn)",
+  "gloss": "elders, old people",
   "source": "manual"
  },
  "עמורה": {
@@ -177,7 +177,7 @@
  },
  "חיות": {
   "roman": "khayes",
-  "gloss": "animals",
+  "gloss": "wild beasts",
   "source": "manual"
  },
  "נח": {
@@ -431,7 +431,7 @@
   "source": "manual"
  },
  "זבֿולון": {
-  "roman": "Zvulun",
+  "roman": "Zevulen",
   "gloss": "Zebulun",
   "source": "manual"
  },
@@ -1118,6 +1118,101 @@
  "רכילות": {
   "roman": "rekhiles",
   "gloss": "gossip, slander",
+  "source": "manual"
+ },
+ "נבֿו": {
+  "roman": "Nevo",
+  "gloss": "Nebo (mountain)",
+  "source": "manual"
+ },
+ "לבֿנון": {
+  "roman": "Levonen",
+  "gloss": "Lebanon",
+  "source": "manual"
+ },
+ "ישורון": {
+  "roman": "Yeshurun",
+  "gloss": "Jeshurun (poetic name for Israel)",
+  "source": "manual"
+ },
+ "שׂעיר": {
+  "roman": "Seir",
+  "gloss": "Seir",
+  "source": "manual"
+ },
+ "יששׂכר": {
+  "roman": "Yisokher",
+  "gloss": "Issachar",
+  "source": "manual"
+ },
+ "קבֿר": {
+  "roman": "keyver",
+  "gloss": "grave",
+  "source": "manual"
+ },
+ "אומה": {
+  "roman": "ume",
+  "gloss": "nation",
+  "source": "manual"
+ },
+ "שבֿועה": {
+  "roman": "shvue",
+  "gloss": "oath",
+  "source": "manual"
+ },
+ "קללה": {
+  "roman": "klole",
+  "gloss": "curse",
+  "source": "manual"
+ },
+ "אימה": {
+  "roman": "eyme",
+  "gloss": "terror",
+  "source": "manual"
+ },
+ "בחור": {
+  "roman": "bokher",
+  "gloss": "young man",
+  "source": "manual"
+ },
+ "נקמה": {
+  "roman": "nekome",
+  "gloss": "revenge",
+  "source": "manual"
+ },
+ "שפֿע": {
+  "roman": "shefe",
+  "gloss": "abundance",
+  "source": "manual"
+ },
+ "אוצרות": {
+  "roman": "oytsres",
+  "gloss": "treasures",
+  "source": "manual"
+ },
+ "יושרדיק": {
+  "roman": "yoysherdik",
+  "gloss": "upright, just",
+  "source": "manual"
+ },
+ "חלק": {
+  "roman": "kheylek",
+  "gloss": "portion, share",
+  "source": "manual"
+ },
+ "אל": {
+  "roman": "el",
+  "gloss": "(Hebrew) to; ponim el ponim: face to face",
+  "source": "manual"
+ },
+ "טובֿה": {
+  "roman": "toyve",
+  "gloss": "good, benefit",
+  "source": "manual"
+ },
+ "ימען": {
+  "roman": "yamen",
+  "gloss": "seas",
   "source": "manual"
  }
 }

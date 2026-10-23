@@ -1,0 +1,317 @@
+[
+ {
+  "roman": "Moyshe",
+  "gloss": "Moses",
+  "source": "bleaman+names",
+  "word": "משה",
+  "count": 10
+ },
+ {
+  "roman": "Yisroel",
+  "gloss": "Israel",
+  "source": "bleaman+names",
+  "word": "ישׂראל",
+  "count": 8
+ },
+ {
+  "roman": "Yankev",
+  "gloss": "Jacob",
+  "source": "bleaman+names",
+  "word": "יעקבֿ",
+  "count": 4
+ },
+ {
+  "roman": "Dan",
+  "gloss": "Dan",
+  "source": "bleaman+names",
+  "word": "דן",
+  "count": 3
+ },
+ {
+  "roman": "Moyev",
+  "gloss": "Moab",
+  "source": "manual",
+  "word": "מואָבֿ",
+  "count": 3
+ },
+ {
+  "roman": "brokhe",
+  "gloss": "blessing; prosperity",
+  "source": "bleaman",
+  "word": "ברכה",
+  "count": 2
+ },
+ {
+  "roman": "Toyre",
+  "gloss": "the Torah, the Law",
+  "source": "bleaman+names",
+  "word": "תּורה",
+  "count": 2
+ },
+ {
+  "roman": "Yehude",
+  "gloss": "Judah",
+  "source": "bleaman+names",
+  "word": "יהודה",
+  "count": 2
+ },
+ {
+  "roman": "Zevulen",
+  "gloss": "Zebulun",
+  "source": "manual",
+  "word": "זבֿולון",
+  "count": 2
+ },
+ {
+  "roman": "Gad",
+  "gloss": "Gad",
+  "source": "bleaman+names",
+  "word": "גד",
+  "count": 2
+ },
+ {
+  "roman": "Naftole",
+  "gloss": "Naphtali",
+  "source": "bleaman+names",
+  "word": "נפֿתּלי",
+  "count": 2
+ },
+ {
+  "roman": "Osher",
+  "gloss": "Asher",
+  "source": "bleaman+names",
+  "word": "אָשר",
+  "count": 2
+ },
+ {
+  "roman": "ponem",
+  "gloss": "face",
+  "source": "bleaman+names",
+  "word": "פּנים",
+  "count": 2
+ },
+ {
+  "roman": "el",
+  "gloss": "(Hebrew) to; ponim el ponim: face to face",
+  "source": "manual",
+  "word": "אַל",
+  "count": 2
+ },
+ {
+  "roman": "Sinay",
+  "gloss": "Sinai",
+  "source": "bleaman+names",
+  "word": "סיני",
+  "count": 1
+ },
+ {
+  "roman": "Seir",
+  "gloss": "Seir",
+  "source": "manual",
+  "word": "שׂעיר",
+  "count": 1
+ },
+ {
+  "roman": "Poron",
+  "gloss": "Paran (desert)",
+  "source": "manual",
+  "word": "פּאָרן",
+  "count": 1
+ },
+ {
+  "roman": "yerushe",
+  "gloss": "inheritance",
+  "source": "bleaman+names",
+  "word": "ירושה",
+  "count": 1
+ },
+ {
+  "roman": "Reyuvn",
+  "gloss": "Reuben",
+  "source": "manual",
+  "word": "ראובֿן",
+  "count": 1
+ },
+ {
+  "roman": "kol",
+  "gloss": "voice",
+  "source": "bleaman+names",
+  "word": "קול",
+  "count": 1
+ },
+ {
+  "roman": "Levi",
+  "gloss": "Levi",
+  "source": "manual",
+  "word": "לוי",
+  "count": 1
+ },
+ {
+  "roman": "Binyomen",
+  "gloss": "Benjamin",
+  "source": "bleaman+names",
+  "word": "בנימין",
+  "count": 1
+ },
+ {
+  "roman": "Yoysef",
+  "gloss": "Joseph",
+  "source": "bleaman+names",
+  "word": "יוסף",
+  "count": 1
+ },
+ {
+  "roman": "Yisokher",
+  "gloss": "Issachar",
+  "source": "manual",
+  "word": "יששׂכר",
+  "count": 1
+ },
+ {
+  "roman": "shefe",
+  "gloss": "abundance",
+  "source": "bleaman+names",
+  "word": "שפֿע",
+  "count": 1
+ },
+ {
+  "roman": "yamen",
+  "gloss": "seas",
+  "source": "bleaman+names",
+  "word": "ימען",
+  "count": 1
+ },
+ {
+  "roman": "oytsres",
+  "gloss": "treasures",
+  "source": "bleaman+names",
+  "word": "אוצרות",
+  "count": 1
+ },
+ {
+  "roman": "Boshn",
+  "gloss": "Bashan",
+  "source": "bleaman+names",
+  "word": "בשן",
+  "count": 1
+ },
+ {
+  "roman": "yam",
+  "gloss": "ocean, sea",
+  "source": "bleaman",
+  "word": "ים",
+  "count": 1
+ },
+ {
+  "roman": "dorem",
+  "gloss": "south; the Negev",
+  "source": "bleaman+names",
+  "word": "דרום",
+  "count": 1
+ },
+ {
+  "roman": "yarshenen",
+  "gloss": "to inherit",
+  "source": "bleaman+names",
+  "word": "ירשען",
+  "count": 1
+ },
+ {
+  "roman": "tvue",
+  "gloss": "grain, crop",
+  "source": "bleaman+names",
+  "word": "תּבֿואה",
+  "count": 1
+ },
+ {
+  "roman": "Nevo",
+  "gloss": "Nebo (mountain)",
+  "source": "manual",
+  "word": "נבֿו",
+  "count": 1
+ },
+ {
+  "roman": "Pisge",
+  "gloss": "Pisgah",
+  "source": "manual",
+  "word": "פּסגה",
+  "count": 1
+ },
+ {
+  "roman": "Yerikho",
+  "gloss": "Jericho",
+  "source": "bleaman+names",
+  "word": "יריחו",
+  "count": 1
+ },
+ {
+  "roman": "Gilad",
+  "gloss": "Gilead",
+  "source": "manual",
+  "word": "גלעד",
+  "count": 1
+ },
+ {
+  "roman": "Avrom",
+  "gloss": "Abraham",
+  "source": "bleaman+names",
+  "word": "אַבֿרהם",
+  "count": 1
+ },
+ {
+  "roman": "Yitskhok",
+  "gloss": "Isaac",
+  "source": "bleaman+names",
+  "word": "יצחק",
+  "count": 1
+ },
+ {
+  "roman": "keyver",
+  "gloss": "grave",
+  "source": "bleaman+names",
+  "word": "קבֿר",
+  "count": 1
+ },
+ {
+  "roman": "Yehoyshue",
+  "gloss": "Joshua",
+  "source": "bleaman+names",
+  "word": "יהושע",
+  "count": 1
+ },
+ {
+  "roman": "Nun",
+  "gloss": "Nun (Joshua's father)",
+  "source": "manual",
+  "word": "נון",
+  "count": 1
+ },
+ {
+  "roman": "khokhme",
+  "gloss": "wisdom, skill",
+  "source": "bleaman+names",
+  "word": "חכמה",
+  "count": 1
+ },
+ {
+  "roman": "novi",
+  "gloss": "prophet",
+  "source": "bleaman",
+  "word": "נבֿיא",
+  "count": 1
+ },
+ {
+  "roman": "el",
+  "gloss": "(Hebrew) to; ponim el ponim: face to face",
+  "source": "bleaman+names",
+  "word": "אל",
+  "count": 1
+ },
+ {
+  "roman": "Mitsrayim",
+  "gloss": "Egypt",
+  "source": "bleaman+names",
+  "word": "מצרים",
+  "count": 1
+ }
+]
