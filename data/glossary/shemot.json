@@ -35,16 +35,9 @@
   "count": 8
  },
  {
-  "roman": "Hashem",
-  "gloss": "God (the divine name)",
-  "source": "bleaman+names",
-  "word": "ה׳",
-  "count": 7
- },
- {
   "roman": "meylekh",
   "gloss": "king",
-  "source": "bleaman",
+  "source": "bleaman+names",
   "word": "מלך",
   "count": 6
  },
@@ -77,6 +70,13 @@
   "count": 3
  },
  {
+  "roman": "Levi",
+  "gloss": "Levi",
+  "source": "manual",
+  "word": "לוי",
+  "count": 3
+ },
+ {
   "roman": "Yisro",
   "gloss": "Jethro",
   "source": "bleaman+names",
@@ -98,18 +98,18 @@
   "count": 3
  },
  {
-  "roman": "Yankev",
-  "gloss": "Jacob",
-  "source": "bleaman+names",
-  "word": "יעקבֿ",
-  "count": 3
- },
- {
   "roman": "korbones",
   "gloss": "sacrifice; victim",
   "source": "bleaman",
   "word": "קרבנות",
   "count": 3
+ },
+ {
+  "roman": "Yoysef",
+  "gloss": "Joseph",
+  "source": "bleaman+names",
+  "word": "יוסף",
+  "count": 2
  },
  {
   "roman": "milkhome",
@@ -119,10 +119,24 @@
   "count": 2
  },
  {
+  "roman": "ivrim",
+  "gloss": "Hebrews",
+  "source": "manual",
+  "word": "עבֿרים",
+  "count": 2
+ },
+ {
   "roman": "derhargenen",
   "gloss": "to kill",
   "source": "bleaman+names",
-  "word": "דערהרגען",
+  "word": "דערהרגענען",
+  "count": 2
+ },
+ {
+  "roman": "yankevn",
+  "gloss": "Jacob",
+  "source": "bleaman",
+  "word": "יעקבֿן",
   "count": 2
  },
  {
@@ -130,13 +144,6 @@
   "gloss": "(dry) land",
   "source": "bleaman",
   "word": "יבשה",
-  "count": 2
- },
- {
-  "roman": "Yoysef",
-  "gloss": "Joseph",
-  "source": "bleaman+names",
-  "word": "יוסף",
   "count": 2
  },
  {
@@ -182,9 +189,9 @@
   "count": 1
  },
  {
-  "roman": "shom",
-  "gloss": "(Hebrew) there",
-  "source": "manual (context: footnote on גרשום)",
+  "roman": "shem",
+  "gloss": "name; reputation; be famous",
+  "source": "bleaman",
   "word": "שם",
   "count": 1
  },
@@ -200,6 +207,13 @@
   "gloss": "face",
   "source": "bleaman",
   "word": "פּנים",
+  "count": 1
+ },
+ {
+  "roman": "Yankev",
+  "gloss": "Jacob",
+  "source": "bleaman+names",
+  "word": "יעקבֿ",
   "count": 1
  },
  {
@@ -245,17 +259,17 @@
   "count": 1
  },
  {
-  "roman": "mishpetn",
-  "gloss": "to judge",
+  "roman": "mishpet",
+  "gloss": "(I) judge; judgment",
   "source": "manual",
-  "word": "משפּטן",
+  "word": "משפּט",
   "count": 1
  },
  {
   "roman": "hargenen",
   "gloss": "to kill",
   "source": "bleaman+names",
-  "word": "הרגען",
+  "word": "הרגענען",
   "count": 1
  }
 ]

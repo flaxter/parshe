@@ -21,13 +21,6 @@
   "count": 30
  },
  {
-  "roman": "Hashem",
-  "gloss": "God (the divine name)",
-  "source": "bleaman+names",
-  "word": "ה׳",
-  "count": 19
- },
- {
   "roman": "Arn",
   "gloss": "Aaron",
   "source": "bleaman+names",
@@ -63,6 +56,13 @@
   "count": 4
  },
  {
+  "roman": "ivrim",
+  "gloss": "Hebrews",
+  "source": "manual",
+  "word": "עבֿרים",
+  "count": 3
+ },
+ {
   "roman": "midber",
   "gloss": "desert, wilderness",
   "source": "bleaman+names",
@@ -91,10 +91,10 @@
   "count": 2
  },
  {
-  "roman": "Yankev",
+  "roman": "yankevn",
   "gloss": "Jacob",
-  "source": "bleaman+names",
-  "word": "יעקבֿ",
+  "source": "bleaman",
+  "word": "יעקבֿן",
   "count": 2
  },
  {
@@ -129,13 +129,13 @@
   "roman": "yarshenen",
   "gloss": "to inherit",
   "source": "bleaman+names",
-  "word": "ירשען",
+  "word": "ירשענען",
   "count": 1
  },
  {
   "roman": "meylekh",
   "gloss": "king",
-  "source": "bleaman",
+  "source": "bleaman+names",
   "word": "מלך",
   "count": 1
  },
@@ -148,8 +148,8 @@
  },
  {
   "roman": "khakhomim",
-  "gloss": "sage; fool (ironic)",
-  "source": "bleaman",
+  "gloss": "wise men",
+  "source": "bleaman+names",
   "word": "חכמים",
   "count": 1
  },
