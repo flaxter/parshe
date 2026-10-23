@@ -1,0 +1,39 @@
+{
+  "slug": "vayechi",
+  "hebcal": "Vayechi",
+  "yi": "ויחי",
+  "translit": "Vaykhi",
+  "en": "Vayechi",
+  "book_yi": "בראשית",
+  "kids_sources": [
+    {
+      "label": "אהרן בראָמבערג, „חומש־מעשׂיות פֿאַר קינדער“ (אַרבעטער־רינג, 1956), זז׳ 92–96",
+      "ia": "nybc204961",
+      "leaf": 93,
+      "parts": [
+        "יעקבֿ באַשװערט יוספֿן",
+        "יעקבֿ אָבֿינו",
+        "נאָך יעקבֿס טויט"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "sister-haggadah-f11-yankev-bentsht.jpg",
+      "place": "hero",
+      "caption": "יעקבֿ בענטשט אפֿרימען און מנשהן",
+      "credit": "„Sister Haggadah“, Catalonia c. 1350. British Library Or. 2884, f. 11 (detail). Public domain, via Wikimedia Commons."
+    }
+  ],
+  "verses": [
+    {
+      "ref": "Genesis 48:15-16",
+      "label": "בראשית מח, טו–טז"
+    },
+    {
+      "ref": "Genesis 50:19-21",
+      "label": "בראשית נ, יט–כא"
+    }
+  ],
+  "draw_prompt": "מאָל דאָ עפּעס פֿון דער מעשׂה"
+}
