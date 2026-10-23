@@ -21,3 +21,4 @@ parshes; those were assigned by majority and the close calls are listed in the a
 | tazria | Purity laws (Lev. 12–13); nothing in the book. |
 | metzora | Purity laws (Lev. 14–15); nothing in the book. |
 | achrei-mot | Yom Kippur service and forbidden relations (Lev. 16–18); only one clause (Lev. 16:29) inside the Pesach and Yom Kippur sub-sections, which belong to Re'eh and Emor. |
+| bechukotai | Blessings and curses, vows and valuations (Lev. 26:3–27:34); nothing in the book. |
