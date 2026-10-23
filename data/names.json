@@ -624,5 +624,35 @@
   "roman": "khakhomim",
   "gloss": "wise men",
   "source": "manual"
+ },
+ "משפּט": {
+  "roman": "mishpet",
+  "gloss": "(I) judge; judgment",
+  "source": "manual"
+ },
+ "חבֿרס": {
+  "roman": "khavers",
+  "gloss": "your fellow's, neighbor's",
+  "source": "manual"
+ },
+ "מלאָכות": {
+  "roman": "melokhes",
+  "gloss": "work, labors",
+  "source": "manual"
+ },
+ "מלאָכה": {
+  "roman": "melokhe",
+  "gloss": "work, labor",
+  "source": "manual"
+ },
+ "עדות": {
+  "roman": "eydes",
+  "gloss": "testimony, witness",
+  "source": "manual"
+ },
+ "כּהנים": {
+  "roman": "koyanim",
+  "gloss": "priests",
+  "source": "manual"
  }
 }
