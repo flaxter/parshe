@@ -459,5 +459,45 @@
   "roman": "shlukhim",
   "gloss": "messengers",
   "source": "manual"
+ },
+ "קרבן־פּסח": {
+  "roman": "korbn-peysekh",
+  "gloss": "the Passover offering",
+  "source": "manual"
+ },
+ "ים־סוף": {
+  "roman": "Yam-Suf",
+  "gloss": "the Red Sea (Sea of Reeds)",
+  "source": "manual"
+ },
+ "מצות": {
+  "roman": "matses",
+  "gloss": "matzos, unleavened bread",
+  "source": "manual"
+ },
+ "מצה": {
+  "roman": "matse",
+  "gloss": "matzo, unleavened bread",
+  "source": "manual"
+ },
+ "סוכּות": {
+  "roman": "Sukes",
+  "gloss": "Succoth (a place); also the festival of Sukkos",
+  "source": "manual"
+ },
+ "סוף": {
+  "roman": "sof",
+  "gloss": "end",
+  "source": "manual"
+ },
+ "דור־דורות": {
+  "roman": "dor-doyres",
+  "gloss": "all generations",
+  "source": "manual"
+ },
+ "בכור": {
+  "roman": "bekhor",
+  "gloss": "firstborn",
+  "source": "manual"
  }
 }

@@ -1,0 +1,45 @@
+{
+  "slug": "bo",
+  "hebcal": "Bo",
+  "yi": "בא",
+  "translit": "Boy",
+  "en": "Bo",
+  "book_yi": "שמות",
+  "kids_sources": [
+    {
+      "label": "„חומש פֿאַר קינדער לויט יהואש“, צונויפֿגעשטעלט פֿון שלמה סײַמאָן, רעד. יודל מאַרק (יהואש־פֿאַרלאַג, ניו־יאָרק 1940), זז׳ 151–159. אויסלייג מאָדערניזירט (ייִוואָ)",
+      "ia": "nybc210870",
+      "leaf": 158,
+      "parts": [
+        "די אַכטע מכּה",
+        "די נײַנטע מכּה",
+        "דער קרבן־פּסח",
+        "די צענטע מכּה",
+        "מצות"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "sister-haggadah-akhte-make.jpg",
+      "place": "hero",
+      "caption": "די אַכטע מכּה",
+      "credit": "„Sister Haggadah“, Catalonia c. 1350. British Library Or. 2884 (detail). Public domain, via Wikimedia Commons."
+    }
+  ],
+  "verses": [
+    {
+      "ref": "Exodus 10:13",
+      "label": "שמות י, יג"
+    },
+    {
+      "ref": "Exodus 10:22-23",
+      "label": "שמות י, כב–כג"
+    },
+    {
+      "ref": "Exodus 12:39",
+      "label": "שמות יב, לט"
+    }
+  ],
+  "draw_prompt": "מאָל דאָ עפּעס פֿון דער מעשׂה"
+}
