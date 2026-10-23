@@ -234,5 +234,70 @@
   "roman": "kvorim",
   "gloss": "graves",
   "source": "manual"
+ },
+ "משה": {
+  "roman": "Moyshe",
+  "gloss": "Moses",
+  "source": "manual"
+ },
+ "פּרעה": {
+  "roman": "Pare",
+  "gloss": "Pharaoh",
+  "source": "manual"
+ },
+ "ישׂראל": {
+  "roman": "Yisroel",
+  "gloss": "Israel",
+  "source": "manual"
+ },
+ "מצרים": {
+  "roman": "Mitsrayim",
+  "gloss": "Egypt",
+  "source": "manual"
+ },
+ "אַהרן": {
+  "roman": "Arn",
+  "gloss": "Aaron",
+  "source": "manual"
+ },
+ "יעקבֿ": {
+  "roman": "Yankev",
+  "gloss": "Jacob",
+  "source": "manual"
+ },
+ "יוסף": {
+  "roman": "Yoysef",
+  "gloss": "Joseph",
+  "source": "manual"
+ },
+ "יתרו": {
+  "roman": "Yisro",
+  "gloss": "Jethro",
+  "source": "manual"
+ },
+ "ה׳": {
+  "roman": "Hashem",
+  "gloss": "God (the divine name)",
+  "source": "manual"
+ },
+ "דערהרגען": {
+  "roman": "derhargenen",
+  "gloss": "to kill",
+  "source": "manual"
+ },
+ "הרגען": {
+  "roman": "hargenen",
+  "gloss": "to kill",
+  "source": "manual"
+ },
+ "געהרגעט": {
+  "roman": "geharget",
+  "gloss": "killed",
+  "source": "manual"
+ },
+ "גר": {
+  "roman": "ger",
+  "gloss": "stranger, sojourner (also: convert)",
+  "source": "manual"
  }
 }
