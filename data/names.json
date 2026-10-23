@@ -391,7 +391,7 @@
   "source": "manual"
  },
  "אדום": {
-  "roman": "Edem",
+  "roman": "Edom",
   "gloss": "Edom",
   "source": "manual"
  },
@@ -913,6 +913,56 @@
  "נחלה": {
   "roman": "nakhle",
   "gloss": "inheritance, estate",
+  "source": "manual"
+ },
+ "מריבֿה": {
+  "roman": "Merive",
+  "gloss": "Meribah (Hebrew 'quarrel')",
+  "source": "manual"
+ },
+ "הור": {
+  "roman": "Hor",
+  "gloss": "Hor (mountain)",
+  "source": "manual"
+ },
+ "אלעזר": {
+  "roman": "Elozer",
+  "gloss": "Eleazar",
+  "source": "manual"
+ },
+ "מואָבֿ": {
+  "roman": "Moyev",
+  "gloss": "Moab",
+  "source": "manual"
+ },
+ "סיחון": {
+  "roman": "Sikhon",
+  "gloss": "Sihon",
+  "source": "manual"
+ },
+ "עוג": {
+  "roman": "Og",
+  "gloss": "Og",
+  "source": "manual"
+ },
+ "בשן": {
+  "roman": "Boshn",
+  "gloss": "Bashan",
+  "source": "manual"
+ },
+ "אמורי": {
+  "roman": "Emoyri",
+  "gloss": "the Amorite(s)",
+  "source": "manual"
+ },
+ "יריחו": {
+  "roman": "Yerikho",
+  "gloss": "Jericho",
+  "source": "manual"
+ },
+ "כּהן": {
+  "roman": "koyen",
+  "gloss": "priest",
   "source": "manual"
  }
 }
