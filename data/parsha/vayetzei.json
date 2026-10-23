@@ -1,0 +1,47 @@
+{
+  "slug": "vayetzei",
+  "hebcal": "Vayetzei",
+  "yi": "ויצא",
+  "translit": "Vayeytsey",
+  "en": "Vayetzei",
+  "book_yi": "בראשית",
+  "kids_sources": [
+    {
+      "label": "אהרן בראָמבערג, „חומש־מעשׂיות פֿאַר קינדער“ (אַרבעטער־רינג, 1956), זז׳ 42–50",
+      "ia": "nybc204961",
+      "leaf": 43,
+      "parts": [
+        "יעקבֿס חלום",
+        "בײַם ברונעם",
+        "בײַ לבֿנען",
+        "לבֿן נאַרט אָפּ יעקבֿן",
+        "קינדער",
+        "יעקבֿ זאָרגט פֿאַר זײַן הויזגעזינד",
+        "יעקבֿ פֿאַרלאָזט לבֿנען"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "sister-haggadah-f4v-yankevs-leyter.jpg",
+      "place": "hero",
+      "caption": "יעקבֿס חלום: יעקבֿ שלאָפֿט, און מלאָכים גייען אַרויף און אַראָפּ אויף אַ לייטער",
+      "credit": "„Sister Haggadah“, Catalonia c. 1350. British Library Or. 2884, f. 4v (detail). Public domain, via Wikimedia Commons."
+    }
+  ],
+  "verses": [
+    {
+      "ref": "Genesis 28:12",
+      "label": "בראשית כח, יב"
+    },
+    {
+      "ref": "Genesis 29:10-11",
+      "label": "בראשית כט, י–יא"
+    },
+    {
+      "ref": "Genesis 29:20",
+      "label": "בראשית כט, כ"
+    }
+  ],
+  "draw_prompt": "מאָל דאָ עפּעס פֿון דער מעשׂה"
+}

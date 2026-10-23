@@ -329,5 +329,65 @@
   "roman": "beheyme",
   "gloss": "animal, beast (of the field)",
   "source": "manual"
+ },
+ "רחל": {
+  "roman": "Rokhl",
+  "gloss": "Rachel",
+  "source": "manual"
+ },
+ "לאה": {
+  "roman": "Leye",
+  "gloss": "Leah",
+  "source": "manual"
+ },
+ "אַדוני": {
+  "roman": "Adoyni",
+  "gloss": "the Lord (Adonai)",
+  "source": "manual"
+ },
+ "שמעון": {
+  "roman": "Shimen",
+  "gloss": "Simeon",
+  "source": "manual"
+ },
+ "יהודה": {
+  "roman": "Yehude",
+  "gloss": "Judah",
+  "source": "manual"
+ },
+ "חרפּה": {
+  "roman": "kharpe",
+  "gloss": "disgrace, shame",
+  "source": "manual"
+ },
+ "חלום": {
+  "roman": "kholem",
+  "gloss": "dream",
+  "source": "manual"
+ },
+ "געחלומט": {
+  "roman": "gekholemt",
+  "gloss": "dreamed",
+  "source": "manual"
+ },
+ "ראובֿן": {
+  "roman": "Reuvn",
+  "gloss": "Reuben",
+  "source": "manual"
+ },
+ "לוי": {
+  "roman": "Levi",
+  "gloss": "Levi",
+  "source": "manual"
+ },
+ "בית־אל": {
+  "roman": "Beys-El",
+  "gloss": "Bethel",
+  "source": "manual"
+ },
+ "מלאָכים": {
+  "roman": "malokhim",
+  "gloss": "angels",
+  "source": "manual"
  }
 }
