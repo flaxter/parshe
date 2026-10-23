@@ -1,0 +1,49 @@
+{
+  "slug": "vaera",
+  "hebcal": "Vaera",
+  "yi": "וארא",
+  "translit": "Voeyro",
+  "en": "Vaera",
+  "book_yi": "שמות",
+  "kids_sources": [
+    {
+      "label": "„חומש פֿאַר קינדער לויט יהואש“, צונויפֿגעשטעלט פֿון שלמה סײַמאָן, רעד. יודל מאַרק (יהואש־פֿאַרלאַג, ניו־יאָרק 1940), זז׳ 138–151. אויסלייג מאָדערניזירט (ייִוואָ)",
+      "ia": "nybc210870",
+      "leaf": 145,
+      "parts": [
+        "גאָט דערמאָנט זײַן בונד מיט ישׂראל",
+        "די װוּנדער־צייכנס",
+        "די ערשטע מכּה",
+        "די צװייטע מכּה",
+        "די דריטע מכּה",
+        "די פֿערטע מכּה",
+        "די פֿינפֿטע מכּה",
+        "די זעקסטע מכּה",
+        "די זיבעטע מכּה"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "sister-haggadah-ershte-make.jpg",
+      "place": "hero",
+      "caption": "די ערשטע מכּה",
+      "credit": "„Sister Haggadah“, Catalonia c. 1350. British Library Or. 2884 (detail). Public domain, via Wikimedia Commons."
+    }
+  ],
+  "verses": [
+    {
+      "ref": "Exodus 6:6-7",
+      "label": "שמות ו, ו–ז"
+    },
+    {
+      "ref": "Exodus 7:20",
+      "label": "שמות ז, כ"
+    },
+    {
+      "ref": "Exodus 9:23",
+      "label": "שמות ט, כג"
+    }
+  ],
+  "draw_prompt": "מאָל דאָ עפּעס פֿון דער מעשׂה"
+}
