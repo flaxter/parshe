@@ -1,0 +1,197 @@
+<!DOCTYPE html><html lang="yi" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>פּרשת נצבים · Nitsovim</title><style>
+@font-face{font-family:"Frank Ruhl Libre";src:url(fonts/FrankRuhlLibre.ttf) format("truetype");font-weight:300 900;}
+@font-face{font-family:"Noto Sans Hebrew";src:url(fonts/NotoSansHebrew.ttf) format("truetype");font-weight:100 900;font-stretch:62.5% 100%;}
+:root{--ink:#2b2219;--sub:#7a6a58;--paper:#fffaf2;--accent:#b5531c;--accent2:#1f6f8b;--rule:#e2d5c2;}
+*{box-sizing:border-box}
+html{direction:rtl}
+body{margin:0;background:#efe6d6;color:var(--ink);font-family:"Frank Ruhl Libre",Georgia,serif;font-size:20px;line-height:1.55}
+.sheet{background:var(--paper);max-width:800px;margin:18px auto;padding:34px 40px 40px;box-shadow:0 4px 24px rgba(60,40,10,.14);border-radius:6px}
+nav.top{font-family:"Noto Sans Hebrew",sans-serif;font-size:15px;display:flex;gap:14px;align-items:center;justify-content:space-between;margin:-10px 0 18px;color:var(--sub)}
+nav.top a{color:var(--accent2);text-decoration:none;font-weight:600}
+nav.top button{font:inherit;font-weight:700;background:var(--accent);color:#fff;border:0;border-radius:999px;padding:7px 16px;cursor:pointer}
+nav.top a.pdf{display:inline-block;background:#fff;border:2px solid var(--accent);color:var(--accent);border-radius:999px;padding:5px 14px;margin-inline-end:6px}
+header.title{text-align:center;border-bottom:3px double var(--rule);padding-bottom:12px;margin-bottom:18px}
+.kicker{font-family:"Noto Sans Hebrew",sans-serif;font-size:14px;letter-spacing:.06em;color:var(--sub);text-transform:uppercase}
+h1{font-family:"Noto Sans Hebrew",sans-serif;font-weight:800;font-size:54px;margin:2px 0 0;line-height:1.1;color:var(--accent)}
+.sub{font-family:"Noto Sans Hebrew",sans-serif;font-size:17px;color:var(--sub);margin-top:6px}
+.sub .en{direction:ltr;unicode-bidi:isolate}
+figure.hero{margin:0 0 16px;text-align:center}
+figure.hero img{max-width:100%;max-height:360px;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.18)}
+figure.hero figcaption{font-size:14px;color:var(--sub);margin-top:6px;line-height:1.35}
+h2{font-family:"Noto Sans Hebrew",sans-serif;font-weight:700;font-size:25px;color:var(--accent2);margin:22px 0 6px}
+.story p{margin:0 0 .55em;text-align:right}
+.story p.said{margin-right:1.2em}
+.story p.poem{margin-right:2.5em}
+.story p.fn{font-size:14px;color:var(--sub);border-top:1px solid var(--rule);padding-top:4px;margin-top:10px}
+.box{border:2px solid var(--rule);border-radius:12px;padding:12px 18px 14px;margin:18px 0;background:#fff}
+.box h2{margin-top:0;font-size:21px}
+.verse{margin:0 0 .5em}
+.verse .ref{font-family:"Noto Sans Hebrew",sans-serif;font-size:13px;color:var(--sub);margin-inline-end:8px;white-space:nowrap}
+ol.q{padding-right:1.3em;margin:0}
+ol.q li{margin:0 0 .5em}
+ol.q .en{display:block;font-family:"Noto Sans Hebrew",sans-serif;font-size:13px;color:var(--sub);direction:ltr;text-align:left}
+table.gl{width:100%;border-collapse:collapse;font-size:18px}
+table.gl td{padding:2px 8px;border-bottom:1px dotted var(--rule);vertical-align:baseline}
+table.gl td.w{font-weight:700;white-space:nowrap}
+table.gl td.r{direction:ltr;text-align:left;font-family:"Noto Sans Hebrew",sans-serif;font-size:15px;color:var(--accent);white-space:nowrap}
+table.gl td.g{direction:ltr;text-align:left;font-family:"Noto Sans Hebrew",sans-serif;font-size:13px;color:var(--sub);width:42%}
+.two{align-items:start}
+.box .note{font-family:"Noto Sans Hebrew",sans-serif;font-size:11px;color:var(--sub);margin-top:6px}
+.draw{border:2px dashed var(--accent);border-radius:12px;height:230px;position:relative;margin:18px 0}
+.draw span{position:absolute;top:8px;right:14px;font-family:"Noto Sans Hebrew",sans-serif;font-size:15px;color:var(--accent)}
+footer.src{font-family:"Noto Sans Hebrew",sans-serif;font-size:11.5px;color:var(--sub);border-top:1px solid var(--rule);margin-top:22px;padding-top:8px;line-height:1.45}
+footer.src a{color:var(--accent2)}
+details.grown{margin-top:26px;font-size:18px}
+details.grown summary{cursor:pointer;font-family:"Noto Sans Hebrew",sans-serif;font-weight:700;color:var(--accent2);font-size:18px}
+details.grown .v{margin:0 0 .3em}
+details.grown .n{font-family:"Noto Sans Hebrew",sans-serif;font-size:12px;color:var(--sub);margin-left:4px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:0 20px}
+@media (max-width:600px){.sheet{padding:22px 16px;margin:0;border-radius:0}h1{font-size:40px}body{font-size:18px}.two{grid-template-columns:1fr}}
+@media print{
+ @page{size:A4;margin:12mm 14mm 13mm}
+ body{background:#fff;font-size:13pt;line-height:1.4}
+ .sheet{box-shadow:none;max-width:none;margin:0;padding:0;border-radius:0;background:#fff}
+ nav.top,details.grown,.no-print{display:none!important}
+ h1{font-size:34pt}h2{font-size:16pt;margin:12pt 0 3pt;page-break-after:avoid}
+ header.title{margin-bottom:9pt;padding-bottom:6pt}
+ figure.hero{float:left;width:46%;margin:0 0 6pt 0;padding-left:0}
+ figure.hero img{max-height:72mm;box-shadow:none;border-radius:4px}
+ figure.hero figcaption{font-size:8.5pt}
+ .story{text-align:right}
+ .box{break-inside:avoid;margin:8pt 0;padding:7pt 11pt 8pt;border-color:#bbb;border-radius:8px}
+ .box h2{font-size:14pt}
+ .page2{}
+ .draw{height:96mm;break-inside:avoid}
+ .two{break-inside:avoid}
+ table.gl{font-size:11.5pt}
+ table.gl td{padding:1pt 6pt}
+ .gloss{break-inside:avoid}
+ .two{break-inside:avoid}
+ footer.src{font-size:8pt}
+ a{color:inherit;text-decoration:none}
+}
+</style></head><body><div class="sheet">
+<nav class="top"><span><a href="ki-teitzei.html">→ כּי תצא</a></span>
+<a href="index.html">אַלע פּרשיות</a><span><a class="pdf" href="nitzavim.pdf">⬇ PDF</a> <button onclick="window.print()">🖨 דרוקן</button></span>
+<span><a href="vayeilech.html">וילך ←</a></span></nav>
+<header class="title"><div class="kicker">די פּרשה פֿון דער װאָך · Parshe fun der vokh</div>
+<h1>פּרשת נצבים</h1>
+<div class="sub">Nitsovim · דברים כט:ט–ל:כ · <span class="en">Deuteronomy 29:9-30:20</span> · שבת, 25טן סעפּטעמבער 2027</div></header>
+<div class="story">
+<h2>דער בונד מיט די קינדער פֿון ישׂראל</h2>
+<p>דאָס זײַנען די װערטער פֿון דעם בונד װאָס גאָט האָט באַפֿוילן משהן צו שליסן מיט די קינדער פֿון ישׂראל אין לאַנד מואָבֿ, חוץ דעם בונד װאָס ער האָט געשלאָסן מיט זיי אין חורבֿ*. און משה האָט צונויפֿגערופֿן גאַנץ ישׂראל און האָט צו זיי געזאָגט:</p>
+<p class="fn">* בײַם באַרג סיני.</p>
+<p>„איר האָט געזען אַלץ װאָס גאָט האָט געטאָן פֿאַר אײַערע אויגן, די גרויסע צייכנס און װוּנדער, ביז אויף הײַנטיקן טאָג. איך האָב אײַך געפֿירט פֿערציק יאָר דורכן מדבר. אײַערע קליידער זײַנען ניט אָפּגעטראָגן געװאָרן אויף אײַך; דײַן שוך איז ניט אָפּגעטראָגן געװאָרן אויף דײַן פֿוס. ברויט האָט איר ניט געגעסן און װײַן האָט איר ניט געטרונקען.</p>
+<p>„און אַז איר זײַט געקומען צו אָט דעם אָרט, זײַנען אַרויסגעגאַנגען סיחון און עוג אַקעגן אונדז אויף מלחמה, און מיר האָבן זיי געשלאָגן; און מיר האָבן צוגענומען זייער לאַנד און עס געגעבן פֿאַר אַ נחלה צו ראובֿן, און צו גד און צו דעם האַלבן שבֿט מנשה. היט די װערטער פֿון בונד, כּדי איר זאָלט באַגליקן אין אַלץ װאָס איר װעט טאָן!</p>
+<p>„איר שטייט הײַנט אַלע פֿאַר גאָט אײַער האַר, אײַערע עלטסטע, אײַערע שבֿטים, אַלע מענער פֿון ישׂראל, אײַערע קליינע קינדער, אײַערע װײַבער און דער פֿרעמדער װאָס איז אין דײַן לאַגער —</p>
+<p>„דו טרעטסט אַרײַן מיט אַ שבֿועה אין דעם בונד פֿון ה׳ דײַן גאָט, װאָס ה׳ דײַן גאָט שליסט מיט דיר הײַנט, כּדי דיך אויפֿצושטעלן הײַנט פֿאַר אַ פֿאָלק צו אים, און ער זאָל מיר זײַן דײַן גאָט, אַזוי װי ער האָט דיר צוגעזאָגט און אַזוי װי ער האָט געשװאָרן צו דײַנע עלטערן, צו אַבֿרהמען, צו יצחקן און צו יעקבֿן.</p>
+<p>„דאָס געבאָט װאָס איך גיב דיר הײַנט — איז ניט באַהאַלטן פֿון דיר. עס איז ניט צו װײַט. ניט אויפֿן הימל איז דאָס, אַז דו זאָלסט זאָגן: ‚װער װעט אונדז אַרויפֿגיין אויפֿן הימל און עס נעמען פֿאַר אונדז און עס אונדז לאָזן הערן, כּדי מיר זאָלן עס טאָן?‘ און ניט אויף יענער זײַט ים איז דאָס, אַז דו זאָלסט זאָגן: ‚װער װעט אונדז אַריבערגיין אויף יענער זײַט ים און עס נעמען פֿאַר אונדז און עס אונדז לאָזן הערן, כּדי מיר זאָלן עס טאָן?‘ נאָר זייער נאָענט איז דאָס צו דיר — אין דײַן מויל, אין דײַן האַרצן!</p>
+<p>„זע, איך גיב הײַנט פֿאַר דיר: לעבן און גוטס, טויט און שלעכטס. איך באַפֿעל דיר הײַנט ליב צו האָבן גאָט, צו גיין אין זײַנע װעגן, כּדי דו זאָלסט לעבן און גאָט זאָל דיך בענטשן אין דעם לאַנד װאָס דו קומסט אַהין. אָבער אַז דײַן האַרץ װעט זיך אָפּקערן און דו װעסט אַראָפּגעפֿירט װערן — איז אונטערגיין װעט איר אונטערגיין!</p>
+<p>„איך מאַך הײַנט עדות אַקעגן אײַך הימל און ערד! לעבן און טויט לייג איך פֿאַר אײַך, אַ ברכה און אַ קללה — זאָלט איר אויסקלײַבן דאָס לעבן, דו און דײַנע קינדער: ליב צו האָבן גאָט, זיך צוצוהערן צו זײַנע רייד — דאָס איז דײַן לעבן!“</p>
+</div>
+<div class="page2">
+<div class="box"><h2>פּסוקים פֿון יהואשס תּנ״ך</h2>
+<p class="verse"><span class="ref">(דברים ל, יא–יד)</span>װאָרום דאָס דאָזיקע געבאָט װאָס איך געביט דיר הײַנט, דאָס איז ניט פֿאַרהױלן פֿון דיר, און דאָס איז ניט צו װײַט. ניט אױפֿן הימל איז דאָס, אַז דו זאָלסט זאָגן: װער װעט אונדז אַרױפֿגײן אױפֿן הימל און עס נעמען פֿאַר אונדז, און עס אונדז לאָזן הערן, כּדי מיר זאָלן עס טאָן? און ניט פֿון יענער זײַט ים איז דאָס, אַז דו זאָלסט זאָגן: װער װעט אונדז אַריבערגײן אױף יענער זײַט ים, און עס נעמען פֿאַר אונדז, און דאָס אונדז לאָזן הערן, כּדי מיר זאָלן עס טאָן? נײַערט זײער נאָנט איז דאָס װאָרט צו דיר, אין דײַן מױל, און אין דײַן האַרצן, עס צו טאָן.</p>
+<p class="verse"><span class="ref">(דברים ל, יט)</span>איך מאַך הײַנט עדות אַקעגן אײַך הימל און ערד: לעבן און טױט האָב איך געלײגט פֿאַר אײַך, אַ ברכה און אַ קללה, דרום זאָלסטו אױסװײלן דאָס לעבן, כּדי זאָלסט לעבן, דו און דײַן זאָמען;</p>
+</div>
+<div class="box gloss"><h2>לשון־קודש־װערטער אין דער מעשׂה</h2><div class="two">
+<table class="gl">
+<tr><td class="w">כּדי</td><td class="r">kedey</td><td class="g">in order that</td></tr>
+<tr><td class="w">ישׂראל</td><td class="r">Yisroel</td><td class="g">Israel</td></tr>
+<tr><td class="w">משה</td><td class="r">Moyshe</td><td class="g">Moses</td></tr>
+<tr><td class="w">שבֿט</td><td class="r">shevet</td><td class="g">tribe</td></tr>
+<tr><td class="w">ים</td><td class="r">yam</td><td class="g">ocean, sea</td></tr>
+<tr><td class="w">מואָבֿ</td><td class="r">Moyev</td><td class="g">Moab</td></tr>
+<tr><td class="w">סיני</td><td class="r">Sinay</td><td class="g">Sinai</td></tr>
+<tr><td class="w">מדבר</td><td class="r">midber</td><td class="g">desert, wilderness</td></tr>
+<tr><td class="w">סיחון</td><td class="r">Sikhon</td><td class="g">Sihon</td></tr>
+<tr><td class="w">עוג</td><td class="r">Og</td><td class="g">Og</td></tr>
+<tr><td class="w">מלחמה</td><td class="r">milkhome</td><td class="g">war</td></tr>
+</table>
+<table class="gl">
+<tr><td class="w">נחלה</td><td class="r">nakhle</td><td class="g">inheritance, estate</td></tr>
+<tr><td class="w">ראובֿן</td><td class="r">Reyuvn</td><td class="g">Reuben</td></tr>
+<tr><td class="w">גד</td><td class="r">Gad</td><td class="g">Gad</td></tr>
+<tr><td class="w">מנשה</td><td class="r">Menashe</td><td class="g">Manasseh</td></tr>
+<tr><td class="w">שבֿועה</td><td class="r">shvue</td><td class="g">oath</td></tr>
+<tr><td class="w">אַבֿרהם</td><td class="r">Avrom</td><td class="g">Abraham</td></tr>
+<tr><td class="w">יצחק</td><td class="r">Yitskhok</td><td class="g">Isaac</td></tr>
+<tr><td class="w">יעקבֿ</td><td class="r">Yankev</td><td class="g">Jacob</td></tr>
+<tr><td class="w">עדות</td><td class="r">eydes</td><td class="g">testimony, witness</td></tr>
+<tr><td class="w">ברכה</td><td class="r">brokhe</td><td class="g">blessing; prosperity</td></tr>
+<tr><td class="w">קללה</td><td class="r">klole</td><td class="g">curse</td></tr>
+</table>
+</div><div class="note">אַרױסרעד לױט ייִװאָ־טראַנסקריפּציע; װערטער אױטאָמאַטיש געפֿונען אין דער מעשׂה</div></div>
+<div class="draw"><span>✏️ מאָל דאָ עפּעס פֿון דער מעשׂה</span></div>
+<footer class="src">די מעשׂה („דער בונד מיט די קינדער פֿון ישׂראל“): „חומש פֿאַר קינדער לויט יהואש“, צונויפֿגעשטעלט פֿון שלמה סײַמאָן, רעד. יודל מאַרק (יהואש־פֿאַרלאַג, ניו־יאָרק 1940), זז׳ 242–244. אויסלייג מאָדערניזירט (ייִוואָ) — <a href="https://archive.org/details/nybc210870/page/n249/mode/1up">דאָס בוך בײַם ייִדישן ביכער־צענטער / archive.org</a><br>פּסוקים: יהואשס תּנ״ך־איבערזעצונג (1941), דיגיטאַליזירט דורכן „יהואש־פּראָיעקט“ (ל. פּראַגער), CC0 דורך Open Siddur און <a href="https://www.sefaria.org/texts">Sefaria</a>. דער שם־הוויה װערט דאָ געדרוקט װי ה׳.</footer>
+</div>
+<details class="grown"><summary>פֿאַר די גרויסע: די גאַנצע פּרשה בײַ יהואשן</summary>
+<h2>Deuteronomy כט</h2>
+<p class="v"><span class="n">ט</span>איר שטײט הײַנט אַלע פֿאַר ה׳ אײַער גאָט, אײַערע הױפּטלײַט, אײַערע שבֿטים, אײַערע עלטסטע, און אײַערע אױפֿזעערס, אַלע מענער פֿון ישׂראל,</p>
+<p class="v"><span class="n">י</span>אײַערע קלײנע קינדער, אײַערע װײַבער, און דײַן פֿרעמדער װאָס אין דײַן לאַגער, פֿון דײַן האָלצהעקער ביז דײַן װאַסערשעפּער;</p>
+<p class="v"><span class="n">יא</span>אַז דו זאָלסט אַרײַנטרעטן אין דעם בונד פֿון ה׳ דײַן גאָט און אין זײַן שבֿועה װאָס ה׳ דײַן גאָט שליסט מיט דיר הײַנט;</p>
+<p class="v"><span class="n">יב</span>כּדי דיך אױפֿצושטעלן הײַנט פֿאַר אַ פֿאָלק צו אים, און ער זאָל דיר זײַן צום גאָט, אַזױ װי ער האָט דיר צוגעזאָגט, און אַזױ װי ער האָט געשװאָרן צו דײַנע עלטערן, צו אַבֿרהמען, צו יצחקן, און צו יעקבֿן.</p>
+<p class="v"><span class="n">יג</span>און ניט מיט אײַך אַלײן שליס איך דעם דאָזיקן בונד און די דאָזיקע שבֿועה,</p>
+<p class="v"><span class="n">יד</span>נײַערט אי מיט דעם װאָס שטײט דאָ מיט אונדז הײַנט פֿאַר ה׳ אונדזער גאָט, אי מיט דעם װאָס איז דאָ ניט פֿאַראַן מיט אונדז הײַנט.</p>
+<p class="v"><span class="n">טו</span>װאָרום איר װײסט װי מיר זײַנען געזעסן אין לאַנד מִצרַיִם, און װי מיר זײַנען דורכגעגאַנגען צװישן די פֿעלקער װאָס איר זײַט דורכגעגאַנגען.</p>
+<p class="v"><span class="n">טז</span>און איר האָט געזען זײערע אומװערדיקײטן, און זײערע אָפּגעטער, האָלץ און שטײן, זילבער און גאָלד, װאָס בײַ זײ.</p>
+<p class="v"><span class="n">יז</span>טאָמער איז דאָ צװישן אײַך אַ מאַן, אָדער אַ פֿרױ, אָדער אַ משפּחה, אָדער אַ שבֿט, װאָס זײַן האַרץ קערט זיך אָפּ הײַנט פֿון ה׳ אונדזער גאָט, צו גײן דינען די געטער פֿון יענע פֿעלקער; טאָמער איז פֿאַראַן צװישן אײַך אַ װאָרצל װאָס פֿרוכפּערט ביטערקרױט און װערמוט;</p>
+<p class="v"><span class="n">יח</span>און עס װעט זײַן, אַז ער װעט הערן די װערטער פֿון דער דאָזיקער שבֿועה, װעט ער זיך רימען אין זײַן האַרצן, אַזױ צו זאָגן: פֿריד װעט זײַן צו מיר, װען איך װעל גײן אין דער אײַנגעשפּאַרטקײט פֿון מײַן האַרצן – כּדי אונטערצוברענגען דאָס באַװעסערטע אין אײנעם מיטן דאָרשטיקן</p>
+<p class="v"><span class="n">יט</span>װעט אים גאָט ניט װעלן פֿאַרגעבן, נײַערט דער צאָרן פֿון גאָט און זײַן פֿאַרדראָס װעט דענצמאָל ברענען אױף יענעם מאַן, און אױף אים װעט הױערן די גאַנצע קללה װאָס שטײט געשריבן אין דעם דאָזיקן בוך, און גאָט װעט אױסמעקן זײַן נאָמען פֿון אונטערן הימל.</p>
+<p class="v"><span class="n">כ</span>און גאָט װעט אים אָפּשײדן צום בײזן פֿון אַלע שבֿטים פֿון ישׂראל, אַזױ װי אַלע קללות פֿון דעם בונד װאָס שטײט געשריבן אין דעם דאָזיקן בוך פֿון דער תּוֹרה.</p>
+<p class="v"><span class="n">כא</span>און דער שפּעטערדיקער דָור, אײַערע קינדער װאָס װעלן אױפֿשטײן נאָך אײַך, און דער פֿרעמדער װאָס װעט קומען פֿון אַ װײַטן לאַנד, װעלן זאָגן: – װען זײ װעלן זען די פּלאָגן פֿון דעם דאָזיקן לאַנד, און אירע קרענק מיט װאָס גאָט האָט עס קראַנק געמאַכט;</p>
+<p class="v"><span class="n">כב</span>אַז שװעבל און זאַלץ, פֿאַרברענט, איז איר גאַנצע ערד; ניט זי װערט געזײט, און ניט זי לאָזט אַרױס אַ שפּראָצונג, און ניט עס װאַקסט אױף איר אַ שום גראָז, אַזױ װי די איבערקערעניש פֿון סדוֹם, און עַמוֹרָה, אַדמָה, און צבֿוֹיִים, װאָס גאָט האָט איבערגעקערט אין זײַן כּעס און אין זײַן גרימצאָרן</p>
+<p class="v"><span class="n">כג</span>װעלן אַלע פֿעלקער זאָגן: פֿאַר װאָס האָט גאָט געטאָן אַזױ צו דעם דאָזיקן לאַנד? װאָס איז דער דאָזיקער גרױסער גרימצאָרן?</p>
+<p class="v"><span class="n">כד</span>און מע װעט זאָגן: פֿאַר װאָס זײ האָבן פֿאַרלאָזן דעם בונד פֿון ה׳ דעם גאָט פֿון זײערע עלטערן, װאָס ער האָט מיט זײ געשלאָסן, װען ער האָט זײ אַרױסגעצױגן פֿון לאַנד מִצרַיִם;</p>
+<p class="v"><span class="n">כה</span>און זײ זענען געגאַנגען און האָבן געדינט פֿרעמדע געטער, און זיך געבוקט צו זײ, געטער װאָס זײ האָבן זײ ניט געקענט, און װאָס ער האָט זײ ניט אײַנגעטײלט.</p>
+<p class="v"><span class="n">כו</span>און דער צאָרן פֿון גאָט האָט געגרימט אױף דעם דאָזיקן לאַנד, צו ברענגען דערױף די גאַנצע קללה װאָס שטײט געשריבן אין דעם דאָזיקן בוך.</p>
+<p class="v"><span class="n">כז</span>און גאָט האָט זײ אַרױסגעריסן פֿון זײער ערד מיט רוגזה, און מיט גרימצאָרן, און מיט גרױס כּעס, און האָט זײ פֿאַרװאָרפֿן אין אַן אַנדער לאַנד, אַזױ װי הײַנטיקן טאָג.</p>
+<p class="v"><span class="n">כח</span>דאָס פֿאַרבאָרגענע איז בײַ ה׳ אונדזער גאָט, אָבער דאָס אַנטפּלעקטע איז פֿאַר אונדז און פֿאַר אונדזערע קינדער אױף אײביק – צו טאָן אַלע װערטער פֿון דער דאָזיקער תּוֹרה.</p>
+<h2>Deuteronomy ל</h2>
+<p class="v"><span class="n">א</span>און עס װעט זײַן, אַז עס װעלן קומען אױף דיר אַלע די דאָזיקע זאַכן, די ברכה און די קללה, װאָס איך האָב געלײגט פֿאַר דיר, און װעסט דיר נעמען צום האַרצן, צװישן די אַלע פֿעלקער װאָס ה׳ דײַן גאָט האָט דיך אַהין פֿאַרשטױסן,</p>
+<p class="v"><span class="n">ב</span>און װעסט זיך אומקערן צו ה׳ דײַן גאָט, און װעסט צוהערן צו זײַן קָול, אַזױ װי אַלץ װאָס איך באַפֿעל דיר הײַנט, דו און דײַנע קינדער, מיט דײַן גאַנצן האַרצן, און מיט דײַן גאַנצער זעל,</p>
+<p class="v"><span class="n">ג</span>װעט ה׳ דײַן גאָט אומקערן דײַן געפֿאַנגענשאַפֿט, און ער װעט דיך דערבאַרימען, און װעט צוריק דיך אײַנזאַמלען פֿון אַלע אומות װאָס ה׳ דײַן גאָט האָט דיך אַהין צעשפּרײט.</p>
+<p class="v"><span class="n">ד</span>אַז דײַנע פֿאַרשטױסענע זאָלן זײַן אין עק הימל, װעט דיך ה׳ דײַן גאָט פֿון דאָרטן אײַנזאַמלען, און װעט פֿון דאָרטן דיך נעמען.</p>
+<p class="v"><span class="n">ה</span>און ה׳ דײַן גאָט װעט דיך ברענגען אין דעם לאַנד װאָס דײַנע עלטערן האָבן געאַרבט, און װעסט עס אַרבן, און ער װעט דיך באַגיטיקן, און דיך מערן מײן פֿון דײַנע עלטערן.</p>
+<p class="v"><span class="n">ו</span>און ה׳ דײַן גאָט װעט באַשנײַדן דײַן האַרץ, און דאָס האַרץ פֿון דײַנע קינדער, ליב צו האָבן ה׳ דײַן גאָט מיט דײַן גאַנצן האַרצן, און מיט דײַן גאַנצער זעל, כּדי זאָלסט לעבן.</p>
+<p class="v"><span class="n">ז</span>און ה׳ דײַן גאָט װעט געבן אַלע די דאָזיקע קללות אױף דײַנע פֿײַנט, און אױף דײַנע שָׂונאים װאָס האָבן דיך געיאָגט.</p>
+<p class="v"><span class="n">ח</span>און דו װעסט זיך אומקערן, און צוהערן צו דעם קָול פֿון גאָט, און טאָן אַלע זײַנע געבאָט װאָס איך געביט דיר הײַנט.</p>
+<p class="v"><span class="n">ט</span>און ה׳ דײַן גאָט װעט דיר געבן אַ שֶפֿע אין יעטװעדער טוּונג פֿון דײַן האַנט, אין דער פֿרוכט פֿון דײַן לײַב, אין דער פֿרוכט פֿון דײַן בהמה, און אין דער פֿרוכט פֿון דײַן ערד צום גוטן; װאָרום גאָט װעט זיך װידער פֿרײען מיט דיר צום גוטן, אַזױ װי ער האָט זיך געפֿרײט מיט דײַנע עלטערן;</p>
+<p class="v"><span class="n">י</span>אַז דו װעסט צוהערן צו דעם קָול פֿון ה׳ דײַן גאָט, צו היטן זײַנע געבאָט און זײַנע געזעצן װאָס שטײען געשריבן אין דעם דאָזיקן בוך פֿון דער תּוֹרה; אַז דו װעסט זיך אומקערן צו ה׳ דײַן גאָט מיט דײַן גאַנצן האַרצן, און מיט דײַן גאַנצער זעל.</p>
+<p class="v"><span class="n">יא</span>װאָרום דאָס דאָזיקע געבאָט װאָס איך געביט דיר הײַנט, דאָס איז ניט פֿאַרהױלן פֿון דיר, און דאָס איז ניט צו װײַט.</p>
+<p class="v"><span class="n">יב</span>ניט אױפֿן הימל איז דאָס, אַז דו זאָלסט זאָגן: װער װעט אונדז אַרױפֿגײן אױפֿן הימל און עס נעמען פֿאַר אונדז, און עס אונדז לאָזן הערן, כּדי מיר זאָלן עס טאָן?</p>
+<p class="v"><span class="n">יג</span>און ניט פֿון יענער זײַט ים איז דאָס, אַז דו זאָלסט זאָגן: װער װעט אונדז אַריבערגײן אױף יענער זײַט ים, און עס נעמען פֿאַר אונדז, און דאָס אונדז לאָזן הערן, כּדי מיר זאָלן עס טאָן?</p>
+<p class="v"><span class="n">יד</span>נײַערט זײער נאָנט איז דאָס װאָרט צו דיר, אין דײַן מױל, און אין דײַן האַרצן, עס צו טאָן.</p>
+<p class="v"><span class="n">טו</span>זע, איך האָב הײַנט געלײגט פֿאַר דיר לעבן און גוטס, און טױט און שלעכטס,</p>
+<p class="v"><span class="n">טז</span>װאָס איך באַפֿעל דיר הײַנט ליב צו האָבן ה׳ דײַן גאָט, צו גײן אין זײַנע װעגן, און צו היטן זײַנע געבאָט און זײַנע חוקים און זײַנע געזעצן, כּדי זאָלסט לעבן און זיך מערן, און ה׳ דײַן גאָט זאָל דיך בענטשן אין דעם לאַנד װאָס דו קומסט אַהין, עס צו אַרבן.</p>
+<p class="v"><span class="n">יז</span>אָבער אַז דײַן האַרץ װעט זיך אָפּקערן, און װעסט ניט צוהערן, און װעסט אַראָפּגעפֿירט װערן, און װעסט זיך בוקן צו פֿרעמדע געטער, און זײ דינען,</p>
+<p class="v"><span class="n">יח</span>זאָג איך אײַך הײַנט אָן, אַז אונטערגײן װעט איר אונטערגײן; איר װעט ניט מַאֲריך-יָמים זײַן אױף דער ערד װאָס דו גײסט אַריבער דעם יַרדן צו קומען אַהין, זי צו ארבן.</p>
+<p class="v"><span class="n">יט</span>איך מאַך הײַנט עדות אַקעגן אײַך הימל און ערד: לעבן און טױט האָב איך געלײגט פֿאַר אײַך, אַ ברכה און אַ קללה, דרום זאָלסטו אױסװײלן דאָס לעבן, כּדי זאָלסט לעבן, דו און דײַן זאָמען;</p>
+<p class="v"><span class="n">כ</span>ליב צו האָבן ה׳ דײַן גאָט, צוצוהערן צו זײַן קָול, און זיך צו באַהעפֿטן אָן אים, װאָרום דאָס איז דײַן לעבן און דײַן אַריכת-יָמים; כּדי צו זיצן אױף דער ערד װאָס גאָט האָט געשװאָרן צו דײַנע עלטערן, צו אַבֿרהמען, צו יצחקן, און צו יעקבֿן, זײ צו געבן.</p>
+<h2>הפֿטרה: Isaiah 61:10-63:9</h2>
+<p class="v"><span class="n">סא:י</span>פֿרײען פֿרײ איך זיך מיט ה׳, לוסטיק איז מײַן זעל מיט מײַן גאָט, װאָרום ער האָט מיר אָנגעטאָן קלײדער פֿון הילף, אַ מאַנטל פֿון זיג מיר אַרומגעװיקלט, װי אַ חתן טוט אָן אַ כּהן-הױב, און װי אַ כּלה צירט זיך אָן מיט אירע תַּכשיטין.</p>
+<p class="v"><span class="n">סא:יא</span>װאָרום װי די ערד לאָזט אַרױס איר שפּראָצונג, און װי אַ גאָרטן מאַכט שפּראָצן זײַנע זאָמען, אַזױ װעט גאָט דער האַר מאַכן שפּראָצן זיג און לױב, אַנטקעגן פֿאַר אַלע פֿעלקער.</p>
+<p class="v"><span class="n">סב:א</span>פֿון װעגן צִיון װעל איך ניט שװײַגן, און פֿון װעגן ירושלים װעל איך ניט רוען, ביז אַרױס װי דער שײַן װעט איר גערעכטיקײט, און איר הילף װי אַ פֿלאַם װאָס ברענט.</p>
+<p class="v"><span class="n">סב:ב</span>און די פֿעלקער װעלן זען דײַן גערעכטיקײט, און אַלע מלכים דײַן כּבֿוד; און מע װעט דיך רופֿן אַ נײַעם נאָמען, װאָס דאָס מױל פֿון גאָט װעט אים אָנרופֿן.</p>
+<p class="v"><span class="n">סב:ג</span>און װעסט זײַן אַ קרױן פֿון שײנקײטאין דער האַנט פֿון ה׳, און אַ מַלכותדיקע הױבאין דער האַנטפֿלעך פֿון דײַן גאָט.</p>
+<p class="v"><span class="n">סב:ד</span>אױף דיר װעט מער ניט געזאָגט װערן ״פֿאַרלאָזטע״, און אױף דײַן לאַנד װעט מער ניט געזאָגט װערן ״װיסטעניש״, נאָר דיך װעט מען רופֿן ״מײַן-גלוסט-צו-איר״, און דאָס לאַנד דײַנס ״באַמאַנטע״; װאָרום גאָט טוט דיך גלוסטן, און דײַן לאַנד װעט באַמאַנט װערן.</p>
+<p class="v"><span class="n">סב:ה</span>װאָרום װי אַ בחור באַמאַנט אַ יונגפֿרױ, װעלן דיך באַמאַנען דײַנע קינדער; און װי די פֿרײד פֿון אַ חתן מיט דער כּלה, װעט זיך פֿרײען מיט דיר דײַן גאָט.</p>
+<p class="v"><span class="n">סב:ו</span>אױף דײַנע מױערן, ירושלים, האָב איך אױפֿגעשטעלט שָומרים, אַ גאַנצן טאָג און אַ גאַנצע נאַכט, זײ זאָלן תּמיד ניט שװײַגן. איר דערמאָנער פֿון גאָט, קײן רו ניט צו אײַך!</p>
+<p class="v"><span class="n">סב:ז</span>און איר זאָלט ניט געבן קײן רו צו אים, ביז ער װעט אױפֿריכטן, און ביז ער װעט מאַכן ירושליםאַ לױב אױף דער ערד.</p>
+<p class="v"><span class="n">סב:ח</span>גאָט האָט געשװאָרן בײַ זײַן רעכטער האַנט, און בײַ זײַן מאַכטיקן אָרעם: אױב איך װעל מער געבן דײַן תּבֿואהפֿאַר שפּײַז צו דײַנע פֿײַנט! און אױב פֿרעמדגעבאָרענע װעלן טרינקען דײַן װײַןװאָס דו האָסט זיך געמיט אױף אים!</p>
+<p class="v"><span class="n">סב:ט</span>נײַערט אירע אַרײַננעמער װעלן זי עסן, און װעלן לױבן גאָט; און זײַנע אײַנזאַמלער װעלן אים טרינקעןאין די הױפֿן פֿון מײַן הײליקטום.</p>
+<p class="v"><span class="n">סב:י</span>גײט דורך, גײט דורך דורך די טױערן, ראַמט אָפּ דעם װעג פֿון דעם פֿאָלק! טרעט אױס, טרעט אױס דעם שטעג, רײניקט אָפּ פֿון שטײנער! הײבט אױף אַ פֿאָן צו די פֿעלקער!</p>
+<p class="v"><span class="n">סב:יא</span>זע, גאָט האָט געמאַכט הערן ביז צום עק פֿון דער ערד: זאָגט צו טאָכטער צִיון: זע, דײַן הילף איז געקומען; זע, זײַן לױן איז מיט אים, און זײַן פֿאַרגעלטונג אים פֿאַרױס.</p>
+<p class="v"><span class="n">סב:יב</span>און מע װעט זײ רופֿן דאָס הײליקע פֿאָלק, די אױסדערלײזטע פֿון גאָט; און דיך װעט מען רופֿן ״געזוכטע״, ״ניט פֿאַרלאָזענע שטאָט״.</p>
+<p class="v"><span class="n">סג:א</span>װער איז דער װאָס קומט פֿון אדום, אין גערױטיקטע בגדים פֿון בָצרָה? דער װאָס איז פּראַכטיק אין זײַן מלבוש, אױסגעבױגן אין זײַן גרױס שטאַרקײט? איך װאָס רעד מיט גערעכטיקײט, װאָס בין מאַכטיק צו העלפֿן.</p>
+<p class="v"><span class="n">סג:ב</span>פֿאַר װאָס איז רױט אױף דײַן קלײד, און דײַנע בגדים װי בײַם טרעטער אין אַ קעלטער?</p>
+<p class="v"><span class="n">סג:ג</span>איך האָב געטרעטן אַ קעלטער אַלײן, און פֿון די פֿעלקער איז קײנער מיט מיר ניט געװען; און איך האָב זײ געטרעטן אין מײַן כּעס, און זײ געטראַמפּלט אין מײַן גרימצאָרן; האָט געשפּריצט זײער זאַפֿט אױף מײַנע בגדים, און אַלע מײַנע קלײדער האָב איך באַפֿלעקט.</p>
+<p class="v"><span class="n">סג:ד</span>װאָרום אַ טאָג פֿון נקמה איז אין מײַן האַרצן, און מײַן יאָר פֿון דערלײזונג איז געקומען.</p>
+<p class="v"><span class="n">סג:ה</span>און איך האָב מיך אומגעקוקט, און ניט געװען קײן העלפֿער, און איך האָב מיך געװוּנדערט, און ניט געװען קײן אונטערלענער; האָט מיך מײַן אָרעם געהאָלפֿן, און מײַן גרימצאָרן, ער האָט מיך אונטערגעלענט.</p>
+<p class="v"><span class="n">סג:ו</span>און איך האָב געטרעטן די פֿעלקער אין מײַן כּעס, און זײ פֿאַרשיכּורט מיט מײַן גרימצאָרן, און געמאַכט נידערן צו דער ערד זײער זאַפֿט.</p>
+<p class="v"><span class="n">סג:ז</span>די חסדים פֿון ה׳ װעל איך דערמאָנען, די לױבונגען פֿון גאָט, װעדליק אַלץ װאָס גאָט האָט אונדז געטאָן, און די פֿיל טובֿות צום הױז פֿון ישׂראל, װאָס ער האָט געטאָן צו זײ לױט זײַן באַרימהאַרציקײט, און לױט זײַנע פֿיל חסדים.</p>
+<p class="v"><span class="n">סג:ח</span>װאָרום ער האָט געזאָגט: זײ זײַנען פֿאָרט מײַן פֿאָלק, קינדער װאָס װעלן ניט פֿעלשן; און ער איז זײ געװען פֿאַר אַ העלפֿער.</p>
+<p class="v"><span class="n">סג:ט</span>אין אַל זײער לײַד האָט ער געליטן, און דער מלאך פֿון זײַן פּנים האָט זײ געהאָלפֿן; אין זײַן ליבשאַפֿט און אין זײַן דערבאַרימונגהאָט ער זײ אױסגעלײזט, און זײ געהױבן און זײ געטראָגןאַלע טעג פֿון פֿאַרצײַטן.</p>
+</details>
+</div></body></html>
