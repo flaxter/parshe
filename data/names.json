@@ -859,5 +859,30 @@
   "roman": "umkheyn",
   "gloss": "disfavor",
   "source": "manual"
+ },
+ "כּלבֿ": {
+  "roman": "Kolev",
+  "gloss": "Caleb",
+  "source": "manual"
+ },
+ "שבֿט": {
+  "roman": "shevet",
+  "gloss": "tribe",
+  "source": "manual"
+ },
+ "קדש": {
+  "roman": "Kodesh",
+  "gloss": "Kadesh",
+  "source": "manual"
+ },
+ "חסד": {
+  "roman": "khesed",
+  "gloss": "lovingkindness, mercy",
+  "source": "manual"
+ },
+ "דרום": {
+  "roman": "dorem",
+  "gloss": "south; the Negev",
+  "source": "manual"
  }
 }
