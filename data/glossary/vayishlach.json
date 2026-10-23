@@ -1,0 +1,268 @@
+[
+ {
+  "roman": "Yankev",
+  "gloss": "Jacob",
+  "source": "bleaman+names",
+  "word": "יעקבֿ",
+  "count": 28
+ },
+ {
+  "roman": "Eysev",
+  "gloss": "Esau",
+  "source": "bleaman+names",
+  "word": "עשׂו",
+  "count": 15
+ },
+ {
+  "roman": "Yitskhok",
+  "gloss": "Isaac",
+  "source": "bleaman+names",
+  "word": "יצחק",
+  "count": 6
+ },
+ {
+  "roman": "makhne",
+  "gloss": "camp",
+  "source": "bleaman+names",
+  "word": "מחנה",
+  "count": 3
+ },
+ {
+  "roman": "matone",
+  "gloss": "gift",
+  "source": "bleaman",
+  "word": "מתּנה",
+  "count": 3
+ },
+ {
+  "roman": "Beys-El",
+  "gloss": "Bethel",
+  "source": "manual",
+  "word": "בית־אל",
+  "count": 3
+ },
+ {
+  "roman": "Rokhl",
+  "gloss": "Rachel",
+  "source": "bleaman+names",
+  "word": "רחל",
+  "count": 3
+ },
+ {
+  "roman": "shlukhim",
+  "gloss": "messengers",
+  "source": "manual",
+  "word": "שלוחים",
+  "count": 2
+ },
+ {
+  "roman": "Edem",
+  "gloss": "Edom",
+  "source": "bleaman+names",
+  "word": "אדום",
+  "count": 2
+ },
+ {
+  "roman": "moyre",
+  "gloss": "fear",
+  "source": "bleaman",
+  "word": "מורא",
+  "count": 2
+ },
+ {
+  "roman": "makhnes",
+  "gloss": "camps",
+  "source": "bleaman+names",
+  "word": "מחנות",
+  "count": 2
+ },
+ {
+  "roman": "Avrom",
+  "gloss": "Abraham",
+  "source": "bleaman+names",
+  "word": "אַבֿרהם",
+  "count": 2
+ },
+ {
+  "roman": "Binyomen",
+  "gloss": "Benjamin",
+  "source": "bleaman+names",
+  "word": "בנימין",
+  "count": 2
+ },
+ {
+  "roman": "matseyve",
+  "gloss": "gravestone",
+  "source": "bleaman",
+  "word": "מצבֿה",
+  "count": 2
+ },
+ {
+  "roman": "Khevron",
+  "gloss": "Hebron",
+  "source": "bleaman+names",
+  "word": "חבֿרון",
+  "count": 2
+ },
+ {
+  "roman": "khasodim",
+  "gloss": "kindnesses, favors",
+  "source": "bleaman+names",
+  "word": "חסדים",
+  "count": 1
+ },
+ {
+  "roman": "Yardn",
+  "gloss": "the Jordan (river)",
+  "source": "bleaman+names",
+  "word": "ירדן",
+  "count": 1
+ },
+ {
+  "roman": "yam",
+  "gloss": "ocean, sea",
+  "source": "bleaman",
+  "word": "ים",
+  "count": 1
+ },
+ {
+  "roman": "matones",
+  "gloss": "gift",
+  "source": "bleaman",
+  "word": "מתּנות",
+  "count": 1
+ },
+ {
+  "roman": "tomed",
+  "gloss": "always",
+  "source": "bleaman",
+  "word": "תּמיד",
+  "count": 1
+ },
+ {
+  "roman": "beys",
+  "gloss": "while; during",
+  "source": "bleaman",
+  "word": "בעת",
+  "count": 1
+ },
+ {
+  "roman": "Yisroel",
+  "gloss": "Israel",
+  "source": "bleaman+names",
+  "word": "ישׂראל",
+  "count": 1
+ },
+ {
+  "roman": "mlokhim",
+  "gloss": "kings",
+  "source": "bleaman+names",
+  "word": "מלכים",
+  "count": 1
+ },
+ {
+  "roman": "Efras",
+  "gloss": "Ephrath",
+  "source": "manual",
+  "word": "אפֿרת",
+  "count": 1
+ },
+ {
+  "roman": "keyver",
+  "gloss": "grave",
+  "source": "bleaman",
+  "word": "קבֿר",
+  "count": 1
+ },
+ {
+  "roman": "Reuvn",
+  "gloss": "Reuben",
+  "source": "manual",
+  "word": "ראובֿן",
+  "count": 1
+ },
+ {
+  "roman": "Shimen",
+  "gloss": "Simeon",
+  "source": "bleaman+names",
+  "word": "שמעון",
+  "count": 1
+ },
+ {
+  "roman": "Levi",
+  "gloss": "Levi",
+  "source": "manual",
+  "word": "לוי",
+  "count": 1
+ },
+ {
+  "roman": "Yehude",
+  "gloss": "Judah",
+  "source": "bleaman+names",
+  "word": "יהודה",
+  "count": 1
+ },
+ {
+  "roman": "Yisokher",
+  "gloss": "Issachar",
+  "source": "bleaman+names",
+  "word": "ישׂשׂכר",
+  "count": 1
+ },
+ {
+  "roman": "Zvulun",
+  "gloss": "Zebulun",
+  "source": "manual",
+  "word": "זבֿולון",
+  "count": 1
+ },
+ {
+  "roman": "Dan",
+  "gloss": "Dan",
+  "source": "bleaman+names",
+  "word": "דן",
+  "count": 1
+ },
+ {
+  "roman": "Naftole",
+  "gloss": "Naphtali",
+  "source": "bleaman+names",
+  "word": "נפֿתּלי",
+  "count": 1
+ },
+ {
+  "roman": "Gad",
+  "gloss": "Gad",
+  "source": "bleaman+names",
+  "word": "גד",
+  "count": 1
+ },
+ {
+  "roman": "Osher",
+  "gloss": "Asher",
+  "source": "bleaman+names",
+  "word": "אָשר",
+  "count": 1
+ },
+ {
+  "roman": "Yoysef",
+  "gloss": "Joseph",
+  "source": "bleaman+names",
+  "word": "יוסף",
+  "count": 1
+ },
+ {
+  "roman": "Makhpeyle",
+  "gloss": "Machpelah (cave)",
+  "source": "manual",
+  "word": "מכפּלה",
+  "count": 1
+ },
+ {
+  "roman": "ovinu",
+  "gloss": "our father",
+  "source": "manual",
+  "word": "אָבֿינו",
+  "count": 1
+ }
+]

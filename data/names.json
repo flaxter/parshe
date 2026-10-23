@@ -389,5 +389,75 @@
   "roman": "malokhim",
   "gloss": "angels",
   "source": "manual"
+ },
+ "אדום": {
+  "roman": "Edem",
+  "gloss": "Edom",
+  "source": "manual"
+ },
+ "מחנה": {
+  "roman": "makhne",
+  "gloss": "camp",
+  "source": "manual"
+ },
+ "מחנות": {
+  "roman": "makhnes",
+  "gloss": "camps",
+  "source": "manual"
+ },
+ "בנימין": {
+  "roman": "Binyomen",
+  "gloss": "Benjamin",
+  "source": "manual"
+ },
+ "חסדים": {
+  "roman": "khasodim",
+  "gloss": "kindnesses, favors",
+  "source": "manual"
+ },
+ "מלכים": {
+  "roman": "mlokhim",
+  "gloss": "kings",
+  "source": "manual"
+ },
+ "אפֿרת": {
+  "roman": "Efras",
+  "gloss": "Ephrath",
+  "source": "manual"
+ },
+ "ישׂשׂכר": {
+  "roman": "Yisokher",
+  "gloss": "Issachar",
+  "source": "manual"
+ },
+ "זבֿולון": {
+  "roman": "Zvulun",
+  "gloss": "Zebulun",
+  "source": "manual"
+ },
+ "נפֿתּלי": {
+  "roman": "Naftole",
+  "gloss": "Naphtali",
+  "source": "manual"
+ },
+ "גד": {
+  "roman": "Gad",
+  "gloss": "Gad",
+  "source": "manual"
+ },
+ "אָשר": {
+  "roman": "Osher",
+  "gloss": "Asher",
+  "source": "manual"
+ },
+ "דן": {
+  "roman": "Dan",
+  "gloss": "Dan",
+  "source": "manual"
+ },
+ "שלוחים": {
+  "roman": "shlukhim",
+  "gloss": "messengers",
+  "source": "manual"
  }
 }
