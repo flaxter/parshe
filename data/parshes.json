@@ -1,0 +1,380 @@
+[
+ {
+  "slug": "bereshit",
+  "hebcal": "Bereshit",
+  "yi": "בראשית",
+  "translit": "Breyshis",
+  "book_yi": "בראשית"
+ },
+ {
+  "slug": "noach",
+  "hebcal": "Noach",
+  "yi": "נח",
+  "translit": "Noyekh",
+  "book_yi": "בראשית"
+ },
+ {
+  "slug": "lekh-lekha",
+  "hebcal": "Lech-Lecha",
+  "yi": "לך־לך",
+  "translit": "Lekh-Lekho",
+  "book_yi": "בראשית"
+ },
+ {
+  "slug": "vayera",
+  "hebcal": "Vayera",
+  "yi": "וירא",
+  "translit": "Vayeyro",
+  "book_yi": "בראשית"
+ },
+ {
+  "slug": "chayei-sara",
+  "hebcal": "Chayei Sara",
+  "yi": "חיי שׂרה",
+  "translit": "Khayey Sore",
+  "book_yi": "בראשית"
+ },
+ {
+  "slug": "toldot",
+  "hebcal": "Toldot",
+  "yi": "תּולדות",
+  "translit": "Toldes",
+  "book_yi": "בראשית"
+ },
+ {
+  "slug": "vayetzei",
+  "hebcal": "Vayetzei",
+  "yi": "ויצא",
+  "translit": "Vayeytsey",
+  "book_yi": "בראשית"
+ },
+ {
+  "slug": "vayishlach",
+  "hebcal": "Vayishlach",
+  "yi": "וישלח",
+  "translit": "Vayishlakh",
+  "book_yi": "בראשית"
+ },
+ {
+  "slug": "vayeshev",
+  "hebcal": "Vayeshev",
+  "yi": "וישב",
+  "translit": "Vayeyshev",
+  "book_yi": "בראשית"
+ },
+ {
+  "slug": "miketz",
+  "hebcal": "Miketz",
+  "yi": "מקץ",
+  "translit": "Mikeyts",
+  "book_yi": "בראשית"
+ },
+ {
+  "slug": "vayigash",
+  "hebcal": "Vayigash",
+  "yi": "ויגש",
+  "translit": "Vayigash",
+  "book_yi": "בראשית"
+ },
+ {
+  "slug": "vayechi",
+  "hebcal": "Vayechi",
+  "yi": "ויחי",
+  "translit": "Vaykhi",
+  "book_yi": "בראשית"
+ },
+ {
+  "slug": "shemot",
+  "hebcal": "Shemot",
+  "yi": "שמות",
+  "translit": "Shmoys",
+  "book_yi": "שמות"
+ },
+ {
+  "slug": "vaera",
+  "hebcal": "Vaera",
+  "yi": "וארא",
+  "translit": "Voeyro",
+  "book_yi": "שמות"
+ },
+ {
+  "slug": "bo",
+  "hebcal": "Bo",
+  "yi": "בא",
+  "translit": "Boy",
+  "book_yi": "שמות"
+ },
+ {
+  "slug": "beshalach",
+  "hebcal": "Beshalach",
+  "yi": "בשלח",
+  "translit": "Beshalakh",
+  "book_yi": "שמות"
+ },
+ {
+  "slug": "yitro",
+  "hebcal": "Yitro",
+  "yi": "יתרו",
+  "translit": "Yisre",
+  "book_yi": "שמות"
+ },
+ {
+  "slug": "mishpatim",
+  "hebcal": "Mishpatim",
+  "yi": "משפּטים",
+  "translit": "Mishpotim",
+  "book_yi": "שמות"
+ },
+ {
+  "slug": "terumah",
+  "hebcal": "Terumah",
+  "yi": "תּרומה",
+  "translit": "Trume",
+  "book_yi": "שמות"
+ },
+ {
+  "slug": "tetzaveh",
+  "hebcal": "Tetzaveh",
+  "yi": "תּצוה",
+  "translit": "Tetsave",
+  "book_yi": "שמות"
+ },
+ {
+  "slug": "ki-tisa",
+  "hebcal": "Ki Tisa",
+  "yi": "כּי תּשׂא",
+  "translit": "Ki Siso",
+  "book_yi": "שמות"
+ },
+ {
+  "slug": "vayakhel",
+  "hebcal": "Vayakhel",
+  "yi": "ויקהל",
+  "translit": "Vayakhel",
+  "book_yi": "שמות"
+ },
+ {
+  "slug": "pekudei",
+  "hebcal": "Pekudei",
+  "yi": "פּקודי",
+  "translit": "Pkudey",
+  "book_yi": "שמות"
+ },
+ {
+  "slug": "vayikra",
+  "hebcal": "Vayikra",
+  "yi": "ויקרא",
+  "translit": "Vayikro",
+  "book_yi": "ויקרא"
+ },
+ {
+  "slug": "tzav",
+  "hebcal": "Tzav",
+  "yi": "צו",
+  "translit": "Tsav",
+  "book_yi": "ויקרא"
+ },
+ {
+  "slug": "shmini",
+  "hebcal": "Shmini",
+  "yi": "שמיני",
+  "translit": "Shmini",
+  "book_yi": "ויקרא"
+ },
+ {
+  "slug": "tazria",
+  "hebcal": "Tazria",
+  "yi": "תּזריע",
+  "translit": "Tazrie",
+  "book_yi": "ויקרא"
+ },
+ {
+  "slug": "metzora",
+  "hebcal": "Metzora",
+  "yi": "מצורע",
+  "translit": "Metsoyre",
+  "book_yi": "ויקרא"
+ },
+ {
+  "slug": "achrei-mot",
+  "hebcal": "Achrei Mot",
+  "yi": "אַחרי מות",
+  "translit": "Akhrey Moys",
+  "book_yi": "ויקרא"
+ },
+ {
+  "slug": "kedoshim",
+  "hebcal": "Kedoshim",
+  "yi": "קדושים",
+  "translit": "Kdoyshim",
+  "book_yi": "ויקרא"
+ },
+ {
+  "slug": "emor",
+  "hebcal": "Emor",
+  "yi": "אמור",
+  "translit": "Emor",
+  "book_yi": "ויקרא"
+ },
+ {
+  "slug": "behar",
+  "hebcal": "Behar",
+  "yi": "בהר",
+  "translit": "Behar",
+  "book_yi": "ויקרא"
+ },
+ {
+  "slug": "bechukotai",
+  "hebcal": "Bechukotai",
+  "yi": "בחוקותי",
+  "translit": "Bekhukoysay",
+  "book_yi": "ויקרא"
+ },
+ {
+  "slug": "bamidbar",
+  "hebcal": "Bamidbar",
+  "yi": "במדבר",
+  "translit": "Bamidber",
+  "book_yi": "במדבר"
+ },
+ {
+  "slug": "nasso",
+  "hebcal": "Nasso",
+  "yi": "נשׂא",
+  "translit": "Noso",
+  "book_yi": "במדבר"
+ },
+ {
+  "slug": "behaalotcha",
+  "hebcal": "Beha'alotcha",
+  "yi": "בהעלותך",
+  "translit": "Behaaloyskho",
+  "book_yi": "במדבר"
+ },
+ {
+  "slug": "shlach",
+  "hebcal": "Sh'lach",
+  "yi": "שלח",
+  "translit": "Shlakh",
+  "book_yi": "במדבר"
+ },
+ {
+  "slug": "korach",
+  "hebcal": "Korach",
+  "yi": "קורח",
+  "translit": "Koyrekh",
+  "book_yi": "במדבר"
+ },
+ {
+  "slug": "chukat",
+  "hebcal": "Chukat",
+  "yi": "חוקת",
+  "translit": "Khukas",
+  "book_yi": "במדבר"
+ },
+ {
+  "slug": "balak",
+  "hebcal": "Balak",
+  "yi": "בלק",
+  "translit": "Bolok",
+  "book_yi": "במדבר"
+ },
+ {
+  "slug": "pinchas",
+  "hebcal": "Pinchas",
+  "yi": "פּינחס",
+  "translit": "Pinkhes",
+  "book_yi": "במדבר"
+ },
+ {
+  "slug": "matot",
+  "hebcal": "Matot",
+  "yi": "מטות",
+  "translit": "Matos",
+  "book_yi": "במדבר"
+ },
+ {
+  "slug": "masei",
+  "hebcal": "Masei",
+  "yi": "מסעי",
+  "translit": "Masey",
+  "book_yi": "במדבר"
+ },
+ {
+  "slug": "devarim",
+  "hebcal": "Devarim",
+  "yi": "דברים",
+  "translit": "Dvorim",
+  "book_yi": "דברים"
+ },
+ {
+  "slug": "vaetchanan",
+  "hebcal": "Vaetchanan",
+  "yi": "ואתחנן",
+  "translit": "Voeskhanen",
+  "book_yi": "דברים"
+ },
+ {
+  "slug": "eikev",
+  "hebcal": "Eikev",
+  "yi": "עקב",
+  "translit": "Eykev",
+  "book_yi": "דברים"
+ },
+ {
+  "slug": "reeh",
+  "hebcal": "Re'eh",
+  "yi": "ראה",
+  "translit": "Ree",
+  "book_yi": "דברים"
+ },
+ {
+  "slug": "shoftim",
+  "hebcal": "Shoftim",
+  "yi": "שופֿטים",
+  "translit": "Shoftim",
+  "book_yi": "דברים"
+ },
+ {
+  "slug": "ki-teitzei",
+  "hebcal": "Ki Teitzei",
+  "yi": "כּי תצא",
+  "translit": "Ki Seytsey",
+  "book_yi": "דברים"
+ },
+ {
+  "slug": "ki-tavo",
+  "hebcal": "Ki Tavo",
+  "yi": "כּי תבוא",
+  "translit": "Ki Sovoy",
+  "book_yi": "דברים"
+ },
+ {
+  "slug": "nitzavim",
+  "hebcal": "Nitzavim",
+  "yi": "נצבים",
+  "translit": "Nitsovim",
+  "book_yi": "דברים"
+ },
+ {
+  "slug": "vayeilech",
+  "hebcal": "Vayeilech",
+  "yi": "וילך",
+  "translit": "Vayeylekh",
+  "book_yi": "דברים"
+ },
+ {
+  "slug": "haazinu",
+  "hebcal": "Ha'azinu",
+  "yi": "האַזינו",
+  "translit": "Haazinu",
+  "book_yi": "דברים"
+ },
+ {
+  "slug": "vezot-haberakhah",
+  "hebcal": "Vezot Haberakhah",
+  "yi": "וזאת הברכה",
+  "translit": "Vezoys Habrokhe",
+  "book_yi": "דברים"
+ }
+]

@@ -1,0 +1,331 @@
+{
+ "Bereshit": {
+  "date": "2026-10-10",
+  "he": "בְּרֵאשִׁית",
+  "torah": "Genesis 1:1-6:8",
+  "haft": "I Samuel 20:18-42",
+  "haft_seph": null
+ },
+ "Noach": {
+  "date": "2026-10-17",
+  "he": "נֹחַ",
+  "torah": "Genesis 6:9-11:32",
+  "haft": "Isaiah 54:1-55:5",
+  "haft_seph": "Isaiah 54:1-10"
+ },
+ "Lech-Lecha": {
+  "date": "2026-10-24",
+  "he": "לֶךְ־לְךָ",
+  "torah": "Genesis 12:1-17:27",
+  "haft": "Isaiah 40:27-41:16",
+  "haft_seph": null
+ },
+ "Vayera": {
+  "date": "2026-10-31",
+  "he": "וַיֵּרָא",
+  "torah": "Genesis 18:1-22:24",
+  "haft": "II Kings 4:1-37",
+  "haft_seph": "II Kings 4:1-23"
+ },
+ "Chayei Sara": {
+  "date": "2026-11-07",
+  "he": "חַיֵּי שָֹרָה",
+  "torah": "Genesis 23:1-25:18",
+  "haft": "I Kings 1:1-31",
+  "haft_seph": null
+ },
+ "Toldot": {
+  "date": "2026-11-14",
+  "he": "תּוֹלְדוֹת",
+  "torah": "Genesis 25:19-28:9",
+  "haft": "Malachi 1:1-2:7",
+  "haft_seph": null
+ },
+ "Vayetzei": {
+  "date": "2026-11-21",
+  "he": "וַיֵּצֵא",
+  "torah": "Genesis 28:10-32:3",
+  "haft": "Hosea 12:13-14:10",
+  "haft_seph": "Hosea 11:7-12:12"
+ },
+ "Vayishlach": {
+  "date": "2026-11-28",
+  "he": "וַיִּשְׁלַח",
+  "torah": "Genesis 32:4-36:43",
+  "haft": "Obadiah 1:1-21",
+  "haft_seph": null
+ },
+ "Vayeshev": {
+  "date": "2026-12-05",
+  "he": "וַיֵּשֶׁב",
+  "torah": "Genesis 37:1-40:23",
+  "haft": "Zechariah 2:14-4:7",
+  "haft_seph": null
+ },
+ "Miketz": {
+  "date": "2026-12-12",
+  "he": "מִקֵּץ",
+  "torah": "Genesis 41:1-44:17",
+  "haft": "I Kings 7:40-50",
+  "haft_seph": null
+ },
+ "Vayigash": {
+  "date": "2026-12-19",
+  "he": "וַיִּגַּשׁ",
+  "torah": "Genesis 44:18-47:27",
+  "haft": "Ezekiel 37:15-28",
+  "haft_seph": null
+ },
+ "Vayechi": {
+  "date": "2026-12-26",
+  "he": "וַיְחִי",
+  "torah": "Genesis 47:28-50:26",
+  "haft": "I Kings 2:1-12",
+  "haft_seph": null
+ },
+ "Shemot": {
+  "date": "2027-01-02",
+  "he": "שְׁמוֹת",
+  "torah": "Exodus 1:1-6:1",
+  "haft": "Isaiah 27:6-28:13, 29:22-23",
+  "haft_seph": "Jeremiah 1:1-2:3"
+ },
+ "Vaera": {
+  "date": "2027-01-09",
+  "he": "וָאֵרָא",
+  "torah": "Exodus 6:2-9:35",
+  "haft": "Isaiah 66:1-24",
+  "haft_seph": null
+ },
+ "Bo": {
+  "date": "2027-01-16",
+  "he": "בֹּא",
+  "torah": "Exodus 10:1-13:16",
+  "haft": "Jeremiah 46:13-28",
+  "haft_seph": null
+ },
+ "Beshalach": {
+  "date": "2027-01-23",
+  "he": "בְּשַׁלַּח",
+  "torah": "Exodus 13:17-17:16",
+  "haft": "Judges 4:4-5:31",
+  "haft_seph": "Judges 5:1-31"
+ },
+ "Yitro": {
+  "date": "2027-01-30",
+  "he": "יִתְרוֹ",
+  "torah": "Exodus 18:1-20:23",
+  "haft": "Isaiah 6:1-7:6, 9:5-6",
+  "haft_seph": "Isaiah 6:1-13"
+ },
+ "Mishpatim": {
+  "date": "2027-02-06",
+  "he": "מִשְׁפָּטִים",
+  "torah": "Exodus 21:1-24:18",
+  "haft": "I Samuel 20:18-42",
+  "haft_seph": null
+ },
+ "Terumah": {
+  "date": "2027-02-13",
+  "he": "תְּרוּמָה",
+  "torah": "Exodus 25:1-27:19",
+  "haft": "I Kings 5:26-6:13",
+  "haft_seph": null
+ },
+ "Tetzaveh": {
+  "date": "2027-02-20",
+  "he": "תְּצַוֶּה",
+  "torah": "Exodus 27:20-30:10",
+  "haft": "Ezekiel 43:10-27",
+  "haft_seph": null
+ },
+ "Ki Tisa": {
+  "date": "2027-02-27",
+  "he": "כִּי תִשָּׂא",
+  "torah": "Exodus 30:11-34:35",
+  "haft": "I Kings 18:1-39",
+  "haft_seph": "I Kings 18:20-39"
+ },
+ "Vayakhel": {
+  "date": "2027-03-06",
+  "he": "וַיַּקְהֵל",
+  "torah": "Exodus 35:1-38:20",
+  "haft": "II Kings 12:1-17",
+  "haft_seph": "II Kings 11:17-12:17"
+ },
+ "Pekudei": {
+  "date": "2027-03-13",
+  "he": "פְקוּדֵי",
+  "torah": "Exodus 38:21-40:38",
+  "haft": "I Kings 7:51-8:21",
+  "haft_seph": "I Kings 7:40-50"
+ },
+ "Vayikra": {
+  "date": "2027-03-20",
+  "he": "וַיִּקְרָא",
+  "torah": "Leviticus 1:1-5:26",
+  "haft": "I Samuel 15:2-34",
+  "haft_seph": "I Samuel 15:1-34"
+ },
+ "Tzav": {
+  "date": "2027-03-27",
+  "he": "צַו",
+  "torah": "Leviticus 6:1-8:36",
+  "haft": "Ezekiel 36:16-38",
+  "haft_seph": "Ezekiel 36:16-36"
+ },
+ "Tazria": {
+  "date": "2027-04-10",
+  "he": "תַזְרִיעַ",
+  "torah": "Leviticus 12:1-13:59",
+  "haft": "II Kings 4:42-5:19",
+  "haft_seph": null
+ },
+ "Metzora": {
+  "date": "2027-04-17",
+  "he": "מְצֹרָע",
+  "torah": "Leviticus 14:1-15:33",
+  "haft": "Malachi 3:4-24",
+  "haft_seph": null
+ },
+ "Achrei Mot": {
+  "date": "2027-05-01",
+  "he": "אַחֲרֵי מוֹת",
+  "torah": "Leviticus 16:1-18:30",
+  "haft": "Amos 9:7-15",
+  "haft_seph": "Ezekiel 22:1-16"
+ },
+ "Kedoshim": {
+  "date": "2027-05-08",
+  "he": "קְדֹשִׁים",
+  "torah": "Leviticus 19:1-20:27",
+  "haft": "Isaiah 66:1-24",
+  "haft_seph": null
+ },
+ "Emor": {
+  "date": "2027-05-15",
+  "he": "אֱמוֹר",
+  "torah": "Leviticus 21:1-24:23",
+  "haft": "Ezekiel 44:15-31",
+  "haft_seph": null
+ },
+ "Behar": {
+  "date": "2027-05-22",
+  "he": "בְּהַר",
+  "torah": "Leviticus 25:1-26:2",
+  "haft": "Jeremiah 32:6-27",
+  "haft_seph": null
+ },
+ "Bechukotai": {
+  "date": "2027-05-29",
+  "he": "בְּחֻקֹּתַי",
+  "torah": "Leviticus 26:3-27:34",
+  "haft": "Jeremiah 16:19-17:14",
+  "haft_seph": null
+ },
+ "Bamidbar": {
+  "date": "2027-06-05",
+  "he": "בְּמִדְבַּר",
+  "torah": "Numbers 1:1-4:20",
+  "haft": "I Samuel 20:18-42",
+  "haft_seph": null
+ },
+ "Nasso": {
+  "date": "2027-06-19",
+  "he": "נָשׂא",
+  "torah": "Numbers 4:21-7:89",
+  "haft": "Judges 13:2-25",
+  "haft_seph": null
+ },
+ "Beha'alotcha": {
+  "date": "2027-06-26",
+  "he": "בְּהַעֲלֹתְךָ",
+  "torah": "Numbers 8:1-12:16",
+  "haft": "Zechariah 2:14-4:7",
+  "haft_seph": null
+ },
+ "Sh'lach": {
+  "date": "2027-07-03",
+  "he": "שְׁלַח־לְךָ",
+  "torah": "Numbers 13:1-15:41",
+  "haft": "Joshua 2:1-24",
+  "haft_seph": null
+ },
+ "Korach": {
+  "date": "2027-07-10",
+  "he": "קֹרַח",
+  "torah": "Numbers 16:1-18:32",
+  "haft": "I Samuel 11:14-12:22",
+  "haft_seph": null
+ },
+ "Chukat-Balak": {
+  "date": "2027-07-17",
+  "he": "חֻקַּת־בָּלָק",
+  "torah": "Numbers 19:1-25:9",
+  "haft": "Micah 5:6-6:8",
+  "haft_seph": null
+ },
+ "Pinchas": {
+  "date": "2027-07-24",
+  "he": "פִּינְחָס",
+  "torah": "Numbers 25:10-30:1",
+  "haft": "Jeremiah 1:1-2:3",
+  "haft_seph": null
+ },
+ "Matot-Masei": {
+  "date": "2027-07-31",
+  "he": "מַטּוֹת־מַסְעֵי",
+  "torah": "Numbers 30:2-36:13",
+  "haft": "Jeremiah 2:4-28, 3:4",
+  "haft_seph": "Jeremiah 2:4-28, 4:1-2"
+ },
+ "Devarim": {
+  "date": "2027-08-07",
+  "he": "דְּבָרִים",
+  "torah": "Deuteronomy 1:1-3:22",
+  "haft": "Isaiah 1:1-27",
+  "haft_seph": null
+ },
+ "Vaetchanan": {
+  "date": "2027-08-14",
+  "he": "וָאֶתְחַנַּן",
+  "torah": "Deuteronomy 3:23-7:11",
+  "haft": "Isaiah 40:1-26",
+  "haft_seph": null
+ },
+ "Eikev": {
+  "date": "2027-08-21",
+  "he": "עֵקֶב",
+  "torah": "Deuteronomy 7:12-11:25",
+  "haft": "Isaiah 49:14-51:3",
+  "haft_seph": null
+ },
+ "Re'eh": {
+  "date": "2027-08-28",
+  "he": "רְאֵה",
+  "torah": "Deuteronomy 11:26-16:17",
+  "haft": "Isaiah 54:11-55:5",
+  "haft_seph": null
+ },
+ "Shoftim": {
+  "date": "2027-09-04",
+  "he": "שׁוֹפְטִים",
+  "torah": "Deuteronomy 16:18-21:9",
+  "haft": "Isaiah 51:12-52:12",
+  "haft_seph": null
+ },
+ "Ki Teitzei": {
+  "date": "2027-09-11",
+  "he": "כִּי־תֵצֵא",
+  "torah": "Deuteronomy 21:10-25:19",
+  "haft": "Isaiah 54:1-10",
+  "haft_seph": null
+ },
+ "Ki Tavo": {
+  "date": "2027-09-18",
+  "he": "כִּי־תָבוֹא",
+  "torah": "Deuteronomy 26:1-29:8",
+  "haft": "Isaiah 60:1-22",
+  "haft_seph": null
+ }
+}

@@ -1,0 +1,52 @@
+{
+"אברהמען": null,
+"על": null,
+"זן": null,
+"אברהמס": null,
+"בן": {
+"roman": "ben",
+"gloss": "plural",
+"source": "finkel"
+},
+"מלך": {
+"roman": "meylekh",
+"gloss": "plural",
+"source": "finkel"
+},
+"מלחמה": {
+"roman": "milkhome",
+"gloss": "plural milkhome",
+"source": "finkel"
+},
+"דר": null,
+"אפילו": null,
+"נס": {
+"roman": "nes",
+"gloss": "plural",
+"source": "finkel"
+},
+"חלק": {
+"roman": "kheylek",
+"gloss": "plural",
+"source": "finkel"
+},
+"מורא": {
+"roman": "moyre",
+"gloss": "far a flig be afraid of one's shadow",
+"source": "finkel"
+},
+"פן": null,
+"חומש": {
+"roman": "khumesh",
+"gloss": "",
+"source": "finkel"
+},
+"סך": {
+"roman": "sakh",
+"gloss": "many, sum takes prefix",
+"source": "finkel"
+},
+"פנים": null,
+"משפטן": null,
+"הגרן": null
+}

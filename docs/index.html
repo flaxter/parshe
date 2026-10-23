@@ -1,0 +1,101 @@
+<!DOCTYPE html><html lang="yi" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>פּרשה פֿון דער װאָך</title><style>
+@font-face{font-family:"Frank Ruhl Libre";src:url(fonts/FrankRuhlLibre.ttf) format("truetype");font-weight:300 900;}
+@font-face{font-family:"Noto Sans Hebrew";src:url(fonts/NotoSansHebrew.ttf) format("truetype");font-weight:100 900;font-stretch:62.5% 100%;}
+:root{--ink:#2b2219;--sub:#7a6a58;--paper:#fffaf2;--accent:#b5531c;--accent2:#1f6f8b;--rule:#e2d5c2;}
+*{box-sizing:border-box}
+html{direction:rtl}
+body{margin:0;background:#efe6d6;color:var(--ink);font-family:"Frank Ruhl Libre",Georgia,serif;font-size:20px;line-height:1.55}
+.sheet{background:var(--paper);max-width:800px;margin:18px auto;padding:34px 40px 40px;box-shadow:0 4px 24px rgba(60,40,10,.14);border-radius:6px}
+nav.top{font-family:"Noto Sans Hebrew",sans-serif;font-size:15px;display:flex;gap:14px;align-items:center;justify-content:space-between;margin:-10px 0 18px;color:var(--sub)}
+nav.top a{color:var(--accent2);text-decoration:none;font-weight:600}
+nav.top button{font:inherit;font-weight:700;background:var(--accent);color:#fff;border:0;border-radius:999px;padding:7px 16px;cursor:pointer}
+nav.top a.pdf{display:inline-block;background:#fff;border:2px solid var(--accent);color:var(--accent);border-radius:999px;padding:5px 14px;margin-inline-end:6px}
+header.title{text-align:center;border-bottom:3px double var(--rule);padding-bottom:12px;margin-bottom:18px}
+.kicker{font-family:"Noto Sans Hebrew",sans-serif;font-size:14px;letter-spacing:.06em;color:var(--sub);text-transform:uppercase}
+h1{font-family:"Noto Sans Hebrew",sans-serif;font-weight:800;font-size:54px;margin:2px 0 0;line-height:1.1;color:var(--accent)}
+.sub{font-family:"Noto Sans Hebrew",sans-serif;font-size:17px;color:var(--sub);margin-top:6px}
+.sub .en{direction:ltr;unicode-bidi:isolate}
+figure.hero{margin:0 0 16px;text-align:center}
+figure.hero img{max-width:100%;max-height:360px;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.18)}
+figure.hero figcaption{font-size:14px;color:var(--sub);margin-top:6px;line-height:1.35}
+h2{font-family:"Noto Sans Hebrew",sans-serif;font-weight:700;font-size:25px;color:var(--accent2);margin:22px 0 6px}
+.story p{margin:0 0 .55em;text-align:right}
+.story p.said{margin-right:1.2em}
+.story p.fn{font-size:14px;color:var(--sub);border-top:1px solid var(--rule);padding-top:4px;margin-top:10px}
+.box{border:2px solid var(--rule);border-radius:12px;padding:12px 18px 14px;margin:18px 0;background:#fff}
+.box h2{margin-top:0;font-size:21px}
+.verse{margin:0 0 .5em}
+.verse .ref{font-family:"Noto Sans Hebrew",sans-serif;font-size:13px;color:var(--sub);margin-inline-end:8px;white-space:nowrap}
+ol.q{padding-right:1.3em;margin:0}
+ol.q li{margin:0 0 .5em}
+ol.q .en{display:block;font-family:"Noto Sans Hebrew",sans-serif;font-size:13px;color:var(--sub);direction:ltr;text-align:left}
+table.gl{width:100%;border-collapse:collapse;font-size:18px}
+table.gl td{padding:2px 8px;border-bottom:1px dotted var(--rule);vertical-align:baseline}
+table.gl td.w{font-weight:700;white-space:nowrap}
+table.gl td.r{direction:ltr;text-align:left;font-family:"Noto Sans Hebrew",sans-serif;font-size:15px;color:var(--accent);white-space:nowrap}
+table.gl td.g{direction:ltr;text-align:left;font-family:"Noto Sans Hebrew",sans-serif;font-size:13px;color:var(--sub);width:42%}
+.two{align-items:start}
+.box .note{font-family:"Noto Sans Hebrew",sans-serif;font-size:11px;color:var(--sub);margin-top:6px}
+.draw{border:2px dashed var(--accent);border-radius:12px;height:230px;position:relative;margin:18px 0}
+.draw span{position:absolute;top:8px;right:14px;font-family:"Noto Sans Hebrew",sans-serif;font-size:15px;color:var(--accent)}
+footer.src{font-family:"Noto Sans Hebrew",sans-serif;font-size:11.5px;color:var(--sub);border-top:1px solid var(--rule);margin-top:22px;padding-top:8px;line-height:1.45}
+footer.src a{color:var(--accent2)}
+details.grown{margin-top:26px;font-size:18px}
+details.grown summary{cursor:pointer;font-family:"Noto Sans Hebrew",sans-serif;font-weight:700;color:var(--accent2);font-size:18px}
+details.grown .v{margin:0 0 .3em}
+details.grown .n{font-family:"Noto Sans Hebrew",sans-serif;font-size:12px;color:var(--sub);margin-left:4px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:0 20px}
+@media (max-width:600px){.sheet{padding:22px 16px;margin:0;border-radius:0}h1{font-size:40px}body{font-size:18px}.two{grid-template-columns:1fr}}
+@media print{
+ @page{size:A4;margin:12mm 14mm 13mm}
+ body{background:#fff;font-size:13pt;line-height:1.4}
+ .sheet{box-shadow:none;max-width:none;margin:0;padding:0;border-radius:0;background:#fff}
+ nav.top,details.grown,.no-print{display:none!important}
+ h1{font-size:34pt}h2{font-size:16pt;margin:12pt 0 3pt;page-break-after:avoid}
+ header.title{margin-bottom:9pt;padding-bottom:6pt}
+ figure.hero{float:left;width:46%;margin:0 0 6pt 0;padding-left:0}
+ figure.hero img{max-height:72mm;box-shadow:none;border-radius:4px}
+ figure.hero figcaption{font-size:8.5pt}
+ .story{text-align:right}
+ .box{break-inside:avoid;margin:8pt 0;padding:7pt 11pt 8pt;border-color:#bbb;border-radius:8px}
+ .box h2{font-size:14pt}
+ .page2{}
+ .draw{height:96mm;break-inside:avoid}
+ .two{break-inside:avoid}
+ table.gl{font-size:11.5pt}
+ table.gl td{padding:1pt 6pt}
+ .gloss{break-inside:avoid}
+ .two{break-inside:avoid}
+ footer.src{font-size:8pt}
+ a{color:inherit;text-decoration:none}
+}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px;margin-bottom:10px}
+.card{display:block;border:2px solid var(--rule);border-radius:12px;padding:10px 8px;text-align:center;text-decoration:none;color:var(--sub);background:#f6efe3}
+.card b{display:block;font-family:"Noto Sans Hebrew",sans-serif;font-size:21px;color:inherit}
+.card i{font-style:normal;font-size:12px;font-family:"Noto Sans Hebrew",sans-serif}
+.card.on{background:#fff;color:var(--ink);border-color:var(--accent2)}
+.card a{text-decoration:none;color:inherit;display:block}
+.card .pdflink{margin-top:6px;font-family:"Noto Sans Hebrew",sans-serif;font-size:12px;color:var(--accent);font-weight:700}
+.card.now{outline:4px solid var(--accent);outline-offset:2px}
+h2 .en{font-size:14px;color:var(--sub);font-weight:400}
+#now{border:2px solid var(--accent);border-radius:14px;padding:12px 18px;margin:0 0 18px;font-family:"Noto Sans Hebrew",sans-serif}
+#now a{color:var(--accent);font-weight:800;font-size:28px;text-decoration:none}
+</style></head><body><div class="sheet">
+<header class="title"><div class="kicker">Parshe fun der vokh · far kinder</div><h1>די פּרשה פֿון דער װאָך</h1>
+<div class="sub">די װאָכעדיקע סדרה אויף ייִדיש פֿאַר קינדער — צום לייענען, צום דרוקן, צום מיטנעמען אין שול</div></header>
+<div id="now">די װאָך: <a id="nowlink" href="#">…</a> <span id="nowdate" style="color:var(--sub);font-size:14px"></span> <a id="nowpdf" class="pdflink" href="#" style="display:none;margin-inline-start:12px">⬇ PDF</a></div>
+<h2>בראשית <span class="en">Breyshis</span></h2><div class="grid"><span class="card" data-slug="bereshit" data-date="2026-10-10"><b>בראשית</b><i>Breyshis</i></span><span class="card" data-slug="noach" data-date="2026-10-17"><b>נח</b><i>Noyekh</i></span><span class="card on" data-slug="lekh-lekha" data-date="2026-10-24"><a href="lekh-lekha.html"><b>לך־לך</b><i>Lekh-Lekho</i></a><a class="pdflink" href="lekh-lekha.pdf">⬇ PDF</a></span><span class="card on" data-slug="vayera" data-date="2026-10-31"><a href="vayera.html"><b>וירא</b><i>Vayeyro</i></a><a class="pdflink" href="vayera.pdf">⬇ PDF</a></span><span class="card" data-slug="chayei-sara" data-date="2026-11-07"><b>חיי שׂרה</b><i>Khayey Sore</i></span><span class="card" data-slug="toldot" data-date="2026-11-14"><b>תּולדות</b><i>Toldes</i></span><span class="card" data-slug="vayetzei" data-date="2026-11-21"><b>ויצא</b><i>Vayeytsey</i></span><span class="card" data-slug="vayishlach" data-date="2026-11-28"><b>וישלח</b><i>Vayishlakh</i></span><span class="card" data-slug="vayeshev" data-date="2026-12-05"><b>וישב</b><i>Vayeyshev</i></span><span class="card" data-slug="miketz" data-date="2026-12-12"><b>מקץ</b><i>Mikeyts</i></span><span class="card" data-slug="vayigash" data-date="2026-12-19"><b>ויגש</b><i>Vayigash</i></span><span class="card" data-slug="vayechi" data-date="2026-12-26"><b>ויחי</b><i>Vaykhi</i></span></div><h2>שמות <span class="en">Shmoys</span></h2><div class="grid"><span class="card" data-slug="shemot" data-date="2027-01-02"><b>שמות</b><i>Shmoys</i></span><span class="card" data-slug="vaera" data-date="2027-01-09"><b>וארא</b><i>Voeyro</i></span><span class="card" data-slug="bo" data-date="2027-01-16"><b>בא</b><i>Boy</i></span><span class="card" data-slug="beshalach" data-date="2027-01-23"><b>בשלח</b><i>Beshalakh</i></span><span class="card" data-slug="yitro" data-date="2027-01-30"><b>יתרו</b><i>Yisre</i></span><span class="card" data-slug="mishpatim" data-date="2027-02-06"><b>משפּטים</b><i>Mishpotim</i></span><span class="card" data-slug="terumah" data-date="2027-02-13"><b>תּרומה</b><i>Trume</i></span><span class="card" data-slug="tetzaveh" data-date="2027-02-20"><b>תּצוה</b><i>Tetsave</i></span><span class="card" data-slug="ki-tisa" data-date="2027-02-27"><b>כּי תּשׂא</b><i>Ki Siso</i></span><span class="card" data-slug="vayakhel" data-date="2027-03-06"><b>ויקהל</b><i>Vayakhel</i></span><span class="card" data-slug="pekudei" data-date="2027-03-13"><b>פּקודי</b><i>Pkudey</i></span></div><h2>ויקרא <span class="en">Vayikro</span></h2><div class="grid"><span class="card" data-slug="vayikra" data-date="2027-03-20"><b>ויקרא</b><i>Vayikro</i></span><span class="card" data-slug="tzav" data-date="2027-03-27"><b>צו</b><i>Tsav</i></span><span class="card" data-slug="shmini" data-date=""><b>שמיני</b><i>Shmini</i></span><span class="card" data-slug="tazria" data-date="2027-04-10"><b>תּזריע</b><i>Tazrie</i></span><span class="card" data-slug="metzora" data-date="2027-04-17"><b>מצורע</b><i>Metsoyre</i></span><span class="card" data-slug="achrei-mot" data-date="2027-05-01"><b>אַחרי מות</b><i>Akhrey Moys</i></span><span class="card" data-slug="kedoshim" data-date="2027-05-08"><b>קדושים</b><i>Kdoyshim</i></span><span class="card" data-slug="emor" data-date="2027-05-15"><b>אמור</b><i>Emor</i></span><span class="card" data-slug="behar" data-date="2027-05-22"><b>בהר</b><i>Behar</i></span><span class="card" data-slug="bechukotai" data-date="2027-05-29"><b>בחוקותי</b><i>Bekhukoysay</i></span></div><h2>במדבר <span class="en">Bamidber</span></h2><div class="grid"><span class="card" data-slug="bamidbar" data-date="2027-06-05"><b>במדבר</b><i>Bamidber</i></span><span class="card" data-slug="nasso" data-date="2027-06-19"><b>נשׂא</b><i>Noso</i></span><span class="card" data-slug="behaalotcha" data-date="2027-06-26"><b>בהעלותך</b><i>Behaaloyskho</i></span><span class="card" data-slug="shlach" data-date="2027-07-03"><b>שלח</b><i>Shlakh</i></span><span class="card" data-slug="korach" data-date="2027-07-10"><b>קורח</b><i>Koyrekh</i></span><span class="card" data-slug="chukat" data-date=""><b>חוקת</b><i>Khukas</i></span><span class="card" data-slug="balak" data-date=""><b>בלק</b><i>Bolok</i></span><span class="card" data-slug="pinchas" data-date="2027-07-24"><b>פּינחס</b><i>Pinkhes</i></span><span class="card" data-slug="matot" data-date=""><b>מטות</b><i>Matos</i></span><span class="card" data-slug="masei" data-date=""><b>מסעי</b><i>Masey</i></span></div><h2>דברים <span class="en">Dvorim</span></h2><div class="grid"><span class="card" data-slug="devarim" data-date="2027-08-07"><b>דברים</b><i>Dvorim</i></span><span class="card" data-slug="vaetchanan" data-date="2027-08-14"><b>ואתחנן</b><i>Voeskhanen</i></span><span class="card" data-slug="eikev" data-date="2027-08-21"><b>עקב</b><i>Eykev</i></span><span class="card" data-slug="reeh" data-date="2027-08-28"><b>ראה</b><i>Ree</i></span><span class="card" data-slug="shoftim" data-date="2027-09-04"><b>שופֿטים</b><i>Shoftim</i></span><span class="card" data-slug="ki-teitzei" data-date="2027-09-11"><b>כּי תצא</b><i>Ki Seytsey</i></span><span class="card" data-slug="ki-tavo" data-date="2027-09-18"><b>כּי תבוא</b><i>Ki Sovoy</i></span><span class="card" data-slug="nitzavim" data-date=""><b>נצבים</b><i>Nitsovim</i></span><span class="card" data-slug="vayeilech" data-date=""><b>וילך</b><i>Vayeylekh</i></span><span class="card" data-slug="haazinu" data-date=""><b>האַזינו</b><i>Haazinu</i></span><span class="card" data-slug="vezot-haberakhah" data-date=""><b>וזאת הברכה</b><i>Vezoys Habrokhe</i></span></div>
+<footer class="src">מעשׂיות פֿון ייִדישע קינדער־חומשים (ייִדישער ביכער־צענטער), פּסוקים פֿון יהואשס תּנ״ך (CC0 דורך Sefaria), בילדער פֿון מיטל־עלטערלעכע ייִדישע כּתבֿ־ידן (public domain). <span style="direction:ltr;unicode-bidi:isolate">Built from <a href="https://github.com/flaxter/parshe">flaxter/parshe</a>.</span></footer>
+</div>
+<script>
+const ALIAS={"Bereshit": "bereshit", "Noach": "noach", "Lech-Lecha": "lekh-lekha", "Vayera": "vayera", "Chayei Sara": "chayei-sara", "Toldot": "toldot", "Vayetzei": "vayetzei", "Vayishlach": "vayishlach", "Vayeshev": "vayeshev", "Miketz": "miketz", "Vayigash": "vayigash", "Vayechi": "vayechi", "Shemot": "shemot", "Vaera": "vaera", "Bo": "bo", "Beshalach": "beshalach", "Yitro": "yitro", "Mishpatim": "mishpatim", "Terumah": "terumah", "Tetzaveh": "tetzaveh", "Ki Tisa": "ki-tisa", "Vayakhel": "vayakhel", "Pekudei": "pekudei", "Vayikra": "vayikra", "Tzav": "tzav", "Shmini": "shmini", "Tazria": "tazria", "Metzora": "metzora", "Achrei Mot": "achrei-mot", "Kedoshim": "kedoshim", "Emor": "emor", "Behar": "behar", "Bechukotai": "bechukotai", "Bamidbar": "bamidbar", "Nasso": "nasso", "Beha'alotcha": "behaalotcha", "Sh'lach": "shlach", "Korach": "korach", "Chukat": "chukat", "Balak": "balak", "Pinchas": "pinchas", "Matot": "matot", "Masei": "masei", "Devarim": "devarim", "Vaetchanan": "vaetchanan", "Eikev": "eikev", "Re'eh": "reeh", "Shoftim": "shoftim", "Ki Teitzei": "ki-teitzei", "Ki Tavo": "ki-tavo", "Nitzavim": "nitzavim", "Vayeilech": "vayeilech", "Ha'azinu": "haazinu", "Vezot Haberakhah": "vezot-haberakhah"};
+const norm=s=>s.toLowerCase().replace(/[^a-z]/g,'');
+function mark(slug,label,date){const a=document.getElementById('nowlink');const c=document.querySelector('.card[data-slug="'+slug+'"]');
+ if(c)c.classList.add('now'); a.textContent=c?c.querySelector('b').textContent:label; const l=c&&c.querySelector('a');a.href=l?l.href:'#'; if(date)document.getElementById('nowdate').textContent='('+date+')';}
+function fallback(){const today=new Date().toISOString().slice(0,10);let best=null;document.querySelectorAll('.card[data-date]').forEach(c=>{const d=c.dataset.date;if(d&&d>=today&&(!best||d<best.dataset.date))best=c;});if(best)mark(best.dataset.slug,best.dataset.slug,best.dataset.date);}
+fetch('https://www.sefaria.org/api/calendars?diaspora=1').then(r=>r.json()).then(d=>{const it=d.calendar_items.find(i=>i.title.en==='Parashat Hashavua');if(!it)return fallback();
+ const name=it.displayValue.en;const parts=name.split('-');let hit=null;for(const k in ALIAS){if(parts.some(x=>norm(x)===norm(k))){hit=ALIAS[k];break;}}
+ if(hit)mark(hit,name,d.date);else fallback();}).catch(fallback);
+</script></body></html>

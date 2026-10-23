@@ -1,0 +1,43 @@
+{
+  "slug": "lekh-lekha",
+  "hebcal": "Lech-Lecha",
+  "yi": "לך־לך",
+  "translit": "Lekh-Lekho",
+  "en": "Lech Lecha",
+  "book_yi": "בראשית",
+  "kids_sources": [
+    {
+      "label": "אהרן בראָמבערג, „חומש־מעשׂיות פֿאַר קינדער“ (אַרבעטער־רינג, 1956), זז׳ 18–21",
+      "ia": "nybc204961",
+      "leaf": 19,
+      "parts": [
+        "אַבֿרהם גייט אַװעק פֿון זײַן לאַנד",
+        "אַבֿרהם און לוט",
+        "אַבֿרהם און דער מלך פֿון סדום"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "sister-haggadah-f3-avrom-nimrod.jpg",
+      "place": "hero",
+      "caption": "אַבֿרם פֿאַר נמרוד, און אַבֿרם אין קאַלכאויװן (אַ מדרש װעגן אַבֿרמען אין אור־כּשׂדים, איידער ער איז אַװעק קיין כּנען)",
+      "credit": "„Sister Haggadah“, Catalonia c. 1350. British Library Or. 2884, f. 3. Public domain, via Wikimedia Commons."
+    }
+  ],
+  "verses": [
+    {
+      "ref": "Genesis 12:1-2",
+      "label": "בראשית יב, א–ב"
+    },
+    {
+      "ref": "Genesis 15:5",
+      "label": "בראשית טו, ה"
+    },
+    {
+      "ref": "Genesis 13:14-15",
+      "label": "בראשית יג, יד–טו"
+    }
+  ],
+  "draw_prompt": "מאָל דאָ עפּעס פֿון דער מעשׂה"
+}

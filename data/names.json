@@ -1,0 +1,158 @@
+{
+ "_note": "Biblical names and places missing from Bleaman's loshn-koydesh list and Finkel's dictionary. Romanization is YIVO, Ashkenazi/Yiddish pronunciation. Entries marked source=manual were written by Claude and should be checked by Seth.",
+ "חרן": {
+  "roman": "Khorn",
+  "gloss": "Haran (city)",
+  "source": "manual"
+ },
+ "עילם": {
+  "roman": "Eylom",
+  "gloss": "Elam",
+  "source": "manual"
+ },
+ "שׂרי": {
+  "roman": "Soray",
+  "gloss": "Sarai",
+  "source": "manual"
+ },
+ "אַבֿרם": {
+  "roman": "Avrom",
+  "gloss": "Abram",
+  "source": "manual"
+ },
+ "הגר": {
+  "roman": "Hogor",
+  "gloss": "Hagar",
+  "source": "manual"
+ },
+ "אור־כּשׂדים": {
+  "roman": "Ur-Kasdim",
+  "gloss": "Ur of the Chaldees",
+  "source": "manual"
+ },
+ "שכם": {
+  "roman": "Shkhem",
+  "gloss": "Shechem",
+  "source": "manual"
+ },
+ "ממרא": {
+  "roman": "Mamre",
+  "gloss": "Mamre",
+  "source": "manual"
+ },
+ "חבֿרון": {
+  "roman": "Khevron",
+  "gloss": "Hebron",
+  "source": "manual"
+ },
+ "נמרוד": {
+  "roman": "Nimrod",
+  "gloss": "Nimrod",
+  "source": "manual"
+ },
+ "תּרח": {
+  "roman": "Terakh",
+  "gloss": "Terah",
+  "source": "manual"
+ },
+ "אַבֿרהם": {
+  "roman": "Avrom",
+  "gloss": "Abraham",
+  "source": "manual"
+ },
+ "לוט": {
+  "roman": "Lot",
+  "gloss": "Lot",
+  "source": "manual"
+ },
+ "שׂרה": {
+  "roman": "Sore",
+  "gloss": "Sarah",
+  "source": "manual"
+ },
+ "יצחק": {
+  "roman": "Yitskhok",
+  "gloss": "Isaac",
+  "source": "manual"
+ },
+ "ישמעאל": {
+  "roman": "Yishmoel",
+  "gloss": "Ishmael",
+  "source": "manual"
+ },
+ "כּנען": {
+  "roman": "Knaan",
+  "gloss": "Canaan",
+  "source": "manual"
+ },
+ "סדום": {
+  "roman": "Sdom",
+  "gloss": "Sodom",
+  "source": "manual"
+ },
+ "ירדן": {
+  "roman": "Yardn",
+  "gloss": "the Jordan (river)",
+  "source": "manual"
+ },
+ "משפּטן": {
+  "roman": "mishpetn",
+  "gloss": "to judge",
+  "source": "manual"
+ },
+ "קול": {
+  "roman": "kol",
+  "gloss": "voice",
+  "source": "manual"
+ },
+ "מדבר": {
+  "roman": "midber",
+  "gloss": "desert, wilderness",
+  "source": "manual"
+ },
+ "ירשען": {
+  "roman": "yarshenen",
+  "gloss": "to inherit",
+  "source": "manual"
+ },
+ "זקנים": {
+  "roman": "zkeynim",
+  "gloss": "old people (sing. zokn)",
+  "source": "manual"
+ },
+ "עמורה": {
+  "roman": "Amoyre",
+  "gloss": "Gomorrah",
+  "source": "manual"
+ },
+ "מוריה": {
+  "roman": "Moriye",
+  "gloss": "Moriah",
+  "source": "manual"
+ },
+ "צוער": {
+  "roman": "Tsoyer",
+  "gloss": "Zoar",
+  "source": "manual"
+ },
+ "באר־שבֿע": {
+  "roman": "Beer-Sheve",
+  "gloss": "Beersheba",
+  "source": "manual"
+ },
+ "פּאָרן": {
+  "roman": "Poron",
+  "gloss": "Paran (desert)",
+  "source": "manual"
+ },
+ "חת": {
+  "roman": "Khes",
+  "gloss": "Heth (the Hittites)",
+  "source": "manual"
+ },
+ "עקדה": {
+  "roman": "akeyde",
+  "gloss": "the Binding (of Isaac)",
+  "source": "manual"
+ }
+}

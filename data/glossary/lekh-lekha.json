@@ -1,0 +1,79 @@
+[
+ {
+  "roman": "Avrom",
+  "gloss": "Abraham",
+  "source": "bleaman+names",
+  "word": "אַבֿרהם",
+  "count": 13
+ },
+ {
+  "roman": "Lot",
+  "gloss": "Lot",
+  "source": "bleaman+names",
+  "word": "לוט",
+  "count": 11
+ },
+ {
+  "roman": "Sdom",
+  "gloss": "Sodom",
+  "source": "bleaman+names",
+  "word": "סדום",
+  "count": 6
+ },
+ {
+  "roman": "meylekh",
+  "gloss": "king",
+  "source": "bleaman",
+  "word": "מלך",
+  "count": 6
+ },
+ {
+  "roman": "Yardn",
+  "gloss": "the Jordan (river)",
+  "source": "bleaman+names",
+  "word": "ירדן",
+  "count": 3
+ },
+ {
+  "roman": "Knaan",
+  "gloss": "Canaan",
+  "source": "bleaman+names",
+  "word": "כּנען",
+  "count": 2
+ },
+ {
+  "roman": "afile",
+  "gloss": "even; even if; only; although",
+  "source": "bleaman",
+  "word": "אַפֿילו",
+  "count": 2
+ },
+ {
+  "roman": "Khorn",
+  "gloss": "Haran (city)",
+  "source": "manual",
+  "word": "חרן",
+  "count": 1
+ },
+ {
+  "roman": "Sore",
+  "gloss": "Sarah",
+  "source": "bleaman+names",
+  "word": "שׂרה",
+  "count": 1
+ },
+ {
+  "roman": "milkhome",
+  "gloss": "war",
+  "source": "bleaman",
+  "word": "מלחמה",
+  "count": 1
+ },
+ {
+  "roman": "kheylek",
+  "gloss": "portion",
+  "source": "bleaman",
+  "word": "חלק",
+  "count": 1
+ }
+]
