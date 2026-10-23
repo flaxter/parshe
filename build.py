@@ -268,7 +268,7 @@ h2 .en{font-size:14px;color:var(--sub);font-weight:400}
 <script>
 const ALIAS={json.dumps(alias)};
 const norm=s=>s.toLowerCase().replace(/[^a-z]/g,'');
-function mark(slug,label,date){{const a=document.getElementById('nowlink');const c=document.querySelector('.card[data-slug="'+slug+'"]');
+function mark(slug,label,date){{const a=document.getElementById('nowlink');const pp=document.getElementById('nowpdf');if(document.querySelector('.card.on[data-slug="'+slug+'"]')){{pp.href=slug+'.pdf';pp.style.display='inline';}}const c=document.querySelector('.card[data-slug="'+slug+'"]');
  if(c)c.classList.add('now'); a.textContent=c?c.querySelector('b').textContent:label; const l=c&&c.querySelector('a');a.href=l?l.href:'#'; if(date)document.getElementById('nowdate').textContent='('+date+')';}}
 function fallback(){{const today=new Date().toISOString().slice(0,10);let best=null;document.querySelectorAll('.card[data-date]').forEach(c=>{{const d=c.dataset.date;if(d&&d>=today&&(!best||d<best.dataset.date))best=c;}});if(best)mark(best.dataset.slug,best.dataset.slug,best.dataset.date);}}
 fetch('https://www.sefaria.org/api/calendars?diaspora=1').then(r=>r.json()).then(d=>{{const it=d.calendar_items.find(i=>i.title.en==='Parashat Hashavua');if(!it)return fallback();
