@@ -1,0 +1,44 @@
+{
+  "slug": "noach",
+  "hebcal": "Noach",
+  "yi": "נח",
+  "translit": "Noyekh",
+  "en": "Noach",
+  "book_yi": "בראשית",
+  "kids_sources": [
+    {
+      "label": "אהרן בראָמבערג, „חומש־מעשׂיות פֿאַר קינדער“ (אַרבעטער־רינג, 1956), זז׳ 14–17",
+      "ia": "nybc204961",
+      "leaf": 15,
+      "parts": [
+        "נח",
+        "די תּיבֿה",
+        "דער מבול לאָזט אָפּ",
+        "נאָכן מבול"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "sister-haggadah-f2v-noyekh-tive.jpg",
+      "place": "hero",
+      "caption": "נח לאָזט אַרויס די חיות פֿון דער תּיבֿה; אויפֿן דאַך — די טויב",
+      "credit": "„Sister Haggadah“, Catalonia c. 1350. British Library Or. 2884, f. 2v (detail). Public domain, via Wikimedia Commons."
+    }
+  ],
+  "verses": [
+    {
+      "ref": "Genesis 7:12",
+      "label": "בראשית ז, יב"
+    },
+    {
+      "ref": "Genesis 8:11",
+      "label": "בראשית ח, יא"
+    },
+    {
+      "ref": "Genesis 9:13",
+      "label": "בראשית ט, יג"
+    }
+  ],
+  "draw_prompt": "מאָל דאָ עפּעס פֿון דער מעשׂה"
+}
