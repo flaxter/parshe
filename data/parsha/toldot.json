@@ -1,0 +1,44 @@
+{
+  "slug": "toldot",
+  "hebcal": "Toldot",
+  "yi": "תּולדות",
+  "translit": "Toldes",
+  "en": "Toldot",
+  "book_yi": "בראשית",
+  "kids_sources": [
+    {
+      "label": "אהרן בראָמבערג, „חומש־מעשׂיות פֿאַר קינדער“ (אַרבעטער־רינג, 1956), זז׳ 36–41",
+      "ia": "nybc204961",
+      "leaf": 37,
+      "parts": [
+        "יעקבֿ און עשׂו",
+        "פֿאַרקויפֿט די בכורה",
+        "דעם טאַטנס ברכה",
+        "יעקבֿ אַנטלויפֿט פֿון עשׂון"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "sister-haggadah-f4v-yitskhok-yankev-eysev.jpg",
+      "place": "hero",
+      "caption": "יצחק בענטשט יעקבֿן, רבֿקה שטייט לעבן זיי; פֿון פֿעלד קומט עשׂו מיט אַ געפֿאַנג",
+      "credit": "„Sister Haggadah“, Catalonia c. 1350. British Library Or. 2884, f. 4v (detail). Public domain, via Wikimedia Commons."
+    }
+  ],
+  "verses": [
+    {
+      "ref": "Genesis 25:27",
+      "label": "בראשית כה, כז"
+    },
+    {
+      "ref": "Genesis 27:22",
+      "label": "בראשית כז, כב"
+    },
+    {
+      "ref": "Genesis 27:28",
+      "label": "בראשית כז, כח"
+    }
+  ],
+  "draw_prompt": "מאָל דאָ עפּעס פֿון דער מעשׂה"
+}
