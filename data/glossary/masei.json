@@ -1,0 +1,58 @@
+[
+ {
+  "roman": "khaver",
+  "gloss": "fellow, neighbor, friend",
+  "source": "bleaman+names",
+  "word": "חבֿר",
+  "count": 3
+ },
+ {
+  "roman": "eydes",
+  "gloss": "testimony, witness",
+  "source": "bleaman+names",
+  "word": "עדות",
+  "count": 2
+ },
+ {
+  "roman": "Yardn",
+  "gloss": "the Jordan (river)",
+  "source": "bleaman+names",
+  "word": "ירדן",
+  "count": 2
+ },
+ {
+  "roman": "kivn",
+  "gloss": "intention (on a kivn: unintentionally)",
+  "source": "manual",
+  "word": "כּיװן",
+  "count": 2
+ },
+ {
+  "roman": "soyne",
+  "gloss": "enemy",
+  "source": "manual",
+  "word": "שונא",
+  "count": 2
+ },
+ {
+  "roman": "ganvet",
+  "gloss": "steals",
+  "source": "bleaman+names",
+  "word": "גנבֿעט",
+  "count": 1
+ },
+ {
+  "roman": "nefesh",
+  "gloss": "soul, person",
+  "source": "bleaman",
+  "word": "נפֿש",
+  "count": 1
+ },
+ {
+  "roman": "Knaan",
+  "gloss": "Canaan",
+  "source": "bleaman+names",
+  "word": "כּנען",
+  "count": 1
+ }
+]
