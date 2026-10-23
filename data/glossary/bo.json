@@ -21,13 +21,6 @@
   "count": 14
  },
  {
-  "roman": "Hashem",
-  "gloss": "God (the divine name)",
-  "source": "bleaman+names",
-  "word": "ה׳",
-  "count": 13
- },
- {
   "roman": "Yisroel",
   "gloss": "Israel",
   "source": "bleaman+names",
@@ -58,7 +51,7 @@
  {
   "roman": "ponem",
   "gloss": "face",
-  "source": "bleaman",
+  "source": "bleaman+names",
   "word": "פּנים",
   "count": 3
  },
@@ -91,9 +84,16 @@
   "count": 2
  },
  {
+  "roman": "ivrim",
+  "gloss": "Hebrews",
+  "source": "manual",
+  "word": "עבֿרים",
+  "count": 1
+ },
+ {
   "roman": "yontev",
-  "gloss": "religious holiday; trump (playing card)",
-  "source": "bleaman",
+  "gloss": "holiday, festival",
+  "source": "bleaman+names",
   "word": "יום־טובֿ",
   "count": 1
  },
@@ -162,7 +162,7 @@
  },
  {
   "roman": "makhnes",
-  "gloss": "camps, hosts",
+  "gloss": "camps",
   "source": "bleaman+names",
   "word": "מחנות",
   "count": 1
