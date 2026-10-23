@@ -22,3 +22,5 @@ parshes; those were assigned by majority and the close calls are listed in the a
 | metzora | Purity laws (Lev. 14–15); nothing in the book. |
 | achrei-mot | Yom Kippur service and forbidden relations (Lev. 16–18); only one clause (Lev. 16:29) inside the Pesach and Yom Kippur sub-sections, which belong to Re'eh and Emor. |
 | bechukotai | Blessings and curses, vows and valuations (Lev. 26:3–27:34); nothing in the book. |
+| bamidbar | Census and camp arrangement (Num. 1–4:20); the book's one census sub-section retells the second census (Num. 26) and is assigned to Pinchas. |
+| nasso | Levite duties, sotah, nazir, priestly blessing, princes' offerings (Num. 4:21–7); nothing in the book. |

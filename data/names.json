@@ -799,5 +799,65 @@
   "roman": "tvue",
   "gloss": "grain, crop",
   "source": "manual"
+ },
+ "אלדד": {
+  "roman": "Eldod",
+  "gloss": "Eldad",
+  "source": "manual"
+ },
+ "מידד": {
+  "roman": "Meydod",
+  "gloss": "Medad",
+  "source": "manual"
+ },
+ "מזרח": {
+  "roman": "mizrekh",
+  "gloss": "east",
+  "source": "manual"
+ },
+ "עדה": {
+  "roman": "eyde",
+  "gloss": "congregation, community",
+  "source": "manual"
+ },
+ "יום־טובֿים": {
+  "roman": "yontoyvim",
+  "gloss": "holidays, festivals",
+  "source": "manual"
+ },
+ "נבֿיאות": {
+  "roman": "nevies",
+  "gloss": "prophecies (zogn nevies: to prophesy)",
+  "source": "manual"
+ },
+ "נבֿיאים": {
+  "roman": "neviim",
+  "gloss": "prophets",
+  "source": "manual"
+ },
+ "נון": {
+  "roman": "Nun",
+  "gloss": "Nun (Joshua's father)",
+  "source": "manual"
+ },
+ "ראָש־חודשן": {
+  "roman": "roshkhoydeshn",
+  "gloss": "new-moon days",
+  "source": "manual"
+ },
+ "ענו": {
+  "roman": "onev",
+  "gloss": "humble man",
+  "source": "manual"
+ },
+ "דערהרגע": {
+  "roman": "derharge",
+  "gloss": "kill (imperative: derharge mikh, kill me)",
+  "source": "manual"
+ },
+ "אומחן": {
+  "roman": "umkheyn",
+  "gloss": "disfavor",
+  "source": "manual"
  }
 }
