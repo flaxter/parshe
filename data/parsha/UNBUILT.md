@@ -24,3 +24,5 @@ parshes; those were assigned by majority and the close calls are listed in the a
 | bechukotai | Blessings and curses, vows and valuations (Lev. 26:3–27:34); nothing in the book. |
 | bamidbar | Census and camp arrangement (Num. 1–4:20); the book's one census sub-section retells the second census (Num. 26) and is assigned to Pinchas. |
 | nasso | Levite duties, sotah, nazir, priestly blessing, princes' offerings (Num. 4:21–7); nothing in the book. |
+| devarim | Only the one-sentence frame of Deut. 1:1–3 opens "משה זאָגט אָן מע זאָל היטן די געזעצן", whose body is Deut. 4 (Vaetchanan); the section is not split. |
+| ki-tavo | The book's Ki Tavo material (Deut. 28:69–29:8) is the first half of "דער בונד מיט די קינדער פֿון ישׂראל", which is mostly Nitzavim (Deut. 29:9–30:20); the section is not split. |

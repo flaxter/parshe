@@ -1069,5 +1069,55 @@
   "roman": "kivn",
   "gloss": "intention (on a kivn: unintentionally)",
   "source": "manual"
+ },
+ "מזל־ברכה": {
+  "roman": "mazl-brokhe",
+  "gloss": "blessing",
+  "source": "manual"
+ },
+ "געהרגעטער": {
+  "roman": "gehargeter",
+  "gloss": "slain person",
+  "source": "manual"
+ },
+ "פֿאַרקנסט": {
+  "roman": "farknast",
+  "gloss": "betrothed",
+  "source": "manual"
+ },
+ "מולך": {
+  "roman": "Moylekh",
+  "gloss": "Molech (an idol)",
+  "source": "manual"
+ },
+ "הלוואה": {
+  "roman": "halvoe",
+  "gloss": "loan",
+  "source": "manual"
+ },
+ "כּלי": {
+  "roman": "keyle",
+  "gloss": "vessel",
+  "source": "manual"
+ },
+ "פּסק": {
+  "roman": "psak",
+  "gloss": "verdict",
+  "source": "manual"
+ },
+ "בגד": {
+  "roman": "beged",
+  "gloss": "garment",
+  "source": "manual"
+ },
+ "משכּון": {
+  "roman": "mashkn",
+  "gloss": "pledge, pawn",
+  "source": "manual"
+ },
+ "רכילות": {
+  "roman": "rekhiles",
+  "gloss": "gossip, slander",
+  "source": "manual"
  }
 }
