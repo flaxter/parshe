@@ -61,7 +61,7 @@ def heb(n):
     return s
 
 def md_story(path):
-    """Tiny markdown: '## ' headings, blank-line paragraphs. Returns list of sections {title, paras}."""
+    """Tiny markdown: '## ' headings, blank-line paragraphs, '| ' lines = verse kept line by line. Returns list of sections {title, paras}."""
     secs = []
     cur = None
     for block in re.split(r'\n\s*\n', open(path, encoding='utf-8').read().strip()):
@@ -70,7 +70,11 @@ def md_story(path):
             cur = {'title': block[3:].strip(), 'paras': []}; secs.append(cur)
         else:
             if cur is None: cur = {'title': '', 'paras': []}; secs.append(cur)
-            cur['paras'].append(' '.join(l.strip() for l in block.splitlines()))
+            lines = [l.strip() for l in block.splitlines()]
+            if all(l.startswith('| ') for l in lines):   # verse set line by line in the book
+                cur['paras'].append('\n'.join(l[2:] for l in lines))
+            else:
+                cur['paras'].append(' '.join(lines))
     return secs
 
 def yi_date(iso):
@@ -100,6 +104,7 @@ figure.hero figcaption{font-size:14px;color:var(--sub);margin-top:6px;line-heigh
 h2{font-family:"Noto Sans Hebrew",sans-serif;font-weight:700;font-size:25px;color:var(--accent2);margin:22px 0 6px}
 .story p{margin:0 0 .55em;text-align:right}
 .story p.said{margin-right:1.2em}
+.story p.poem{margin-right:2.5em}
 .story p.fn{font-size:14px;color:var(--sub);border-top:1px solid var(--rule);padding-top:4px;margin-top:10px}
 .box{border:2px solid var(--rule);border-radius:12px;padding:12px 18px 14px;margin:18px 0;background:#fff}
 .box h2{margin-top:0;font-size:21px}
@@ -180,6 +185,8 @@ def render_parsha(p, cfg, heb_info, prev_p, next_p):
         for para in s['paras']:
             if para.startswith('::: '):
                 o.append(f'<p class="fn">{esc(para[4:])}</p>'); continue
+            if '\n' in para:
+                o.append('<p class="poem">' + '<br>'.join(esc(l) for l in para.split('\n')) + '</p>'); continue
             cls = ' class="said"' if para.startswith('—') else ''
             o.append(f'<p{cls}>{esc(para)}</p>')
     o.append('</div>')

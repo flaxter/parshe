@@ -1,0 +1,72 @@
+[
+ {
+  "roman": "Odem",
+  "gloss": "Adam",
+  "source": "bleaman+names",
+  "word": "אָדם",
+  "count": 21
+ },
+ {
+  "roman": "Khave",
+  "gloss": "Eve",
+  "source": "manual",
+  "word": "חוה",
+  "count": 16
+ },
+ {
+  "roman": "Kayin",
+  "gloss": "Cain",
+  "source": "manual",
+  "word": "קין",
+  "count": 12
+ },
+ {
+  "roman": "ganeydn",
+  "gloss": "paradise",
+  "source": "bleaman",
+  "word": "גן־עדן",
+  "count": 7
+ },
+ {
+  "roman": "Hevl",
+  "gloss": "Abel",
+  "source": "bleaman+names",
+  "word": "הבֿל",
+  "count": 7
+ },
+ {
+  "roman": "kol",
+  "gloss": "voice",
+  "source": "bleaman+names",
+  "word": "קול",
+  "count": 3
+ },
+ {
+  "roman": "khayes",
+  "gloss": "animals",
+  "source": "bleaman+names",
+  "word": "חיות",
+  "count": 2
+ },
+ {
+  "roman": "matone",
+  "gloss": "gift",
+  "source": "bleaman",
+  "word": "מתּנה",
+  "count": 2
+ },
+ {
+  "roman": "ponem",
+  "gloss": "face",
+  "source": "bleaman",
+  "word": "פּנים",
+  "count": 1
+ },
+ {
+  "roman": "matones",
+  "gloss": "gift",
+  "source": "bleaman",
+  "word": "מתּנות",
+  "count": 1
+ }
+]

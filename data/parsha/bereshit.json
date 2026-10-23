@@ -1,0 +1,47 @@
+{
+  "slug": "bereshit",
+  "hebcal": "Bereshit",
+  "yi": "בראשית",
+  "translit": "Breyshis",
+  "en": "Bereshit",
+  "book_yi": "בראשית",
+  "kids_sources": [
+    {
+      "label": "אהרן בראָמבערג, „חומש־מעשׂיות פֿאַר קינדער“ (אַרבעטער־רינג, 1956), זז׳ 7–13",
+      "ia": "nybc204961",
+      "leaf": 8,
+      "parts": [
+        "אָדם און חוה",
+        "דער גן־עדן",
+        "די שלאַנג",
+        "אָדם און חוה באַהאַלטן זיך",
+        "אַרויסגעטריבן פֿון גן־עדן",
+        "קין און הבֿל",
+        "קין טייט הבֿלן"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "sister-haggadah-f1v-odem.jpg",
+      "place": "hero",
+      "caption": "אָדם, דער ערשטער מענטש, מיט מלאָכים אַרום אים",
+      "credit": "„Sister Haggadah“, Catalonia c. 1350. British Library Or. 2884, f. 1v (detail). Public domain, via Wikimedia Commons."
+    }
+  ],
+  "verses": [
+    {
+      "ref": "Genesis 2:23",
+      "label": "בראשית ב, כג"
+    },
+    {
+      "ref": "Genesis 3:9-10",
+      "label": "בראשית ג, ט–י"
+    },
+    {
+      "ref": "Genesis 4:9",
+      "label": "בראשית ד, ט"
+    }
+  ],
+  "draw_prompt": "מאָל דאָ עפּעס פֿון דער מעשׂה"
+}

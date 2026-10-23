@@ -80,7 +80,7 @@ def main(slug):
         base = next((b for b in seen if len(w) > len(b) and nf(w).startswith(nf(b)) and w[len(b):] in ('ען', 'ן', 'ס', 'עס', 'ים')), None)
         if base: seen[base]['count'] += 1; continue
         if w in seen: seen[w]['count'] += 1; continue
-        if not is_lk(w): continue
+        if not is_lk(w) and w not in names and NIQQUD.sub('', w) not in names: continue   # names.json also covers names spelled phonetically (חוה, קין)
         # inflected name/noun whose base we know (הגרן -> הגר, שׂרהן -> שׂרה): count it under the base
         _b = NIQQUD.sub('', w)
         _fin = lambda x: x[:-1] + x[-1].translate(str.maketrans('מנצפכ', 'םןץףך')) if x else x   # restore final letter
@@ -92,7 +92,7 @@ def main(slug):
         entry = None
         if w in names or bare in names:
             n = names.get(w) or names[bare]; entry = dict(n)
-            if entry.get('source') == 'manual' and entry.get('roman') and (set(yiddish.transliterate(w, loshn_koydesh=True)) & VOWELS):
+            if entry.get('source') == 'manual' and entry.get('roman') and yiddish.transliterate(w, loshn_koydesh=True) != naive(w):
                 entry['source'] = 'bleaman+names'   # name known to Bleaman too; names.json supplies the gloss/capitalisation
         else:
             bl = yiddish.transliterate(w, loshn_koydesh=True)

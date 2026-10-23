@@ -24,7 +24,8 @@ that parsha stays unbuilt (leave it out; note it in `data/parsha/UNBUILT.md` wit
    `python3 leaves.py <id> dump <first> <last>` → OCR; `python3 leaves.py <id> images <first> <last> /tmp/<slug>` → page JPEGs.
 2. Transcribe into `data/kids/<slug>.md`: `## <chapter title as printed>` then paragraphs exactly as the book sets
    them (one blank line between paragraphs; speeches as their own paragraphs, no added dashes or quotation marks
-   unless the book prints them; the 1940 book's „…“ quotes are kept). Book footnotes go on a line starting `::: `.
+   unless the book prints them; the 1940 book's „…“ quotes are kept). Book footnotes go on a line starting `::: `. Verse the book sets line by line (a song, a blessing): one block,
+   each line starting `| `.
 3. **Proofread every page against its JPEG with the Read tool** (open the image, compare line by line). This is the
    step that makes it verbatim; the OCR alone is not good enough even for Bromberg (hyphen joins, זי/זיי, lost yuds).
 4. `python3 fetch_yehoyesh.py <slug>` (Yehoyesh text for the pesukim box; CC0 via Sefaria). For a parsha that is

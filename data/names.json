@@ -154,5 +154,30 @@
   "roman": "akeyde",
   "gloss": "the Binding (of Isaac)",
   "source": "manual"
+ },
+ "אָדם": {
+  "roman": "Odem",
+  "gloss": "Adam",
+  "source": "manual"
+ },
+ "חוה": {
+  "roman": "Khave",
+  "gloss": "Eve",
+  "source": "manual"
+ },
+ "קין": {
+  "roman": "Kayin",
+  "gloss": "Cain",
+  "source": "manual"
+ },
+ "הבֿל": {
+  "roman": "Hevl",
+  "gloss": "Abel",
+  "source": "manual"
+ },
+ "חיות": {
+  "roman": "khayes",
+  "gloss": "animals",
+  "source": "manual"
  }
 }
