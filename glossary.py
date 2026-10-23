@@ -75,6 +75,7 @@ def main(slug):
     seen = {}
     for w in words:
         w = w.strip("'־")
+        if '\u05f3' in w: continue   # contractions like ס׳איז are not loshn-koydesh
         # fold inflected names/nouns onto a base already seen (אַבֿרהמען, אַבֿרהמס -> אַבֿרהם)
         nf = lambda x: x.replace('\u05bf', '').translate(str.maketrans('םןץףך', 'מנצפכ'))   # rafe dropped: יוספֿן -> יוסף
         base = next((b for b in seen if len(nf(w)) > len(nf(b)) and nf(w).startswith(nf(b)) and nf(w)[len(nf(b)):] in ('ענ', 'נ', 'ס', 'עס', 'ימ')), None)   # suffixes in nf form
@@ -83,7 +84,7 @@ def main(slug):
         if not is_lk(w) and w not in names and NIQQUD.sub('', w) not in names: continue   # names.json also covers names spelled phonetically (חוה, קין)
         # inflected name/noun whose base we know (הגרן -> הגר, שׂרהן -> שׂרה): count it under the base
         _b = NIQQUD.sub('', w)
-        _fin = lambda x: x[:-1] + x[-1].translate(str.maketrans('מנצפכ', 'םןץףך')) if x else x   # restore final letter
+        _fin = lambda x: (lambda y: y[:-1] + y[-1].translate(str.maketrans('מנצפכ', 'םןץףך')) if y else y)(x.rstrip('\u05bf'))   # restore final letter (rafe dropped: יוספֿ -> יוסף)
         _suf = next((x for x in ('ען', 'ן', 'ס', 'עס') if w.endswith(x) and (_fin(w[:-len(x)]) in names or _fin(_b[:-len(x)]) in names)), None)
         if _suf:
             w = _fin(w[:-len(_suf)])
