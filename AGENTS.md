@@ -54,3 +54,25 @@ that parsha stays unbuilt (leave it out; note it in `data/parsha/UNBUILT.md` wit
 
 Hard rules: verbatim from one source per parsha; flag anything manual; never print יהוה; never use unlicensed
 or Christian-sourced pictures; never add content of your own to a handout; if unsure, leave it out and say so.
+
+## Variants: more than one page for a parsha
+A parsha can have several pages so Seth can choose between sources for years to come. `data/parsha/<slug>.json`
+is the main page (stem `<slug>`); `data/parsha/<slug>--<variant>.json` is a variant (stem `<slug>--<variant>`, e.g.
+`terumah--spritzer`, `terumah--yehoyesh`). A variant config carries `"variant": "<variant>"` and
+`"variant_label": "<Yiddish label shown on the page>"`; its story is `data/kids/<stem>.md`, its glossary
+`data/glossary/<stem>.json`, its output `docs/<stem>.html|pdf`. The index card lists every variant with its PDF.
+Variants exist today only for the 14 parshes in `data/parsha/UNBUILT.md`; do not add variants to a parsha that
+already has a main page unless Seth asks.
+
+- **Spritzer variant** (`--spritzer`, label `שפּריצער`): Victor (Avigdor) Spritzer, *Khumesh in mayselekh far
+  kinder*, Buenos Aires 1948. Vol. 1 `nybc202000` (Breyshis–Shmoys, 170 leaves), vol. 2 `nybc202001`
+  (Vayikro–Dvorim, 186 leaves). Organized by parsha (running heads print book and letter-spaced parsha name, e.g.
+  "ויקרא, ת ז ר י ע"; Torah chapter letters like "כז." stand in the text). Spritzer interleaves Yehoyesh-like Torah
+  text with his own frame story about children; transcribe what he printed, frame and all, whole chapter units,
+  never a trimmed or rearranged version. OCR is rough like the 1940 book (נ/ג, ח/ה, lost yuds, nikud noise):
+  `leaves.py` works with these ids; proofread every page against its image. Credit label:
+  „חומש אין מעשׂהלעך פֿאַר קינדער“, אַבֿיגדור שפּריצער (בוענאָס־אײַרעס, 1948), באַנד N, זז׳ …
+- **Yehoyesh variant** (`--yehoyesh`, label `יהואש`): no markdown; the config has
+  `"yehoyesh_extract": ["Exodus 25:1-22"]` (one or two contiguous verse ranges from the parsha, verbatim from
+  Sefaria) and `"extract_label": "שמות כה, א–כב"`; `verses` stays `[]`. `glossary.py <stem>` reads the verses
+  itself. Example: `data/parsha/terumah--yehoyesh.json`.

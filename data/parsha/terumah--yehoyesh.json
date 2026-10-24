@@ -1,0 +1,12 @@
+{
+  "slug": "terumah",
+  "variant": "yehoyesh",
+  "variant_label": "יהואש",
+  "yehoyesh_extract": [
+    "Exodus 25:1-22"
+  ],
+  "images": [],
+  "verses": [],
+  "draw_prompt": "מאָל דאָ עפּעס פֿון דער מעשׂה",
+  "extract_label": "שמות כה, א–כב"
+}

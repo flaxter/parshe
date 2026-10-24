@@ -2,7 +2,7 @@
 """Build the parshe-fun-der-vokh site: site/index.html + site/<slug>.html (+ PDF when --pdf).
 Data: data/parshes.json (all 54, order + Yiddish names), data/parshes_hebcal.json (this year's dates/ranges),
 data/parsha/<slug>.json (page config), data/kids/<slug>.md (children's text), data/yehoyesh/<slug>.*.json (Sefaria)."""
-import json, os, re, shutil, sys, html, datetime
+import glob, json, os, re, shutil, sys, html, datetime
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = lambda *p: os.path.join(HERE, 'data', *p)
 SITE = os.path.join(HERE, 'docs')   # GitHub Pages serves /docs
@@ -98,6 +98,10 @@ header.title{text-align:center;border-bottom:3px double var(--rule);padding-bott
 h1{font-family:"Noto Sans Hebrew",sans-serif;font-weight:800;font-size:54px;margin:2px 0 0;line-height:1.1;color:var(--accent)}
 .sub{font-family:"Noto Sans Hebrew",sans-serif;font-size:17px;color:var(--sub);margin-top:6px}
 .sub .en{direction:ltr;unicode-bidi:isolate}
+.sub.variant{color:var(--accent2);font-weight:700}
+.alts{font-family:"Noto Sans Hebrew",sans-serif;font-size:14px;color:var(--sub);margin:-8px 0 14px}
+.story p.v{margin:0 0 .35em}
+.story .n{font-family:"Noto Sans Hebrew",sans-serif;font-size:11px;color:var(--sub);margin-left:5px;vertical-align:super}
 figure.hero{margin:0 0 16px;text-align:center}
 figure.hero img{max-width:100%;max-height:360px;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.18)}
 figure.hero figcaption{font-size:14px;color:var(--sub);margin-top:6px;line-height:1.35}
@@ -155,10 +159,13 @@ details.grown .n{font-family:"Noto Sans Hebrew",sans-serif;font-size:12px;color:
 }
 '''
 
-def render_parsha(p, cfg, heb_info, prev_p, next_p):
-    slug = p['slug']
-    story = md_story(D('kids', f'{slug}.md'))
+def render_parsha(p, cfg, heb_info, prev_p, next_p, out_name=None, siblings=()):
+    """out_name: file stem (slug, or slug--variant). siblings: [(label, stem)] other variants of this parsha."""
+    slug = p['slug']; out_name = out_name or slug
     tor = load_yehoyesh(slug, 'torah'); haf = load_yehoyesh(slug, 'haftarah')
+    extract = cfg.get('yehoyesh_extract')   # list of refs: the story IS Yehoyesh's text, verbatim from Sefaria
+    story = None if extract else md_story(D('kids', cfg.get('kids', f'{out_name}.md')))
+    variant_label = cfg.get('variant_label', '')
     hero = [i for i in cfg.get('images', []) if i.get('place') == 'hero']
     date_line = yi_date(heb_info['date']) if heb_info else ''
     torah_ref = heb_info['torah'] if heb_info else (tor['ref'] if tor else '')
@@ -171,16 +178,26 @@ def render_parsha(p, cfg, heb_info, prev_p, next_p):
     o.append(f'''<!DOCTYPE html><html lang="yi" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>פּרשת {esc(p["yi"])} · {esc(p["translit"])}</title><style>{CSS}</style></head><body><div class="sheet">
 <nav class="top"><span>{'<a href="'+prev_p['slug']+'.html">→ '+esc(prev_p['yi'])+'</a>' if prev_p else ''}</span>
-<a href="index.html">אַלע פּרשיות</a><span><a class="pdf" href="{slug}.pdf">⬇ PDF</a> <button onclick="window.print()">🖨 דרוקן</button></span>
+<a href="index.html">אַלע פּרשיות</a><span><a class="pdf" href="{out_name}.pdf">⬇ PDF</a> <button onclick="window.print()">🖨 דרוקן</button></span>
 <span>{'<a href="'+next_p['slug']+'.html">'+esc(next_p['yi'])+' ←</a>' if next_p else ''}</span></nav>
 <header class="title"><div class="kicker">די פּרשה פֿון דער װאָך · Parshe fun der vokh</div>
 <h1>פּרשת {esc(p["yi"])}</h1>
-<div class="sub">{esc(p["translit"])} · {esc(torah_yi)} · <span class="en">{esc(torah_ref)}</span>{(' · '+date_line) if date_line else ''}</div></header>''')
+<div class="sub">{esc(p["translit"])} · {esc(torah_yi)} · <span class="en">{esc(torah_ref)}</span>{(' · '+date_line) if date_line else ''}</div>
+{('<div class="sub variant">נוסח: '+esc(variant_label)+'</div>') if variant_label else ''}</header>''')
+    if siblings:
+        o.append('<div class="alts no-print">אַן אַנדער נוסח פֿון דער פּרשה: ' + ' · '.join(f'<a href="{st}.html">{esc(lb)}</a>' for lb, st in siblings) + '</div>')
     if hero:
         im = hero[0]
         o.append(f'<figure class="hero"><img src="img/{im["file"]}" alt=""><figcaption>{esc(im["caption"])}</figcaption></figure>')
     o.append('<div class="story">')
-    for s in story:
+    if extract:
+        for ref in extract:
+            ch = None
+            for c, v, txt in pick_verses(tor, ref):
+                if c != ch:
+                    ch = c; o.append(f'<h2>{esc(p.get("book_yi") or tor["book"])} {heb(c)}</h2>')
+                o.append(f'<p class="v"><span class="n">{heb(v)}</span>{esc(sheymes(txt))}</p>')
+    for s in (story or []):
         if s['title']: o.append(f'<h2>{esc(s["title"])}</h2>')
         for para in s['paras']:
             if para.startswith('::: '):
@@ -199,7 +216,7 @@ def render_parsha(p, cfg, heb_info, prev_p, next_p):
             txt = ' '.join(sheymes(s) for c, v, s in vs)
             o.append(f'<p class="verse"><span class="ref">({esc(vv["label"])})</span>{esc(txt)}</p>')
         o.append('</div>')
-    gfn = D('glossary', f'{slug}.json')
+    gfn = D('glossary', f'{out_name}.json')
     if os.path.exists(gfn):
         gl = [g for g in json.load(open(gfn)) if g['source'] != 'MISSING']
         o.append('<div class="box gloss"><h2>לשון־קודש־װערטער אין דער מעשׂה</h2><div class="two">')
@@ -216,6 +233,8 @@ def render_parsha(p, cfg, heb_info, prev_p, next_p):
     for ks in cfg.get('kids_sources', []):
         link = f'https://archive.org/details/{ks["ia"]}' + (f'/page/n{ks["leaf"]}/mode/1up' if ks.get('leaf') else '')
         src.append(f'די מעשׂה („{"“, „".join(ks["parts"])}“): {esc(ks["label"])} — <a href="{link}">דאָס בוך בײַם ייִדישן ביכער־צענטער / archive.org</a>')
+    if extract:
+        src.append('די מעשׂה: יהואשס תּנ״ך־איבערזעצונג, װאָרט בײַ װאָרט — ' + esc(cfg.get('extract_label') or ', '.join(extract)))
     if tor:
         src.append('פּסוקים: יהואשס תּנ״ך־איבערזעצונג (1941), דיגיטאַליזירט דורכן „יהואש־פּראָיעקט“ (ל. פּראַגער), CC0 דורך Open Siddur און <a href="https://www.sefaria.org/texts">Sefaria</a>. דער שם־הוויה װערט דאָ געדרוקט װי ה׳.')
     for im in cfg.get('images', []):
@@ -228,7 +247,7 @@ def render_parsha(p, cfg, heb_info, prev_p, next_p):
         ch = None
         for c, v, s in tor['verses']:
             if c != ch:
-                ch = c; o.append(f'<h2>{esc(tor["book"])} {heb(c)}</h2>')
+                ch = c; o.append(f'<h2>{esc(p.get("book_yi") or tor["book"])} {heb(c)}</h2>')
             o.append(f'<p class="v"><span class="n">{heb(v)}</span>{esc(sheymes(s))}</p>')
         if haf:
             o.append(f'<h2>הפֿטרה: {esc(haf["ref"])}</h2>')
@@ -245,8 +264,14 @@ def render_index(parshes, built, heb):
         for p in parshes[a:b]:
             info = heb.get(p['hebcal'])
             date = info['date'] if info else ''
-            if p['slug'] in built:
-                cards.append(f'<span class="card on" data-slug="{p["slug"]}" data-date="{date}"><a href="{p["slug"]}.html"><b>{esc(p["yi"])}</b><i>{esc(p["translit"])}</i></a><a class="pdflink" href="{p["slug"]}.pdf">⬇ PDF</a></span>')
+            vs = built.get(p['slug'])   # list of (label, stem); label '' = the default page
+            if vs and vs[0][0] == '':
+                stem = vs[0][1]
+                extra = ''.join(f'<a class="alt" href="{st}.html">{esc(lb)}</a> <a class="pdflink" href="{st}.pdf">⬇</a><br>' for lb, st in vs[1:])
+                cards.append(f'<span class="card on" data-slug="{p["slug"]}" data-date="{date}" data-page="{stem}.html" data-pdf="{stem}.pdf"><a href="{stem}.html"><b>{esc(p["yi"])}</b><i>{esc(p["translit"])}</i></a><a class="pdflink" href="{stem}.pdf">⬇ PDF</a>{("<span class=alts>"+extra+"</span>") if extra else ""}</span>')
+            elif vs:
+                rows = ''.join(f'<a class="alt" href="{st}.html">{esc(lb)}</a> <a class="pdflink" href="{st}.pdf">⬇</a><br>' for lb, st in vs)
+                cards.append(f'<span class="card on" data-slug="{p["slug"]}" data-date="{date}" data-page="{vs[0][1]}.html"><b>{esc(p["yi"])}</b><i>{esc(p["translit"])}</i><span class="alts">{rows}</span></span>')
             else:
                 cards.append(f'<span class="card" data-slug="{p["slug"]}" data-date="{date}"><b>{esc(p["yi"])}</b><i>{esc(p["translit"])}</i></span>')
         cards.append('</div>')
@@ -259,6 +284,8 @@ def render_index(parshes, built, heb):
 .card a{text-decoration:none;color:inherit;display:block}
 .card .pdflink{margin-top:6px;font-family:"Noto Sans Hebrew",sans-serif;font-size:12px;color:var(--accent);font-weight:700}
 .card.now{outline:4px solid var(--accent);outline-offset:2px}
+.card .alts{display:block;margin-top:6px;font-family:"Noto Sans Hebrew",sans-serif;font-size:13px;line-height:1.6}
+.card .alts a.alt{display:inline;color:var(--accent2);font-weight:700}.card .alts a.pdflink{display:inline;margin:0 4px}
 h2 .en{font-size:14px;color:var(--sub);font-weight:400}
 #now{border:2px solid var(--accent);border-radius:14px;padding:12px 18px;margin:0 0 18px;font-family:"Noto Sans Hebrew",sans-serif}
 #now a{color:var(--accent);font-weight:800;font-size:28px;text-decoration:none}
@@ -275,8 +302,8 @@ h2 .en{font-size:14px;color:var(--sub);font-weight:400}
 <script>
 const ALIAS={json.dumps(alias)};
 const norm=s=>s.toLowerCase().replace(/[^a-z]/g,'');
-function mark(slug,label,date){{const a=document.getElementById('nowlink');const pp=document.getElementById('nowpdf');if(document.querySelector('.card.on[data-slug="'+slug+'"]')){{pp.href=slug+'.pdf';pp.style.display='inline';}}const c=document.querySelector('.card[data-slug="'+slug+'"]');
- if(c)c.classList.add('now'); a.textContent=c?c.querySelector('b').textContent:label; const l=c&&c.querySelector('a');a.href=l?l.href:'#'; if(date)document.getElementById('nowdate').textContent='('+date+')';}}
+function mark(slug,label,date){{const a=document.getElementById('nowlink');const pp=document.getElementById('nowpdf');const c=document.querySelector('.card[data-slug="'+slug+'"]');if(c&&c.dataset.pdf){{pp.href=c.dataset.pdf;pp.style.display='inline';}}
+ if(c)c.classList.add('now'); a.textContent=c?c.querySelector('b').textContent:label; a.href=(c&&c.dataset.page)||'#'; if(date)document.getElementById('nowdate').textContent='('+date+')';}}
 function fallback(){{const today=new Date().toISOString().slice(0,10);let best=null;document.querySelectorAll('.card[data-date]').forEach(c=>{{const d=c.dataset.date;if(d&&d>=today&&(!best||d<best.dataset.date))best=c;}});if(best)mark(best.dataset.slug,best.dataset.slug,best.dataset.date);}}
 fetch('https://www.sefaria.org/api/calendars?diaspora=1').then(r=>r.json()).then(d=>{{const it=d.calendar_items.find(i=>i.title.en==='Parashat Hashavua');if(!it)return fallback();
  const name=it.displayValue.en;const parts=name.split('-');let hit=null;for(const k in ALIAS){{if(parts.some(x=>norm(x)===norm(k))){{hit=ALIAS[k];break;}}}}
@@ -290,21 +317,32 @@ def main():
     for sub in ('img', 'fonts'):
         dst = os.path.join(SITE, sub); os.makedirs(dst, exist_ok=True)
         for f in os.listdir(os.path.join(HERE, sub)): shutil.copy2(os.path.join(HERE, sub, f), dst)
-    built = set()
+    def configs(slug):
+        """[(label, stem, cfg)]: data/parsha/<slug>.json is the default page (label ''); data/parsha/<slug>--<variant>.json are variants."""
+        out = []
+        if os.path.exists(D('parsha', f'{slug}.json')): out.append(('', slug, json.load(open(D('parsha', f'{slug}.json')))))
+        for fn in sorted(glob.glob(D('parsha', f'{slug}--*.json'))):
+            cfg = json.load(open(fn)); stem = os.path.basename(fn)[:-5]
+            out.append((cfg.get('variant_label') or stem.split('--', 1)[1], stem, cfg))
+        return out
+    allcfg = {p['slug']: configs(p['slug']) for p in parshes}
+    built = {k: [(lb, st) for lb, st, _ in v] for k, v in allcfg.items() if v}
+    def nav_entry(q):   # neighbour link target: its default page, else its first variant
+        return dict(q, slug=allcfg[q['slug']][0][1]) if allcfg.get(q['slug']) else None
     for i, p in enumerate(parshes):
-        cfgfn = D('parsha', f'{p["slug"]}.json')
-        if not os.path.exists(cfgfn): continue
-        cfg = json.load(open(cfgfn))
-        prev_p = next((q for q in reversed(parshes[:i]) if os.path.exists(D('parsha', f'{q["slug"]}.json'))), None)
-        next_p = next((q for q in parshes[i+1:] if os.path.exists(D('parsha', f'{q["slug"]}.json'))), None)
-        out = render_parsha(p, cfg, heb.get(p['hebcal']), prev_p, next_p)
-        open(os.path.join(SITE, f'{p["slug"]}.html'), 'w', encoding='utf-8').write(out)
-        built.add(p['slug']); print('built', p['slug'])
-        if '--pdf' in sys.argv:
-            import weasyprint
-            doc = weasyprint.HTML(string=out, base_url=SITE + '/').render()
-            pdf = os.path.join(SITE, f'{p["slug"]}.pdf'); doc.write_pdf(pdf)
-            print('  pdf', pdf, len(doc.pages), 'pages')
+        if not allcfg[p['slug']]: continue
+        prev_p = next((nav_entry(q) for q in reversed(parshes[:i]) if allcfg.get(q['slug'])), None)
+        next_p = next((nav_entry(q) for q in parshes[i+1:] if allcfg.get(q['slug'])), None)
+        for lb, stem, cfg in allcfg[p['slug']]:
+            sib = [(l2 or 'הויפּט־נוסח', s2) for l2, s2, _ in allcfg[p['slug']] if s2 != stem]
+            out = render_parsha(p, cfg, heb.get(p['hebcal']), prev_p, next_p, out_name=stem, siblings=sib)
+            open(os.path.join(SITE, f'{stem}.html'), 'w', encoding='utf-8').write(out)
+            print('built', stem)
+            if '--pdf' in sys.argv:
+                import weasyprint
+                doc = weasyprint.HTML(string=out, base_url=SITE + '/').render()
+                pdf = os.path.join(SITE, f'{stem}.pdf'); doc.write_pdf(pdf)
+                print('  pdf', pdf, len(doc.pages), 'pages')
     open(os.path.join(SITE, 'index.html'), 'w', encoding='utf-8').write(render_index(parshes, built, heb))
     print('index with', len(built), 'built')
 

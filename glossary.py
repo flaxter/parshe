@@ -66,15 +66,34 @@ def showdefs_glosses(slug, text):
     time.sleep(1.0)
     return out
 
+def yivo_marks(w):
+    """Drop Hebrew nikud that YIVO Yiddish does not write (Yehoyesh points loshn-koydesh words: שִטים, אֵפֿוֹד).
+    Kept: pasekh/komets on alef, dagesh on ב פ כ ת ו, rafe on ב פ, shin/sin dots, khirik under yud."""
+    keep = {'\u05b7': 'א\u05f2י', '\u05b8': 'א', '\u05bc': 'בפכתו', '\u05bf': 'בפ', '\u05c1': 'ש', '\u05c2': 'ש', '\u05b4': 'י'}
+    out = []
+    for ch in w:
+        if '\u0591' <= ch <= '\u05c7':
+            if ch in keep and out and out[-1] in keep[ch]: out.append(ch)
+            continue
+        out.append(ch)
+    return ''.join(out)
+
 def main(slug):
     names = json.load(open(D('names.json')))
-    text = open(D('kids', f'{slug}.md'), encoding='utf-8').read()
+    if os.path.exists(D('kids', f'{slug}.md')):
+        text = open(D('kids', f'{slug}.md'), encoding='utf-8').read()
+    else:   # a Yehoyesh-extract page: the story is verses from Sefaria, no markdown file
+        import build
+        cfg = json.load(open(D('parsha', f'{slug}.json')))
+        tor = build.load_yehoyesh(cfg['slug'], 'torah')
+        text = '\n'.join(s for ref in cfg['yehoyesh_extract'] for c, v, s in build.pick_verses(tor, ref))
     text = re.sub(r'^## .*$', '', text, flags=re.M)
     glosses = showdefs_glosses(slug, text)
     words = re.findall("[" + "\u05d0-\u05ea\u05f0-\u05f4\ufb1d-\ufb4f\u0591-\u05c7" + "\u05be']+", text)
     seen = {}
     for w in words:
         w = w.strip("'־")
+        w = yivo_marks(w)
         if '\u05f3' in w: continue   # contractions like ס׳איז are not loshn-koydesh
         # fold inflected names/nouns onto a base already seen (אַבֿרהמען, אַבֿרהמס -> אַבֿרהם)
         nf = lambda x: x.replace('\u05bf', '').translate(str.maketrans('םןץףך', 'מנצפכ'))   # rafe dropped: יוספֿן -> יוסף
